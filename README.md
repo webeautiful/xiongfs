@@ -1,2 +1,6 @@
 @Created by "Mr.熊" in 2014-01-25.  
-学习git的原理和使用  
+##markdown语法<br/>
+
+###  参考文献:<br/>
+* [书写博客的神器](http://upwith.me/?p=503)
+##学习git的原理和使用  

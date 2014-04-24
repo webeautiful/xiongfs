@@ -19,3 +19,4 @@
 - git branch 查看分支(加 * 表示当前所在分支,查)
 - git branch -d tmpbranch  删除临时分支(删)
 - git merge tmpbranch  将tmpbranch分支合并到当前所在的分支
+- git

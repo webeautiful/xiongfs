@@ -8,6 +8,7 @@
 2. AWK取自其三位发明者Family name的首字母,分别是:Alfred Aho，Peter Weinberger, 和 Brian Kernighan;  
 
 ###awk脚本
+成绩单:
 
     $ cat score.txt
 
@@ -16,6 +17,7 @@
     Tom     2122 48 77 71
     Mike    2537 87 97 95
     Bob     2415 40 57 62
+计算成绩:
 
     $ cat cal.awk
 
@@ -45,8 +47,20 @@
         printf "   TOTLAL:%10d %8d %8d \n",math,english,computer
         printf "AVERAGE:%10.2f %8.2f %8.2f\n",math/NR,english/NR,computer/NR
     }
+执行结果如下:
 
     $ awk -f cal.awk score.txt
+    NAME    NO.    MATH    ENGLISH    COMPUTER   TOTAL
+    --------------------------------------------------
+    Marry  2143     78       84       77      239
+    Jack   2321     66       78       45      189
+    Tom    2122     48       77       71      196
+    Mike   2537     87       97       95      279
+    Bob    2415     40       57       62      159
+    -------------------------------------------------
+       TOTLAL:       319      393      350 
+       AVERAGE:     63.80    78.60    70.00
+
 
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)

@@ -16,7 +16,6 @@
     Tom     2122 48 77 71
     Mike    2537 87 97 95
     Bob     2415 40 57 62
- 
 
     $ cat cal.awk
 
@@ -46,6 +45,8 @@
         printf "   TOTLAL:%10d %8d %8d \n",math,english,computer
         printf "AVERAGE:%10.2f %8.2f %8.2f\n",math/NR,english/NR,computer/NR
     }
+
+    $ awk -f cal.awk score.txt
 
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)

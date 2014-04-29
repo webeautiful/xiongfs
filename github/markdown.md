@@ -27,4 +27,10 @@ Bash中可以使用echo来进行输出.
 | g   |  h  |  i  |
 | g   |  h  |  i  |
 
+col1 |col2 | col3|
+-----|-----|-----|
+ a   |  b  |  c  |
+ f   |  e  |  d  |
+ g   |  h  |  i  |
+ g   |  h  |  i  |
 _ _ _

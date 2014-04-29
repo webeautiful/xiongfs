@@ -23,9 +23,12 @@ Bash中可以使用echo来进行输出.
 | a   |  b  |  c  |
 | f   |  e  |  d  |
 | g   |  h  |  i  |
+| g   |  h  |  i  |
+| g   |  h  |  i  |
 
 || *Year* || *Temperature (low)* || *Temperature (high)* ||
 || 1900 || -10 || 25 ||
 || 1910 || -15 || 30 ||
 || 1920 || -10 || 32 ||
+
 _ _ _

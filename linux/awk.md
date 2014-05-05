@@ -6,6 +6,7 @@
 
 1. AWK是由贝尔实验室1977年弄出来的文本处理神器,蛇年是AWK的本命年;  
 2. AWK取自其三位发明者Family name的首字母,分别是:Alfred Aho，Peter Weinberger, 和 Brian Kernighan;  
+3. 功能:流控制,数学运算,进程控制,内置的变量和函数,循环和判断
 
 ###awk脚本
 成绩单:

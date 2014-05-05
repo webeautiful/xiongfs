@@ -7,7 +7,7 @@ Bash中可以使用echo来进行输出.
 
     echo 'something'  
     echo -e '\tSometing\n'  
-
+***
 ###表格语法
 表格代码:
 
@@ -26,7 +26,7 @@ col1 |col2 | col3
  f   |  e  |  d
  g   |  h  |  i
  g   |  h  |  i
-
+***
 ###AtX式标题
 
     #1号标题

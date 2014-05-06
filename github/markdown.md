@@ -12,11 +12,10 @@ _ _ _
 
 2. 代码段落  
 Bash中可以使用echo来进行输出.
-
-    ```
-    echo 'something'
-    echo -e '\tSometing\n'
-    ```
+`` 
+echo 'something'
+echo -e '\tSometing\n'
+``
 效果
 
 ```

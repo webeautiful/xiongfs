@@ -88,6 +88,11 @@
 |RLENGTH|被匹配函数匹配的字符串长度|
 |SUBSEP|\034|
 
+###运算符表
+|类型|运算符|
+|----|------|
+|逻辑运算符|&&, || , !|
+
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)
 - [AWK命令学习系列](http://www.cnblogs.com/chengmo/archive/2013/01/17/2865479.html)

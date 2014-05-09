@@ -101,6 +101,12 @@
 |增/减量运算符|++, --|
 |其他|+(正号), -(负号)|
 
+##awk的内建函数
+###字符串函数
+|函数格式|功能描述|实例|
+|--------|--------|----|
+|sub(regular_expression,substitution_str[,target_str])||sub(/test/,"mytest")|
+
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)
 - [AWK命令学习系列](http://www.cnblogs.com/chengmo/archive/2013/01/17/2865479.html)

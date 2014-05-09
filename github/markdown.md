@@ -13,10 +13,32 @@ _ _ _
 2) 代码段落(块)  
 表示方法:文本缩进或3个反单引号\`
 
+    \`\`\`
+    /*
+    * 输出数组的键值对
+    */
+    function getKV($arr)
+    {
+        foreach($arr as $k=>$v)
+        {
+            echo $k.'--'.$v.'<br/>';
+        }
+    }
+    getKV();
+    \`\`\`
+
 效果:
 ```
-echo 'something'
-echo -e '\tSometing\n'
+/*
+* 输出数组的键值对
+*/
+function getKV($arr)
+{
+    foreach($arr as $k=>$v)
+    {
+        echo $k.'--'.$v.'<br/>';
+    }
+}
 ```
 ##表格语法
 表格代码:
@@ -72,7 +94,7 @@ col1 |col2 | col3
 - -空格
 * *空格
 
-##markdown语法
+##参考文献
 * [书写博客的神器](http://upwith.me/?p=503)
 * [markdown语法说明](http://wowubuntu.com/markdown/)
 * [markdown代码及效果](http://www.ituring.com.cn/article/23)  

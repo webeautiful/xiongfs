@@ -75,5 +75,6 @@ col1 |col2 | col3
 ##markdown语法
 * [书写博客的神器](http://upwith.me/?p=503)
 * [markdown语法说明](http://wowubuntu.com/markdown/)
-* [markdown代码及效果](http://www.ituring.com.cn/article/23)
+* [markdown代码及效果](http://www.ituring.com.cn/article/23)  
+
 _ _ _

@@ -105,7 +105,7 @@
 ###字符串函数
 |函数格式|功能描述|实例|
 |--------|--------|----|
-|sub(regular_expression,substitution_str[,target_str])|匹配目标字符串中第一个符合正则规则的字符串,然后用替换字符串替换|sub(/test/,"mytest")|
+|sub(regular_expression,substitution_str[,target_str])|匹配目标字符串中第一个符合正则规则的字符串,然后用替换字符串代替|sub(/test/,"mytest")|
 
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)

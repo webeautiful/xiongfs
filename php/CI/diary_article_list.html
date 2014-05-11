@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文章管理列表页 </title>
+<link href="/static/css/home_page/shopBackground.css" type="text/css" rel="stylesheet" />
+<link href="/static/css/zt_demo.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/static/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="/static/js/common.js"></script>
+</head>
+<body>
+<div class="ztdemo_page">
+    <div class="ztdemo_title">
+        <span>文章管理</span>
+    </div>
+    <!--商品列表内容区  start-->
+    <div class="ztdemo_list">
+        <form action="/index.php/diary/diary_article_list" method="post">
+            <div class="ztdemo_list_title xnCommentAudit">
+                审核状态：<select class="ztdemo_set_select" name="isverify">
+                    <option value="0">全部</option>
+                    <option value="2" <?php if($isverify === '2'):?>selected<?php endif;?>>通过</option>
+                    <option value="1" <?php if($isverify === '1'):?>selected<?php endif;?>>未审</option>
+                    <option value="3" <?php if($isverify === '3'):?>selected<?php endif;?>>驳回</option>
+                </select>
+                <span class="ztdemo_list_title2 xnComment">客户昵称：<input type="text" class="input_wid"/ name="nickname" value="<?php echo $nickname;?>"></span>
+                <span class="ztdemo_list_title2">文章名称：<input type="text" class="input_wid"/ name="articlename" value="<?php echo $articlename;?>"></span>
+                <!--查询 按钮-->
+                <div class="inquire_button inquire_button_newzt">
+                    <span><img src="/static/images/button_08.png" /></span><input type="submit" class="inquire_text" value="查询"/><span><img src="/static/images/button_10.png" /></span>
+                </div>
+                <div class="inquire_button inquire_button_newzt">
+                    <span><img src="/static/images/button_08.png" /></span><input type="button" class="inquire_text" value="查看全部" onclick="javascript:window.location.href='/index.php/diary/diary_article_list'"/><span><img src="/static/images/button_10.png" /></span>
+                </div>
+                <?php if($msg == 1):?>
+                <span class="tsr">未查询到相关信息</span>
+                <?php endif;?>
+            </div>
+        </form>
+
+        <!--table列表页 start-->
+        <div class="ztdemo_shop_div">
+            <table width="100%"  id="zebra" class="ztdemo_shop_table">
+                <tr>
+                    <th width="8%">ID</th>
+                    <th width="11%">装修客户昵称</th>
+                    <th width="13%">文章标题</th>
+                    <th width="14%">发表时间</th>
+                    <th width="16%">审核状态</th>
+                    <th width="38%">操作</th>
+                </tr>
+                <!--隔行换色 循环部分 状态循环部分 start-->
+                <?php foreach($articleList as $v):?>
+                <tr>
+                    <td><?php echo $v['article_id'];?></td>
+                    <td class="ztdemo_shop_a"><?php echo $v['customer_nickname'];?></td>
+                    <td><p><?php echo $v['article_title'];?></p></td>
+                    <td class="ztdemo_shop_a"><?php if($v['article_releases_time'] != '0000-00-00 00:00:00') {echo $v['article_releases_time'];}else{echo '-----';}?></td>
+                    <td><?php if($v['article_state'] == 2):?><span class="tsc">通过</span><?php elseif($v['article_state'] == 3):?>驳回<?php else:?><span class="tsr xnUserNo">未审</span><?php endif;?></td>
+                    <td class="ztdemo_shop_a"><a href="#">预览</a><a href="/index.php/diary/diary_article_edit?id=<?php echo $v['article_id'];?>&isverify=<?php echo $isverify;?>&nickname=<?php echo $nickname;?>&articlename=<?php echo $articlename;?>&per_page=<?php echo $per_page;?>" <?php if($v['article_state'] == 2 && $admin == 0):?>style="display:none"<?php endif;?>>修改</a><a href="/index.php/diary/diary_article_audit?id=<?php echo $v['article_id'];?>&isverify=<?php echo $isverify;?>&nickname=<?php echo $nickname;?>&articlename=<?php echo $articlename;?>&per_page=<?php echo $per_page;?>" style="display:<?php if($v['article_state'] == 1 && $admin == 1):?>inline<?php else:?>none<?php endif;?>">审核</a><a href="javascript:void(0)" <?php if($v['article_state'] == 2 && $admin == 0):?>style="display:none"<?php endif;?> onclick="msgBox()">删除</a></td>
+                </tr>
+                <?php endforeach;?>
+                <!--隔行换色 循环部分 状态循环部分  end-->
+            </table>
+        </div>
+        <!--table列表页 end-->
+    </div>
+    <!--商品列表内容区  end-->
+    <!--分页 start-->
+    <div class="paging">
+        <div class="paging_right">
+            共<em><?php echo $recTotal;?></em>个项目
+            <?php echo $pageinfo;?>
+        </div>
+    </div>
+    <!--分页 end-->
+</div>
+<script type="text/javascript">
+//隔行换色
+getColor('even','zebra','shop_table_hs');
+//弹出删除提示框
+function msgBox()
+{
+    if(confirm('确定删除该篇文章吗？'))
+    {
+        window.location.href="/index.php/diary/diary_article_list/delArticle?id=<?php echo $v['article_id'];?>&isverify=<?php echo $isverify;?>&nickname=<?php echo $nickname;?>&articlename=<?php echo $articlename;?>&per_page=<?php echo $per_page;?>";
+    }
+    else
+    {
+        return false;
+    }
+}
+</script>
+</body>
+</html>

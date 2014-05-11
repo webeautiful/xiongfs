@@ -1,4 +1,4 @@
-@Created by "Mr.熊" in 2014-01-25.<br />
+@Created by "Mr.熊" in 2014-01-25.  
 ###学习git的原理和使用
 
 * [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)

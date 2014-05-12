@@ -55,9 +55,6 @@ class Diary_article_list extends MY_Controller
         $limit = 10;//每页显示10条数据
         //分页入参为偏移量
         $offset = !empty($_GET['per_page']) ? $_GET['per_page'] : 0;
-        //分页入参为当前页码
-        //$curPage = !empty($_GET['per_page']) ? $_GET['per_page'] : 1;
-        //$offset = ($curPage-1)*$limit;
 
         $recTotal = $this->articleInfo->getTotalNum($where,$where_in,$where_like);//查询记录总条数
         $articleList = $this->articleInfo->getTotal($where, $limit, $offset, $order,$where_in,$where_like,$field);//记录列表
@@ -115,7 +112,7 @@ class Diary_article_list extends MY_Controller
     * @param - integer - 每页显示的记录条数
     *          string  - 设置分页链接要带入的参数
     *          integer - 查询到的记录总条数
-    *          boolean - 控制url参数per_page的含义:false时表示偏移量,其他任何值时表示当前页码
+    *          boolean - 控制url参数per_page的含义:1.false时表示偏移量;2.其他任何值时表示当前页码(此法有bug!)
     *
     * @return - string - 分页条html代码
     */
@@ -126,7 +123,7 @@ class Diary_article_list extends MY_Controller
             'per_page'=>$limit,//每页显示的个数
             'base_url'=>'/index.php/diary/diary_article_list?'.$uri,
             'total_rows'=>$total,//查询到的记录总条数
-            'use_page_numbers'=>false,//get传参意义:false为偏移量,为其他值时表示当前页码
+            'use_page_numbers'=>false,
             'cur_tag_open'=>' <span class="paging_ahover">',//当前页开始样式
             'cur_tag_close'=>'</span>',//当前页结束样式
             'prev_link'=>'<span style="margin:0 5px;"><img src="/static/images/button_14.gif" /></span>',//上翻页样式
@@ -136,9 +133,9 @@ class Diary_article_list extends MY_Controller
             'num_tag_open'=>'<span class="paging_initial">',
             'num_tag_close'=>'</span>'//每一页样式标签结束
         );
-		$this->page->initialize($config);//初始化分页
-		$pagingbar = $this->page->create_links();//生成分页条
-		$pagingbar = str_replace('&nbsp;','', $pagingbar);
+        $this->page->initialize($config);//初始化分页
+        $pagingbar = $this->page->create_links();//生成分页条
+        $pagingbar = str_replace('&nbsp;','', $pagingbar);
         return $pagingbar;
     }
 

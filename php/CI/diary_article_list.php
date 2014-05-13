@@ -60,8 +60,9 @@ class Diary_article_list extends MY_Controller
         $articleList = $this->articleInfo->getTotal($where, $limit, $offset, $order,$where_in,$where_like,$field);//记录列表
         $articleList = $this->_getNickname($articleList);//获得装修客户昵称
 
+        $baseUrl = '/index.php/diary/diary_article_list?';
         $uri = 'isverify='.$isverify.'&nickname='.$nickname.'&articlename='.$articlename;
-        $data['pageinfo'] = $this->_getPagingbar($limit,$uri,$recTotal);
+        $data['pageinfo'] = $this->_getPagingbar($limit,$baseUrl,$uri,$recTotal);
 
         /*全局输出数据*/
         $data['articleList'] = $articleList;//列表数据
@@ -109,21 +110,24 @@ class Diary_article_list extends MY_Controller
     /**
     * 获取分页工具栏(此函数有待修改)
     *
-    * @param - integer - 每页显示的记录条数
-    *          string  - 设置分页链接要带入的参数
-    *          integer - 查询到的记录总条数
-    *          boolean - 控制url参数per_page的含义:1.false时表示偏移量;2.其他任何值时表示当前页码(此法有bug!)
+    * @param
+    * - $limit - integer - 每页显示的记录条数
+    * - $baseUrl - string - 分页链接访问路径(如:http://ljlj.cc?)
+    * - $uri   - string - 手动添加分页链接带入的参数
+    * - $total - integer - 查询到的记录总条数
+    * - $type  - boolean - 控制url参数per_page的含义:1.false时表示偏移量;2.其他任何值时表示当前页码(此法有bug!)
     *
     * @return - string - 分页条html代码
     */
-    protected function _getPagingbar($limit=0, $uri='a=a', $total=0, $type=false)
+
+    protected function _getPagingbar($limit=0, $baseUrl, $uri='a=a', $total=0, $type=false)
     {
         //分页配置项
         $config = array(
             'per_page'=>$limit,//每页显示的个数
-            'base_url'=>'/index.php/diary/diary_article_list?'.$uri,
+            'base_url'=>$baseUrl.$uri,
             'total_rows'=>$total,//查询到的记录总条数
-            'use_page_numbers'=>false,
+            'use_page_numbers'=>$type,
             'cur_tag_open'=>' <span class="paging_ahover">',//当前页开始样式
             'cur_tag_close'=>'</span>',//当前页结束样式
             'prev_link'=>'<span style="margin:0 5px;"><img src="/static/images/button_14.gif" /></span>',//上翻页样式

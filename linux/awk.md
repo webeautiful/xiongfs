@@ -108,6 +108,9 @@
 |sub(regular_expression,substitution_str[,target_str])|匹配目标字符串中第一个符合正则规则的字符串,然后用替换字符串代替|sub(/test/,"mytest")|
 |gsub(r,s)|在整个$0中用s替代r|gsub(/test/,"mytest")|
 |gsub(r,s,t)|在整个t中用s替代r|gsub(/test/,"mytest",'thisisonlyatest!')|
+|split(s,a,fs)|用分隔符fs,将字符串s分成序列a|如:|
+
+##awk数组和遍历
 
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)

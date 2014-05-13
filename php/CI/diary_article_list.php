@@ -107,7 +107,7 @@ class Diary_article_list extends MY_Controller
     }
 
     /**
-    * 获取分页工具栏
+    * 获取分页工具栏(此函数有待修改)
     *
     * @param - integer - 每页显示的记录条数
     *          string  - 设置分页链接要带入的参数

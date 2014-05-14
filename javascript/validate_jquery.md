@@ -6,7 +6,6 @@
 * 引入适当版本的jquery库
 * 引入validate插件
 
-###使用方式
 
 ###默认验证规则(rules)和默认提示(messages)
 
@@ -29,6 +28,39 @@
 |15|range|[5,10]|$.validator.format("Please enter a value between {0} and {1}.")|输入值必须介于 5 和 10 之间|
 |16|max|5|$.validator.format("Please enter a value less than or equal to {0}.")|输入值不能大于5|
 |17|min|10|$.validator.format("Please enter a value greater than or equal to {0}.")|输入值不能小于10|
+
+###使用方式
+####将校验规则写到js代码中
+格式
+
+    <script type="text/javascript">
+        $(function(){
+            $('#formId').validate({
+                rules:{
+                    验证元素name属性1:{
+                        验证规则1:规则值1,
+                        验证规则2:规则值2,
+                            ....等
+                    },
+                    验证元素name属性2:{},
+                       ...
+                       ...
+                    验证元素name属性n:{}
+                },
+                messages:{
+                    验证元素name属性1:{
+                        验证规则1:自定义提示1,
+                        验证规则2:自定义提示2,
+                            ....等
+                    },
+                    验证元素name属性2:{},
+                       ...
+                       ...
+                    验证元素name属性n:{}
+                }
+            });
+        });
+    </script>
 
 ##参考文档
 

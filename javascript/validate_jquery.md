@@ -2,6 +2,12 @@
 #JQuery插件之validate.js
 [官方地址](http://jqueryvalidation.org/)    [DEMOS](http://jqueryvalidation.org/files/demo/)
 
+##基本需求
+* 引入适当版本的jquery库
+* 引入validate插件
+
+###使用方式
+
 ###默认验证规则(rules)和默认提示(messages)
 
 |序号|规则/提示名|规则值|默认提示信息|解释|
@@ -23,10 +29,6 @@
 |15|range|[5,10]|$.validator.format("Please enter a value between {0} and {1}.")|输入值必须介于 5 和 10 之间|
 |16|max|5|$.validator.format("Please enter a value less than or equal to {0}.")|输入值不能大于5|
 |17|min|10|$.validator.format("Please enter a value greater than or equal to {0}.")|输入值不能小于10|
-
-###
-
-|默认提示|解释|
 
 ##参考文档
 

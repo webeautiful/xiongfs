@@ -11,7 +11,7 @@
 
 |序号|规则/提示名|规则值|默认提示信息|解释|
 |----|-----------|------|------------|----|
-|1|required|true|"This field is required."|必输字段|
+|1|required|true|"This field is required."|必输字段(判空)|
 |2|remote|"check.php"|Please fix this field.|使用ajax方法调用check.php验证输入值|
 |3|email|true|Please enter a valid email address.|必须输入正确格式的电子邮件|
 |4|url|true|Please enter a valid URL.|必须输入正确格式的网址|

@@ -29,6 +29,16 @@
 |16|max|5|$.validator.format("Please enter a value less than or equal to {0}.")|输入值不能大于5|
 |17|min|10|$.validator.format("Please enter a value greater than or equal to {0}.")|输入值不能小于10|
 
+###验证的触发方式
+|触发方式|默认值|描述|
+|--------|------|----|
+|onsubmit|true|提交时验证|
+|onfocusout|true|获取焦点时验证|
+|onkeyup|true|敲击键盘时验证|
+|onclick|true|鼠标点击时验证(一般验证checkbox,radio)|
+|focusInvalid|true|提交表单后,未通过验证的表单会获得焦点|
+|focusCleanup|false|未通过验证的元素获得焦点时,并移除错误提示(避免和focusInvalid一起使用)|
+
 ###使用方式
 ####将校验规则写到js代码中
 格式

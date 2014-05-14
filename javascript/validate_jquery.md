@@ -44,7 +44,7 @@
 格式
 
     <script type="text/javascript">
-        $(function(){
+        $(document).ready(function(){//也可用$(function(){
             $('#formId').validate({
                 rules:{
                     验证元素name属性1:{
@@ -71,6 +71,42 @@
             });
         });
     </script>
+
+##自定义验证方法
+
+中文验证
+
+    jQuery.validator.addMethod("chinese", function(value, element) {
+            var chinese = /^[\u4e00-\u9fa5]+$/;
+            return this.optional(element) || (chinese.test(value));
+        }, "只能输入中文");
+
+字符验证
+
+    jQuery.validator.addMethod("userName", function(value, element) {
+          return this.optional(element) || /^[\u0391-\uFFE5\w]+$/.test(value);
+      }, "用户名只能包括中文字、英文字母、数字和下划线");
+
+手机号码验证
+
+    jQuery.validator.addMethod("isMobile", function(value, element) {
+            var length = value.length;
+            return this.optional(element) || (length == 11 && /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/.test(value));
+        }, "请正确填写您的手机号码");
+
+电话号码验证
+
+    jQuery.validator.addMethod("isPhone", function(value, element) {
+            var tel = /^(\d{3,4}-?)?\d{7,9}$/g;
+            return this.optional(element) || (tel.test(value));
+        }, "请正确填写您的电话号码");
+
+邮政编码验证
+
+    jQuery.validator.addMethod("isZipCode", function(value, element) {
+            var tel = /^[0-9]{6}$/;
+            return this.optional(element) || (tel.test(value));
+        }, "请正确填写您的邮政编码");
 
 ##参考文档
 

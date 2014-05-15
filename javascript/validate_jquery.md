@@ -31,6 +31,35 @@
 
 ######特别说明
 
+ajax验证规则
+validate插件的
+
+    remote:{
+                type:'post',//发送请求方式
+                url:'/index.php/diary/tag_category_list/ajaxCheck',//url地址
+                dataType:'text',//请求数据类型text/json等
+                data:'key1=val1&key2=val2',//默认传参句柄为元素name属性
+                dataFilter:function(data){//接收返回数据
+                    if(data == 1)
+                    {
+                        return true;//验证通过
+                    }else
+                    {
+                        return false;//显示错误提示信息
+                    }
+            }
+
+jquery库的
+
+    $.ajax({
+        type:"post",//默认发送get请求
+        async:true,//是否异步
+        url:"check.php",//请求地址
+        dataType:'text',//发送请求数据的类型,text/json等
+        data:"key1=val1&key2=val2",//发送的请求数据
+        success:function(data){}//data接收ajax响应返回的数据
+    });
+
 ###验证的触发方式
 |触发方式|默认值|描述|
 |--------|------|----|

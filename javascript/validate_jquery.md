@@ -29,9 +29,8 @@
 |16|max|5|$.validator.format("Please enter a value less than or equal to {0}.")|输入值不能大于5|
 |17|min|10|$.validator.format("Please enter a value greater than or equal to {0}.")|输入值不能小于10|
 
-######特别说明
+######特别说明 - ajax验证规则
 
-ajax验证规则
 validate插件的
 
     remote:{

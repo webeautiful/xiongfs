@@ -66,10 +66,10 @@ jquery库的
 |触发方式|默认值|描述|
 |--------|------|----|
 |onsubmit|true|提交时验证|
-|onfocusout|true|获取焦点时验证|
+|onfocusout|true|失去焦点时验证(不包括checkbox,radio)|
 |onkeyup|true|敲击键盘时验证|
 |onclick|true|鼠标点击时验证(一般验证checkbox,radio)|
-|focusInvalid|true|提交表单后,未通过验证的表单会获得焦点|
+|focusInvalid|true|提交表单后,未通过验证的表单(指第一个或提交之前获得焦点的未通过验证的表单)会获得焦点|
 |focusCleanup|false|未通过验证的元素获得焦点时,并移除错误提示(避免和focusInvalid一起使用)|
 
 ###使用方式

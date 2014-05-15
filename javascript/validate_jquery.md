@@ -29,6 +29,8 @@
 |16|max|5|$.validator.format("Please enter a value less than or equal to {0}.")|输入值不能大于5|
 |17|min|10|$.validator.format("Please enter a value greater than or equal to {0}.")|输入值不能小于10|
 
+######特别说明
+
 ###验证的触发方式
 |触发方式|默认值|描述|
 |--------|------|----|
@@ -107,6 +109,7 @@
             var tel = /^[0-9]{6}$/;
             return this.optional(element) || (tel.test(value));
         }, "请正确填写您的邮政编码");
+
 
 ##参考文档
 

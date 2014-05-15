@@ -37,7 +37,7 @@ validate插件的
                 type:'post',//发送请求方式
                 url:'/index.php/diary/tag_category_list/ajaxCheck',//url地址
                 dataType:'text',//请求数据类型text/json等
-                data:'key1=val1&key2=val2',//默认传参句柄为元素name属性
+                data:'key1=val1&key2=val2',//若省略此项,默认传参句柄为元素name属性,值为value
                 dataFilter:function(data){//接收返回数据
                     if(data == 1)
                     {

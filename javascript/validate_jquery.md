@@ -120,7 +120,7 @@ jquery库的异步验证
     $('#form').validate({
         errorElement:'em',//错误信息的html标签,默认为label标签
         errorPlacement:function(error,element){
-            error.appendTo(error.next());//将提示信息定位到input框的下一个兄弟元素
+            error.appendTo(error.next());//将提示信息定位到input框的下一个兄弟元素(DOM)
         }
     });
 
@@ -128,7 +128,7 @@ jquery库的异步验证
 
     $('#form').validate({
         submitHandler:function(form){
-            form.submit();//提交表单
+            if(confirm('请确定保存标签设置')) form.submit();//发送在验证已通过之后,弹出确认框,决定是否执行提交表单操作
         }
     });
 

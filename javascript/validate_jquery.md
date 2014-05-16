@@ -123,13 +123,13 @@ jquery库的异步验证
         }
     });
 
-自定义表单提交前的动作
+自定义验证通过后,表单提交前的动作
 
     $('#form').validate({
         submitHandler:function(form){
-            if(confirm('请确定保存标签设置')) form.submit();//发送在验证已通过之后,弹出确认框,决定是否执行提交表单操作
+            if(confirm('请确定保存标签设置')) form.submit();//弹出确认框,决定是否执行提交表单操作
         }
-    });
+    });//onsubmit="javascript:if(!confirm('请确定保存标签设置')) return false;"
 
 ##自定义验证规则
 ######添加自定义校验(addMethod)

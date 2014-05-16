@@ -129,7 +129,7 @@ jquery库的异步验证
     $('#form').validate({
         submitHandler:function(form){
             form.submit();//提交表单
-    }
+        }
     });
 
 ##自定义验证规则

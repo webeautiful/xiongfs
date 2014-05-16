@@ -34,7 +34,7 @@
 validate插件的异步验证
 
     remote:{
-                type:'post',//发送请求方式
+                type:'post',//发送请求方式,若省略默认发送get请求
                 url:'/index.php/diary/tag_category_list/ajaxCheck',//url地址
                 dataType:'json',//发送的请求数据类型text/json等
                 data:{
@@ -113,10 +113,21 @@ jquery库的异步验证
         debug:true
     });
 
-####验证设置项
+###validate设置项
+
+自定义错误提示的显示位置
+
+    $('#form').validate({
+        errorElement:'em',//错误信息的html标签,默认为label标签
+        errorPlacement:function(error,element){
+            error.appendTo(error.next());//将提示信息定位到input框的下一个兄弟元素
+        }
+    });
+
 submitHandler:function(form){
     form.submit();//提交表单
 }
+
 ##自定义验证规则
 ######添加自定义校验(addMethod)
 

@@ -105,23 +105,26 @@ jquery库的异步验证
         });
     </script>
 
-####validator方法
+####validator对象的方法
 
-一个页面有多个表单提交,设置统一的默认值(setDefaults)
+为一个页面多个表单提交,设置统一的默认值(setDefaults)
 
     $.validator.setDefaults({
         debug:true
     });
 
-添加自定义校验(addMethod)
-
-$.validator.addMethod(funcname,func,msg);
-
 ####验证设置项
 submitHandler:function(form){
     form.submit();//提交表单
 }
-##自定义验证方法
+##自定义验证规则的常见类型
+######添加自定义校验(addMethod)
+
+    格式:$.validator.addMethod(rule,func,msg);
+    rule:自定义验证规则的名字(独一无二,避免规则冲突)
+    func:该验证规则的处理函数
+    msg:自定义的提示信息
+
 
 中文验证
 

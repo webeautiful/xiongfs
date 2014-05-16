@@ -31,7 +31,7 @@
 
 ######特别说明 - ajax验证规则
 
-validate插件的
+validate插件的异步验证
 
     remote:{
                 type:'post',//发送请求方式
@@ -51,7 +51,7 @@ validate插件的
                     }
             }
 
-jquery库的
+jquery库的异步验证
 
     $.ajax({
         type:"post",//默认发送get请求
@@ -105,6 +105,22 @@ jquery库的
         });
     </script>
 
+####validator方法
+
+一个页面有多个表单提交,设置统一的默认值(setDefaults)
+
+    $.validator.setDefaults({
+        debug:true
+    });
+
+添加自定义校验(addMethod)
+
+$.validator.addMethod(funcname,func,msg);
+
+####验证设置项
+submitHandler:function(form){
+    form.submit();//提交表单
+}
 ##自定义验证方法
 
 中文验证

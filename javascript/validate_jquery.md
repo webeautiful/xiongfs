@@ -124,9 +124,13 @@ jquery库的异步验证
         }
     });
 
-submitHandler:function(form){
-    form.submit();//提交表单
-}
+自定义表单提交前的动作
+
+    $('#form').validate({
+        submitHandler:function(form){
+            form.submit();//提交表单
+    }
+    });
 
 ##自定义验证规则
 ######添加自定义校验(addMethod)

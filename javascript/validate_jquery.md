@@ -3,7 +3,7 @@
 
 ##基本需求
 * 引入适当版本的jquery库: [jquery-1.9.0.min.js](http://jquery.com/download/)
-* 引入validate插件: [官方地址](http://jqueryvalidation.org/)    [**DEMOS**](http://jqueryvalidation.org/files/demo/)
+* 引入validate插件: [官方地址](http://jqueryvalidation.org/)    [DEMOS](http://jqueryvalidation.org/files/demo/)
 
 ###默认验证规则(rules)和默认提示(messages)
 

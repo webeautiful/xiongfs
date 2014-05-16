@@ -1,9 +1,11 @@
 ---
 #JQuery插件之validate.js
+[官方地址](http://jqueryvalidation.org/)    [DEMOS](http://jqueryvalidation.org/files/demo/)
 
 ##基本需求
-* 引入适当版本的jquery库
+* 引入适当版本的jquery库 [jquery-1.9.0.min.js](http://jquery.com/download/)
 * 引入validate插件
+
 
 ###默认验证规则(rules)和默认提示(messages)
 
@@ -73,36 +75,35 @@ jquery库的异步验证
 ###使用方式
 ####将校验规则写到js代码中
 格式
-```
-<script type="text/javascript">
-    $(document).ready(function(){//也可用$(function(){
-        $('#formId').validate({
-            rules:{
-                验证元素name属性1:{
-                    验证规则1:规则值1,
-                    验证规则2:规则值2,
-                        ....等
+
+    <script type="text/javascript">
+        $(document).ready(function(){//也可用$(function(){
+            $('#formId').validate({
+                rules:{
+                    验证元素name属性1:{
+                        验证规则1:规则值1,
+                        验证规则2:规则值2,
+                            ....等
+                    },
+                    验证元素name属性2:{},
+                       ...
+                       ...
+                    验证元素name属性n:{}
                 },
-                验证元素name属性2:{},
-                   ...
-                   ...
-                验证元素name属性n:{}
-            },
-            messages:{
-                验证元素name属性1:{
-                    验证规则1:自定义提示1,
-                    验证规则2:自定义提示2,
-                        ....等
-                },
-                验证元素name属性2:{},
-                   ...
-                   ...
-                验证元素name属性n:{}
-            }
+                messages:{
+                    验证元素name属性1:{
+                        验证规则1:自定义提示1,
+                        验证规则2:自定义提示2,
+                            ....等
+                    },
+                    验证元素name属性2:{},
+                       ...
+                       ...
+                    验证元素name属性n:{}
+                }
+            });
         });
-    });
-</script>
-```
+    </script>
 
 ####validator对象的方法
 

@@ -5,9 +5,6 @@
 * 引入适当版本的jquery库
 * 引入validate插件
 
-[jquery-1.9.0.min.js](http://jquery.com/download/)
-[官方地址](http://jqueryvalidation.org/)    [DEMOS](http://jqueryvalidation.org/files/demo/)
-
 ###默认验证规则(rules)和默认提示(messages)
 
 |序号|规则/提示名|规则值|默认提示信息|解释|

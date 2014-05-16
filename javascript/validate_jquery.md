@@ -125,6 +125,7 @@ submitHandler:function(form){
     func:该验证规则的处理函数
     msg:自定义的提示信息
 
+######自定义验证规则的常见类型
 
 中文验证
 

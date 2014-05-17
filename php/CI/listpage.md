@@ -25,7 +25,7 @@
 ####model的调用(主程序部分)
 
 1. 总记录数
-2. 当前页的数据
+2. 当前页的数据  
 
         $this->model->getTotalNum($where=array(),$where_in=array(),$where_like=array())
         $this->model->getTotal($where=array(), $limit=0, $offset=0, $order='',$where_in=array(),$where_like=array(),$field="*",$where_not_in=array())

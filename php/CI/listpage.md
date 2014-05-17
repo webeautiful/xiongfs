@@ -27,7 +27,7 @@
 1. 总记录数
 2. 当前页的数据
 
-`$this->model->getTotalNum($where=array(),$where_in=array(),$where_like=array())`
+`$this->model->getTotalNum($where=array(),$where_in=array(),$where_like=array())`  
 `$this->model->getTotal($where=array(), $limit=0, $offset=0, $order='',$where_in=array(),$where_like=array(),$field="*",$where_not_in=array())`
 
 ####分页条的使用(需手动加载分页类Page.php)
@@ -64,6 +64,8 @@
         $pagingbar = str_replace('&nbsp;','', $pagingbar);
         return $pagingbar;
     }
+
+疑问:对于有1000万条以上的数据,我们该如何做好分页
 
 ###注意事项
 

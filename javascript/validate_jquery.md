@@ -199,6 +199,7 @@ IP地址验证
             return this.optional(element) || (chrnum.test(value));
         }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
 
+#####提示语的样式与定位
 当表单默认显示黄色字体的提示(ts),验证不可为空/标签分类名称已存在时,提示语包含如下
 
     <!-- 初始化页面时斜体,黄色背景显示:标签只能输入中文-->
@@ -246,9 +247,9 @@ IP地址验证
             //错误提示信息
             messages:{
                 'category':{
-                    required:'<span class="tsr">不可为空</span>',//红色字体显示
-                    chinese:'<span class="ts">标签只能输入中文<span>',//黄色字体显示
-                    remote:'<span class="tsr">标签分类名称已存在</span>'//红色字体显示
+                    required:'<span class="tsr">不可为空</span>',//红色字体(tsr)显示
+                    chinese:'<span class="ts">标签只能输入中文<span>',//黄色字体(ts)显示
+                    remote:'<span class="tsr">标签分类名称已存在</span>'//红色字体(tsr)显示
                 },
             }
         });

@@ -199,6 +199,62 @@ IP地址验证
             return this.optional(element) || (chrnum.test(value));
         }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
 
+当表单默认显示黄色字体的提示(ts),验证不可为空/标签分类名称已存在时,提示语包含如下
+
+    <!-- 初始化页面时斜体,黄色背景显示:标签只能输入中文-->
+    <span id='hintmsg'><em><span class="ts">标签只能输入中文</span></em></span>
+
+验证脚本如下:
+
+    <script type="text/javascript">
+    $(function(){
+        //自定义验证规则:中文验证
+        jQuery.validator.addMethod("chinese", function(value, element) {
+            var chinese = /^[\u4e00-\u9fa5]+$/;
+            return this.optional(element) || (chinese.test(value));
+        }, "只能输入中文");
+
+        //验证添加标签分类
+        $('#form').validate({
+            debug:true,
+            errorElement:'em',
+            errorPlacement:function(error,element){
+                    $('#hintmsg').html('');//清空默认值
+                    error.appendTo('#hintmsg');
+            },//自定义错误信息提示位置
+            //验证规则
+            rules:{
+                'category':{
+                    required:true,
+                    chinese:true,
+                    remote:{
+                        url:'/index.php/diary/tag_category_list/ajaxCheck',//url地址
+                        type:'post',//发送方式
+                        dataType:'text',//请求数据类型text/json等
+                        dataFilter:function(data){//接收返回数据
+                            if(data == 1)
+                            {
+                                return true;//验证通过
+                            }else
+                            {
+                                return false;//显示错误提示信息
+                            }
+                        }
+                    }
+                }
+            },
+            //错误提示信息
+            messages:{
+                'category':{
+                    required:'<span class="tsr">不可为空</span>',//红色字体显示
+                    chinese:'<span class="ts">标签只能输入中文<span>',//黄色字体显示
+                    remote:'<span class="tsr">标签分类名称已存在</span>'//红色字体显示
+                },
+            }
+        });
+    });
+    </script>
+
 ##参考文档
 
 ---

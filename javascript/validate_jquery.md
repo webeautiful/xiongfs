@@ -156,15 +156,18 @@ jquery库的异步验证
 
 手机号码验证
 
+// 手机号码验证
+
     jQuery.validator.addMethod("isMobile", function(value, element) {
-            var length = value.length;
-            return this.optional(element) || (length == 11 && /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/.test(value));
+                var length = value.length;
+                var mobile =  /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/;
+                return this.optional(element) || (length == 11 && mobile.test(value));
         }, "请正确填写您的手机号码");
 
 电话号码验证
 
     jQuery.validator.addMethod("isPhone", function(value, element) {
-            var tel = /^(\d{3,4}-?)?\d{7,9}$/g;
+            var tel = /^(0[0-9]{2,3}\-)?([2-9][0-9]{6,7})+(\-[0-9]{1,4})?$/;
             return this.optional(element) || (tel.test(value));
         }, "请正确填写您的电话号码");
 
@@ -175,6 +178,26 @@ jquery库的异步验证
             return this.optional(element) || (tel.test(value));
         }, "请正确填写您的邮政编码");
 
+QQ号码验证
+
+    jQuery.validator.addMethod("qq", function(value, element) {
+            var tel = /^[1-9]\d{4,9}$/;
+            return this.optional(element) || (tel.test(value));
+        }, "qq号码格式错误");
+
+IP地址验证
+
+    jQuery.validator.addMethod("ip", function(value, element) {
+            var ip = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+            return this.optional(element) || (ip.test(value) && (RegExp.$1 < 256 && RegExp.$2 < 256 && RegExp.$3 < 256 && RegExp.$4 < 256));
+        }, "Ip地址格式错误");
+
+字母和数字的验证
+
+    jQuery.validator.addMethod("chrnum", function(value, element) {
+            var chrnum = /^([a-zA-Z0-9]+)$/;
+            return this.optional(element) || (chrnum.test(value));
+        }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
 
 ##参考文档
 

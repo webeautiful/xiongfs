@@ -39,7 +39,7 @@ validate插件的异步验证
                 data:{
                     cateid:function(){return $('#cateid').val();},
                     tagname:function(){return $('#tagname').val();}
-                },//若省略此项,默认传参句柄为元素name属性,值为value
+                },//若省略此项,默认传参句柄为验证元素的name属性,值为value
                 dataFilter:function(data){//接收返回数据
                     if(data == 1)
                     {

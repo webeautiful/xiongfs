@@ -125,6 +125,18 @@ col1 |col2 | col3
 
 ___
 
+##强调
+斜体(em)
+
+    _ 这是斜体 _
+    * 这也是斜体 *
+
+显示效果
+_ 这是斜体 _
+*这是斜体*
+
+加粗(strong)
+
 ##参考文献
 * [书写博客的神器](http://upwith.me/?p=503)
 * [markdown语法说明](http://wowubuntu.com/markdown/)

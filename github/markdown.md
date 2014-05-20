@@ -147,20 +147,80 @@ __这是加粗__
 **这也是加粗**
 
 ##引用(blockquote)
+example 1
 
-    >没有容忍就没有自由! --胡适
-    >>这是内部嵌套
-    >>这是内部嵌套
-    >没有容忍就没有自由! --胡适
-    >没有容忍就没有自由! --胡适
+    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+    > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+    > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+    >
+    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+    > id sem consectetuer libero luctus adipiscing.
+
+example 2
+
+    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+    consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+    id sem consectetuer libero luctus adipiscing.
+
+example 3
+
+    > This is the first level of quoting.
+    >
+    > > This is nested blockquote.
+    >
+    > Back to the first level.
+
+example 4
+
+    > ## This is a header.
+    >
+    > 1.   This is the first list item.
+    > 2.   This is the second list item.
+    >
+    > Here's some example code:
+    >
+    >     return shell_exec("echo $input | $markdown_script");
 
 渲染效果:
+example 1
 
->没有容忍就没有自由! --胡适
->>这是内部嵌套  
->>这是内部嵌套  
->没有容忍就没有自由! --胡适  
->没有容忍就没有自由! --胡适  
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+>
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+example 2
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+
+example 3
+
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+
+example 4
+
+> ## This is a header.
+>
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+>
+> Here's some example code:
+>
+>     return shell_exec("echo $input | $markdown_script");
 
 ##参考文献
 * [书写博客的神器](http://upwith.me/?p=503)

@@ -61,6 +61,10 @@ jquery库的异步验证
         success:function(data){}//data接收ajax响应返回的数据
     });
 
+注意:当a标签发生点击事件时,要做ajax验证,则href属性值应设为:
+
+    'javascript:void(0)'
+
 ###验证的触发方式
 |触发方式|默认值|描述|
 |--------|------|----|

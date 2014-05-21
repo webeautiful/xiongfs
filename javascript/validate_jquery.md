@@ -54,7 +54,7 @@ jquery库的异步验证
 
     $.ajax({
         type:"post",//默认发送get请求
-        async:true,//是否异步
+        async:true,//默认为true,异步请求
         url:"check.php",//请求地址
         dataType:'text',//发送请求数据的类型,text/json等
         data:"key1=val1&key2=val2",//发送的请求数据

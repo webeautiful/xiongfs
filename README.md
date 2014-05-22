@@ -16,3 +16,9 @@
 ######恐惧症
 [-] ajax验证  
 [-] jquery的使用
+
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed

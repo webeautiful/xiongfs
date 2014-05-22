@@ -26,6 +26,7 @@ _ _ _
     ```
 
 显示效果:
+
 ```php
 /*
 * 输出数组的键值对
@@ -39,6 +40,39 @@ function getKV($arr)
 }
 getKV($array('a','b','c'));//函数调用
 ```
+
+语法着色
+
+    ```php
+    /*
+    * 输出数组的键值对
+    */
+    function getKV($arr)
+    {
+        foreach($arr as $k=>$v)
+        {
+            echo $k.'--'.$v.'<br/>';
+        }
+    }
+    getKV($array('a','b','c'));//函数调用
+    ```
+
+着色后的效果:
+
+```php
+/*
+* 输出数组的键值对
+*/
+function getKV($arr)
+{
+    foreach($arr as $k=>$v)
+    {
+        echo $k.'--'.$v.'<br/>';
+    }
+}
+getKV($array('a','b','c'));//函数调用
+```
+
 ##表格语法
 表格代码:
 

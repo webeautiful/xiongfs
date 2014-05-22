@@ -14,5 +14,5 @@
 - git merge tmpbranch  将tmpbranch分支合并到当前所在的分支
 
 ######恐惧症
-[-] ajax验证
+[-] ajax验证  
 [-] jquery的使用

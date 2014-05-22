@@ -41,7 +41,7 @@ function getKV($arr)
 getKV($array('a','b','c'));//函数调用
 ```
 
-语法着色
+语法着色([语言标识符查询](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
 
     ```php
     /*

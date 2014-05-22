@@ -164,22 +164,22 @@
         }
     }
 
-一个子类model
+一个子类model -- example_mdl.php
 
     <?php
     /**
-    * description:储存标签的表
+    * description:子类model示例
     *
-    * author:yangzhen
-    * date:2014-05-07
+    * author:xiongfusong
+    * date:2014-05-22
     */
-    class Ecm_diary_tag_info_mdl extends MY_Model
+    class Example_mdl extends MY_Model
     {
         function __construct()
         {
             parent::__construct();
-            $this->_table = 'ecm_diary_tag_info';
-            $this->_pkey = 'tag_id';
+            $this->_table = 'example';
+            $this->_pkey = 'id';
         }
     }
     ?>

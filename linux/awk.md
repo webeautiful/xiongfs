@@ -111,6 +111,7 @@
 |split(s,a,fs)|用分隔符fs,将字符串s分成序列a|如:|
 
 ##awk数组和遍历
+注:用awk执行循环的效率比shell高很多
 
 ###参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)

@@ -22,3 +22,4 @@
 - [ ] normal **formatting**, @liushuigs, #1234 refs
 - [ ] incomplete
 - [x] completed
+- [x] completed

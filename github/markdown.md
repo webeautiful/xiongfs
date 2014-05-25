@@ -272,24 +272,34 @@ example 4
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-##链接
+##图片/链接
 1)inline风格
 
     [Blog](http://xfsweb.com "myblog")
+
+    ![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "乔布斯")
 
 渲染效果:
 
 [Blog](http://xfsweb.com "myblog")
 
+![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "乔布斯")
+
 2)reference风格
 
-    [博客地址][url]
-    [url]:http://xfsweb.com "blog"
+    [博客地址][url1]
+    ![][url2]
+
+    [url1]:http://xfsweb.com "blog"
+    [url2]:http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "可选的title属性"
 
 渲染效果:
 
-[博客地址][url]
-[url]:http://xfsweb.com "blog"
+[博客地址][url1]
+![][url2]
+
+[url1]:http://xfsweb.com "blog"
+[url2]:http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "可选的title属性"
 
 3)自动链接
 
@@ -300,12 +310,6 @@ example 4
 
 <121023254@qq.com>  
 <http://xfsweb.com>
-
-##图片
-
-1)inline风格
-
-![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "乔布斯")
 
 ##任务清单
 语法

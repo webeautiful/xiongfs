@@ -301,6 +301,12 @@ example 4
 <121023254@qq.com>  
 <http://xfsweb.com>
 
+##图片
+
+1)inline风格
+
+![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "乔布斯")
+
 ##任务清单
 语法
 

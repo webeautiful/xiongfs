@@ -301,7 +301,15 @@ example 4
 [url1]:http://xfsweb.com "blog"
 [url2]:http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg "可选的title属性"
 
-3)自动链接
+3)带链接的图片
+
+    [![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg)](http://xfsweb.com "myblog")
+
+渲染效果:
+
+[![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg)](http://xfsweb.com "myblog")
+
+4)自动链接
 
     <121023254@qq.com>
     <http://xfsweb.com>

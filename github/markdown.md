@@ -9,7 +9,7 @@ _ _ _
 效果:   `行内代码`
 
 2) 代码块  
-表示方法:1.每行文字前加4个空格(`空格式`)或1个文本缩进(`缩进式`);2.用3个反单引号`\`\`\``包含(`围栏式`)
+表示方法:1.每行文字前加4个空格(`空格式`)或1个文本缩进(`缩进式`);2.用3个反单引号\`\`\`包含(`围栏式`)
 
     ```
     /*
@@ -271,6 +271,35 @@ example 4
 > Here's some example code:
 >
 >     return shell_exec("echo $input | $markdown_script");
+
+##链接
+1)inline风格
+
+    [Blog](http://xfsweb.com "myblog")
+
+渲染效果:
+
+[Blog](http://xfsweb.com "myblog")
+
+2)reference风格
+
+    [博客地址][url]
+    [url]:http://xfsweb.com "blog"
+
+渲染效果:
+
+[博客地址][url]
+[url]:http://xfsweb.com "blog"
+
+3)自动链接
+
+    <121023254@qq.com>
+    <http://xfsweb.com>
+
+渲染效果:
+
+<121023254@qq.com>
+<http://xfsweb.com>
 
 ##任务清单
 语法

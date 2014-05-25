@@ -336,4 +336,10 @@ example 4
 [1]:http://www.ituring.com.cn/article/504
 [2]:https://github.com/cssmagic/blog/issues/13
 
+--
+-- @author:熊福松
+-- @date:2014-05-25
+--
+
 _ _ _
+

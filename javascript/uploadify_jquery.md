@@ -3,8 +3,9 @@
 [官方下载](http://www.uploadify.com/download/)
 
 ##部署
-* jquery框架
-* uploadify插件
+- [x] jquery框架
+- [x] Flash Player
+- [x] uploadify插件
 
 ##属性
 

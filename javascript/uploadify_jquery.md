@@ -50,18 +50,19 @@
 * 上传失败
 
 默认生成的上传进度条:
+
 ```HTML
-<div id="SWFUpload_0_0" class="uploadify-queue-item">
-    <div class="cancel">
-        <a href="javascript:$('#file_upload').uploadify('cancel', 'SWFUpload_0_0')">X</a>
-    </div>
-    <span class="fileName">test.png (0KB)</span><span class="data"></span>
-    <div class="uploadify-progress">
-        <div class="uploadify-progress-bar">
-        <!--Progress Bar-->
+    <div id="SWFUpload_0_0" class="uploadify-queue-item">
+        <div class="cancel">
+            <a href="javascript:$('#file_upload').uploadify('cancel', 'SWFUpload_0_0')">X</a>
+        </div>
+        <span class="fileName">test.png (0KB)</span><span class="data"></span>
+        <div class="uploadify-progress">
+            <div class="uploadify-progress-bar">
+            <!--Progress Bar-->
+            </div>
         </div>
     </div>
-</div>
 ```
 
 ---

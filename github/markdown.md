@@ -1,7 +1,8 @@
 _ _ _
 #markdown 语法
 
-##代码区域语法
+>##代码区域语法
+
 1) 行内代码  
 ```
 `行内代码`
@@ -73,7 +74,8 @@ function getKV($arr)
 getKV($array('a','b','c'));//函数调用
 ```
 
-##表格语法
+>##表格语法
+
 表格代码:
 
     |col1 |col2 | col3
@@ -92,7 +94,8 @@ col1 |col2 | col3
  g   |  h  |  i
  g   |  h  |  i
 
-##标题
+>##标题
+
 1) AtX式
 
     #1号标题
@@ -125,7 +128,8 @@ col1 |col2 | col3
 二号标题
 ---
 
-##列表
+>##列表
+
 1) 无序列表的三种表示方法
 ```
 * 表示普通列表
@@ -154,7 +158,8 @@ col1 |col2 | col3
 2. 这是有序列表  
 3. 这是有序列表  
 
-##分隔符
+>##分隔符
+
 格式:
 
 3个`*`表示:`***`  
@@ -174,7 +179,8 @@ col1 |col2 | col3
 
 ___
 
-##强调
+>##强调
+
 1)斜体(em)
 
     _这是斜体_
@@ -195,7 +201,8 @@ _这是斜体_
 __这是加粗__  
 **这也是加粗**
 
-##引用(blockquote)
+>##引用(blockquote)
+
 example 1
 
     > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
@@ -272,7 +279,8 @@ example 4
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-##图片/链接
+>##图片/链接
+
 1)inline风格
 
     [Blog](http://xfsweb.com "myblog")
@@ -319,7 +327,8 @@ example 4
 <121023254@qq.com>  
 <http://xfsweb.com>
 
-##任务清单
+>##任务清单
+
 语法
 
     - [x] 支持 @提到某人、#引用、[链接]()、**格式化** 和 <del>标签</del> 等语法
@@ -342,7 +351,8 @@ example 4
 
 ~~删除线~~
 
-##参考文献
+>##参考文献
+
 * [书写博客的神器](http://upwith.me/?p=503)
 * [markdown语法说明](http://wowubuntu.com/markdown/)
 * [markdown代码及效果](http://www.ituring.com.cn/article/23)

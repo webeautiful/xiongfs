@@ -334,6 +334,14 @@ example 4
 - [x] 这是一个已完成项目
 - [ ] 这是一个未完成项目
 
+##删除线
+
+    ~~删除线~~
+
+渲染效果:
+
+~~删除线~~
+
 ##参考文献
 * [书写博客的神器](http://upwith.me/?p=503)
 * [markdown语法说明](http://wowubuntu.com/markdown/)

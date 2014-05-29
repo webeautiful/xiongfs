@@ -19,8 +19,7 @@
 描述:定义服务器端处理上传数据脚本文件的路径
 
 **overrideEvents**
-
-desc:其值由事件名组成的数组组成,该数组中的事件将不会执行默认事件
+desc:方便重写Uploadify事件.其值是由事件名组成的数组,纳入该数组的事件将根据以下条件语句控制默认事件的执行
 
 ```javascript
 if ($.inArray('onSelect', settings.overrideEvents) < 0)
@@ -40,10 +39,21 @@ desc:上传队列中一次可容纳的最大条数。该选项不限制上传文
 默认值:(integer)999
 
 ##事件
+**onSelectError**
+
+desc:选择文件返回错误时触发,默认操作会弹出alert框
+
+参数:
+* file -- 错误的文件对象
++ errorCode - 错误码
+    - QUEUE_LIMIT_EXCEEDED:-100(上传队列中文件数量限制,数量由queueSizeLimit属性设置)
+    - FILE_EXCEEDS_SIZE_LIMIT:-110(文件尺寸超限,尺寸由fileSizeLimit属性设置)
+    - ZERO_BYTE_FILE:-120(0大小文件)
+    - INVALID_FILETYPE:-130(文件类型不在设置的范围内,类型由fileTypeExts属性设置,若fileTypeExts属性限制了上传文件的类型,则在弹出的选择对话框中只会显示符合条件的文件类型)
+* errorMsg -- 表示超过限制的错误信息
 
 |事件|描 述|默认操作|参数|
 |----|-----|--------|----|
-|onSelectError|选择文件返回错误时触发|弹出alert框|file:错误的文件对象;errorCode:错误码{QUEUE_LIMIT_EXCEEDED:-100,FILE_EXCEEDS_SIZE_LIMIT:-110,ZERO_BYTE_FILE:-120,INVALID_FILETYPE:-130},errorMsg:表示超过限制的错误码值|
 |onUploadStart|上传队列中每一个文件被上传之前的瞬间触发|向checkExisting属性指向的php处理程序发送ajax请求,验证上传文件是否重名,弹出confirm框|file:正准备上传的文件对象|
 |onUploadSuccess|每上传成功一个文件,就触发一次该事件|显示' - Complete'|file:上传成功的文件对象;data:uploader属性指向的php处理程序返回的值;response:服务器端响应状态,true为上传成功,false为上传失败;|
 |onUploadError|每上传失败一个文件,就触发一次该事件||file:上传失败的文件对象;errorCode:错误码;errorMsg:返回的错误信息;errorString:错误的详细信息;|
@@ -88,6 +98,20 @@ desc:上传队列中一次可容纳的最大条数。该选项不限制上传文
     </div>
 </div>
 ```
+实际项目中自定义模板
+
+<div id="${fileID}" class="uploadify-queue-item">
+    <div class="cancel">
+        <a href="javascript:$(\'#${instanceID}\').uploadify(\'cancel\', \'${fileID}\')">X</a>
+    </div>
+    <span class="fileName">${fileName} (${fileSize})</span><span class="data"></span>
+    <div class="uploadify-progress">
+        <div class="uploadify-progress-bar">
+        <!--Progress Bar-->
+        </div>
+    </div>
+</div>
+
 注意:默认模板位于uploadify.js的L657
 
 调用用户自定义的事件处理程序:

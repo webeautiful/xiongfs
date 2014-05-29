@@ -5,16 +5,39 @@
 
 ##部署
 - [x] jquery框架
-- [x] Flash Player
-- [x] uploadify插件
+- [x] Flash Player 9.0以上
+- [x] uploadify插件(自带[SWFObject](http://code.google.com/p/swfobject/))
 
 ##属性
 
-|方法|描 述|
-|----|-----|
-|swf|定义flash插件uploadify.swf的路径|
-|uploader|定义服务器端处理上传数据脚本文件的路径|
-|overrideEvents|是数组而非对象,该数组中事件将不会执行默认事件|
+**swf**
+
+描述:定义flash插件uploadify.swf的路径
+
+**uploader**
+
+描述:定义服务器端处理上传数据脚本文件的路径
+
+**overrideEvents**
+
+desc:其值由事件名组成的数组组成,该数组中的事件将不会执行默认事件
+
+```javascript
+if ($.inArray('onSelect', settings.overrideEvents) < 0)
+{
+    /**code block  默认执行的代码片段**/
+}
+```
+
+**uploadLimit**
+
+desc:定义允许的最大上传数量。当达到或者超过该数值时，将触发 onUploadError事件  
+默认值:(integer)999
+
+**queueSizeLimit**
+
+desc:上传队列中一次可容纳的最大条数。该选项不限制上传文件数量。限制上传文件数量，使用uploadlimit选项。如果*上传队列中的数量*超过此限制，则触发onSelectError事件  
+默认值:(integer)999
 
 ##事件
 
@@ -24,6 +47,7 @@
 |onUploadStart|上传队列中每一个文件被上传之前的瞬间触发|向checkExisting属性指向的php处理程序发送ajax请求,验证上传文件是否重名,弹出confirm框|file:正准备上传的文件对象|
 |onUploadSuccess|每上传成功一个文件,就触发一次该事件|显示' - Complete'|file:上传成功的文件对象;data:uploader属性指向的php处理程序返回的值;response:服务器端响应状态,true为上传成功,false为上传失败;|
 |onUploadError|每上传失败一个文件,就触发一次该事件||file:上传失败的文件对象;errorCode:错误码;errorMsg:返回的错误信息;errorString:错误的详细信息;|
+|onSelect|每添加一个文件至上传队列时触发该事件||file:添加至上传队列的文件对象|
 |onQueueComplete|队列中的所有文件被处理完成时触发该事件|||
 
 ##方法
@@ -49,6 +73,7 @@
 * 上传成功
 * 上传失败
 
+3.
 默认生成的上传进度条:
 ```HTML
 <div id="SWFUpload_0_0" class="uploadify-queue-item">
@@ -63,5 +88,14 @@
     </div>
 </div>
 ```
+注意:默认模板位于uploadify.js的L657
+
+调用用户自定义的事件处理程序:
+```javascript
+if (settings.onDestroy) settings.onDestroy.call(this);
+```
+
+文件已存在上传队列中:
+The file named "test.png" is already in the queue.Do you want to replace the existing item in the queue?
 
 ---

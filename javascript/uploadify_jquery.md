@@ -23,6 +23,7 @@
 desc:方便重写Uploadify事件.其值是由事件名组成的数组,纳入该数组的事件将根据以下条件语句控制默认事件的执行
 
 ```javascript
+var settings = this.settings;
 if ($.inArray('onSelect', settings.overrideEvents) < 0)
 {
     /**code block  默认执行的代码片段**/
@@ -36,7 +37,7 @@ desc:定义允许的最大上传数量。当达到或者超过该数值时，将
 
 **queueSizeLimit**
 
-desc:上传队列中一次可容纳的最大条数。该选项不限制上传文件数量。限制上传文件数量，使用uploadlimit选项。如果*上传队列中的数量*超过此限制，则触发onSelectError事件  
+desc:选择上传图片对话框'确定'后,验证该次选择的图片数量是否超限。该选项不限制上传文件数量。限制上传文件数量，使用uploadlimit选项。如果*上传队列中的数量*超过此限制，则触发onSelectError事件  
 默认值:(integer)999
 
 ##事件
@@ -122,6 +123,8 @@ if (settings.onDestroy) settings.onDestroy.call(this);
 
 文件已存在上传队列中:
 The file named "test.png" is already in the queue.Do you want to replace the existing item in the queue?
+
+The upload limit has been reached (The upload limit has been reached.).
 
 ##数据结构
 

@@ -351,6 +351,12 @@ example 4
 
 ~~删除线~~
 
+##注脚
+
+质能方程[^LaTex]
+
+$$E=mc^2$$
+
 ##参考文献
 
 * [书写博客的神器](http://upwith.me/?p=503)
@@ -362,6 +368,7 @@ example 4
 [1]:http://www.ituring.com.cn/article/504
 [2]:https://github.com/cssmagic/blog/issues/13
 
+[^LaTeX]: 支持 **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法.
 
 >@author:熊福松  
 >@date:2014-05-25

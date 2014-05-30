@@ -123,4 +123,13 @@ if (settings.onDestroy) settings.onDestroy.call(this);
 文件已存在上传队列中:
 The file named "test.png" is already in the queue.Do you want to replace the existing item in the queue?
 
+##数据结构
+
+*jq_uploadify*
+
+|字段|类型|说明|可否为空|默认值|备注|
+|----|----|----|--------|------|----|
+|id|int|主键|否|||
+|type|tinyint|类型|否|1|1:属性;2:方法;3:事件 |
+
 ---

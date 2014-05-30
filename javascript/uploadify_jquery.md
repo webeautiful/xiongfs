@@ -19,6 +19,7 @@
 描述:定义服务器端处理上传数据脚本文件的路径
 
 **overrideEvents**
+
 desc:方便重写Uploadify事件.其值是由事件名组成的数组,纳入该数组的事件将根据以下条件语句控制默认事件的执行
 
 ```javascript
@@ -99,7 +100,7 @@ desc:选择文件返回错误时触发,默认操作会弹出alert框
 </div>
 ```
 实际项目中自定义模板
-
+```html
 <div id="${fileID}" class="uploadify-queue-item">
     <div class="cancel">
         <a href="javascript:$(\'#${instanceID}\').uploadify(\'cancel\', \'${fileID}\')">X</a>
@@ -111,7 +112,7 @@ desc:选择文件返回错误时触发,默认操作会弹出alert框
         </div>
     </div>
 </div>
-
+```
 注意:默认模板位于uploadify.js的L657
 
 调用用户自定义的事件处理程序:

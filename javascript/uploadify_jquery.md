@@ -30,14 +30,18 @@ if ($.inArray('onSelect', settings.overrideEvents) < 0)
 }
 ```
 
-**uploadLimit**
-
-desc:定义允许的最大上传数量。当达到或者超过该数值时，将触发 onUploadError事件  
-默认值:(integer)999
-
 **queueSizeLimit**
 
-desc:选择上传图片对话框'确定'后,验证该次选择的图片数量是否超限。该选项不限制上传文件数量。限制上传文件数量，使用uploadlimit选项。如果*上传队列中的数量*超过此限制，则触发onSelectError事件  
+desc:在弹出的选择上传文件对话框中点击'确定'后,验证单次选择的图片数量是否超限。该选项不限制上传文件数量,限制上传文件数量，使用uploadlimit选项。如果单词上传的文件数量超过此限制值，则触发onSelectError事件  
+默认值:(integer)999
+
+**fileSizeLimit**
+
+desc:上传文件大小限制.值为0,表示不限制上传文件大小;值为string,允许使用(B,MB,GB)为单位,默认使用KB为单位.当超过限定值时,将触发onSelectError事件  
+
+**uploadLimit**
+
+desc:定义上传文件总数累计不超过的数量.用来限制可上传文件的总数,当超过该限定值时，将触发 onUploadError事件  
 默认值:(integer)999
 
 ##事件
@@ -61,6 +65,8 @@ desc:选择文件返回错误时触发,默认操作会弹出alert框
 |onUploadError|每上传失败一个文件,就触发一次该事件||file:上传失败的文件对象;errorCode:错误码;errorMsg:返回的错误信息;errorString:错误的详细信息;|
 |onSelect|每添加一个文件至上传队列时触发该事件||file:添加至上传队列的文件对象|
 |onQueueComplete|队列中的所有文件被处理完成时触发该事件|||
+
+疑问:18个事件发生的先后顺序?
 
 ##方法
 

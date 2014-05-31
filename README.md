@@ -13,14 +13,5 @@
 - git branch -d tmpbranch  删除临时分支(删)
 - git merge tmpbranch  将tmpbranch分支合并到当前所在的分支
 
-######恐惧症
-
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @liushuigs, #1234 refs
-- [ ] incomplete
-- [x] completed
-- [x] completed
-
 ★★★★★
 ☆☆

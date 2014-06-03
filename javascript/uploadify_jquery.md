@@ -20,7 +20,7 @@
 
 **overrideEvents**
 
-desc:方便重写Uploadify事件.其值是由事件名组成的数组,纳入该数组的事件将根据以下条件语句控制默认事件的执行
+desc:方便重写Uploadify事件.其值是由事件名组成的数组,纳入该数组的事件将根据以下条件语句跳过默认事件的执行
 
 ```javascript
 var settings = this.settings;

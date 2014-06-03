@@ -58,6 +58,14 @@ desc:选择文件返回错误时触发,默认操作会弹出alert框
     - INVALID_FILETYPE:-130(文件类型不在设置的范围内,类型由fileTypeExts属性设置,若fileTypeExts属性限制了上传文件的类型,则在弹出的选择对话框中只会显示符合条件的文件类型)
 * errorMsg -- 表示超过限制的错误信息
 
+**onDialogOpen**
+
+desc:
+
+**onDialogClose**
+
+desc:
+
 |事件|描 述|默认操作|参数|
 |----|-----|--------|----|
 |onUploadStart|上传队列中每一个文件被上传之前的瞬间触发|向checkExisting属性指向的php处理程序发送ajax请求,验证上传文件是否重名,弹出confirm框|file:正准备上传的文件对象|

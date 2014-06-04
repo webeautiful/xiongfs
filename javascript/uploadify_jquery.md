@@ -29,6 +29,13 @@ if ($.inArray('onSelect', settings.overrideEvents) < 0)
     /**code block  默认执行的代码片段**/
 }
 ```
+**removeCompleted**
+
+desc:设置上传队列是否自动移除.默认上传完成后,上传条3s后自动消失;设置为false,则调用cancel方法时才会消失
+
+**removeTimeout**
+
+desc:设置上传完成后从上传队列中移除的时间
 
 **queueSizeLimit**
 
@@ -73,6 +80,12 @@ desc:
 |onUploadError|每上传失败一个文件,就触发一次该事件||file:上传失败的文件对象;errorCode:错误码;errorMsg:返回的错误信息;errorString:错误的详细信息;|
 |onSelect|每添加一个文件至上传队列时触发该事件||file:添加至上传队列的文件对象|
 |onQueueComplete|队列中的所有文件被处理完成时触发该事件|||
+
+file对象
+
+* file.id
+* file.size
+* file.name
 
 疑问:18个事件发生的先后顺序?
 

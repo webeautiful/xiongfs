@@ -86,8 +86,11 @@ file对象
 * file.id
 * file.size
 * file.name
+* file.filestatus
+* file.uploaded
+* file.status
 
-疑问:18个事件发生的先后顺序?
+疑问:18个事件发生的先后顺序?onSelect>onUploadStart
 
 ##方法
 
@@ -127,7 +130,7 @@ file对象
     </div>
 </div>
 ```
-实际项目中自定义模板
+默认上传模板(位于onSelect中):
 ```html
 <div id="${fileID}" class="uploadify-queue-item">
     <div class="cancel">

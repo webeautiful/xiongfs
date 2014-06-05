@@ -111,9 +111,9 @@ file对象
 
 2.
 
-* 上传中...
-* 上传成功
-* 上传失败
+* 上传中...(onUploadStart)
+* 上传成功(onUploadSuccess)
+* 上传失败(onUploadError)
 
 3.
 默认生成的上传进度条:
@@ -162,7 +162,8 @@ The upload limit has been reached (The upload limit has been reached.).
 
 |字段|类型|说明|可否为空|默认值|备注|
 |----|----|----|--------|------|----|
-|id|int|主键|否|||
-|type|tinyint|类型|否|1|1:属性;2:方法;3:事件 |
+|id|int(11)|主键|否|||
+|type|tinyint(3)|类型|否|1|1:属性;2:方法;3:事件 |
+|desc|varchar(255)|描述|否|''||
 
 ---

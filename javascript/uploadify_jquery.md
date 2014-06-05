@@ -156,6 +156,12 @@ The file named "test.png" is already in the queue.Do you want to replace the exi
 
 The upload limit has been reached (The upload limit has been reached.).
 
+##自定义属性和事件
+**buttonTemplate**
+
+default:false
+desc:uploadify插件默认的按钮的兼容性不好,通过定义该属性可以直接使用实际项目提供的按钮样式
+
 ##数据结构
 
 *jq_uploadify*

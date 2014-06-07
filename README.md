@@ -1,10 +1,10 @@
 @Created by "Mr.熊" in 2014-01-25.  
 ###资讯类
-[Startup News](http://news.dbanotes.net/)
-[CoolShell](http://coolshell.cn/)
-[博客-伯乐在线](http://blog.jobbole.com/)
-[UC技术博客](http://tech.uc.cn/)
-[oilbeater](http://oilbeater.com/index.html)
+* [Startup News](http://news.dbanotes.net/)
+* [CoolShell](http://coolshell.cn/)
+* [博客-伯乐在线](http://blog.jobbole.com/)
+* [UC技术博客](http://tech.uc.cn/)
+* [oilbeater](http://oilbeater.com/index.html)
 
 ###书单
 ####基础篇
@@ -14,9 +14,9 @@
 * [《算法引论》](http://book.douban.com/subject/4178907/)
 
 ####其他杂项
-[《数据库系统概念》](http://book.douban.com/subject/1929984/)
-[《图解TCP/IP》](http://book.douban.com/subject/24737674/)
-[《精通正则表达式》](http://book.douban.com/subject/2154713/)
+* [《数据库系统概念》](http://book.douban.com/subject/1929984/)
+* [《图解TCP/IP》](http://book.douban.com/subject/24737674/)
+* [《精通正则表达式》](http://book.douban.com/subject/2154713/)
 
 ★★★★★
 

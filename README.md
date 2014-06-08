@@ -19,6 +19,7 @@
 * [《精通正则表达式》](http://book.douban.com/subject/2154713/)
 
 ★★★★★
+http://new.ljmall.loc/index.php/data/data_goods_list?rid=2&sum=2
 ☆☆  
 ☆☆  
 ★★★★☆☆

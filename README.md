@@ -19,6 +19,9 @@
 * [《精通正则表达式》](http://book.douban.com/subject/2154713/)
 
 ★★★★★
+
+阅读:http://ejohn.org/blog/write-code-every-day/
+
 ☆☆  
 ☆☆  
 ★★★★☆☆

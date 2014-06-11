@@ -4,7 +4,7 @@
 
 * 使用php QRcode类库生成二维码 [`项目地址`](http://phpqrcode.sourceforge.net/)  [`源码下载`](http://sourceforge.net/projects/phpqrcode/)
 
-##资料o
+##资料
 [TIPI](http://www.php-internals.com/book/)
 
 第一次在实际项目中用到递归

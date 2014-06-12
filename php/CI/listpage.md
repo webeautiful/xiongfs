@@ -31,39 +31,50 @@
         $this->model->getTotal($where=array(), $limit=0, $offset=0, $order='',$where_in=array(),$where_like=array(),$field="*",$where_not_in=array())
 
 ####分页条的使用(需手动加载分页类Page.php)
+```php
+/**
+* 获取分页工具栏
+* @author - xiongfusong
+* @date - 2014-06-09
+*
+* @param
+* - $limit - integer - 每页显示的记录条数
+* - $baseUrl - string  - 设置分页链接访问路径(格式:http://example.com?)
+* - $uri - string  - 设置分页链接要带入的参数
+* - $total - integer - 查询到的记录总条数
+* - $bool - boolean - per_page表示的意义;默认为false,per_page表示偏移量;为true时,表示当前页码
+* - $queryStrSeg - string - 自定义查询字符串参数,默认为per_page
+*
+* @return - string - 分页条html代码
+*/
+function getPagingbar($limit=0, $baseUrl, $uri='a=a', $total=0,$bool=false,$queryStrSeg='per_page')
+{
+    $CI = &get_instance();
+    $CI->load->library('page');
+    //分页配置项
+    $config = array(
+        'use_page_numbers' => $bool,
+        'per_page'=>$limit,//每页显示的个数
+        'base_url'=>$baseUrl.$uri,
+        'total_rows'=>$total,//查询到的记录总条数
+        'cur_tag_open'=>' <span class="paging_ahover">',//当前页开始样式
+        'cur_tag_close'=>'</span>',//当前页结束样式
+        'prev_link'=>'<span style="margin:0 5px;"><img src="/static/images/button_14.gif" /></span>',//上翻页样式
+        'next_link'=>'<span style="margin:0 5px;"><img src="/static/images/button_16.gif" /></span>',//下翻页样式
+        'first_link'=>'<span class="paging_home">首页</span>',//跳转首页样式
+        'last_link'=>'<span class="paging_last">尾页</span>',//跳转尾页样式
+        'num_tag_open'=>'<span class="paging_initial">',
+        'num_tag_close'=>'</span>',//每一页样式标签结束
+        'query_string_segment'=>$queryStrSeg
+    );
+    $CI->page->initialize($config);//初始化分页
+    $pagingbar = $CI->page->create_links();//生成分页条
+    $pagingbar = str_replace('&nbsp;','', $pagingbar);
+    return $pagingbar;
+}
+```
 
-    /**
-    * 获取分页工具栏(有待完善)
-    *
-    * @param
-    * - $limit - integer - 每页显示的记录条数
-    * - $baseUrl - string  - 设置分页链接访问路径(格式:http://example.com?)
-    * - $uri - string  - 设置分页链接要带入的参数
-    * - $total - integer - 查询到的记录总条数
-    *
-    * @return - string - 分页条html代码
-    */
-    protected function _getPagingbar($limit=0, $baseUrl, $uri='a=a', $total=0)
-    {
-        //分页配置项
-        $config = array(
-            'per_page'=>$limit,//每页显示的个数
-            'base_url'=>$baseUrl.$uri,
-            'total_rows'=>$total,//查询到的记录总条数
-            'cur_tag_open'=>' <span class="paging_ahover">',//当前页开始样式
-            'cur_tag_close'=>'</span>',//当前页结束样式
-            'prev_link'=>'<span style="margin:0 5px;"><img src="/static/images/button_14.gif" /></span>',//上翻页样式
-            'next_link'=>'<span style="margin:0 5px;"><img src="/static/images/button_16.gif" /></span>',//下翻页样式
-            'first_link'=>'<span class="paging_home">首页</span>',//跳转首页样式
-            'last_link'=>'<span class="paging_last">尾页</span>',//跳转尾页样式
-            'num_tag_open'=>'<span class="paging_initial">',
-            'num_tag_close'=>'</span>'//每一页样式标签结束
-        );
-        $this->page->initialize($config);//初始化分页
-        $pagingbar = $this->page->create_links();//生成分页条
-        $pagingbar = str_replace('&nbsp;','', $pagingbar);
-        return $pagingbar;
-    }
+* $queryStrSeg - 用于当前列表页要原样返回上一个列表页时，避免当前分页参数和上一个列表页的参数混淆
 
 疑问:对于有1000万条以上的数据,我们该如何做好分页
 

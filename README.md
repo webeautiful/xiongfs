@@ -21,7 +21,7 @@
 ★★★★★
 ☆☆  
 
-- [] 阅读:http://ejohn.org/blog/write-code-every-day/
+- [ ] 阅读:http://ejohn.org/blog/write-code-every-day/
 
 ☆☆  
 ★★★★☆☆

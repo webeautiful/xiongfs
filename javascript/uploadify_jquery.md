@@ -6,7 +6,7 @@
 ##部署
 - [x] jquery框架
 - [x] Flash Player 9.0以上
-- [x] uploadify插件(自带[SWFObject](http://code.google.com/p/swfobject/))
+- [x] uploadify插件v3.2.1(自带[SWFObject](http://code.google.com/p/swfobject/))
 
 ##属性
 
@@ -71,13 +71,37 @@ desc:
 
 **onDialogClose**
 
-desc:
+desc:对话框关闭时，如果有错误信息则会弹出alert框提示;通过errorEvents属性可以跳过alert的默认程序段，并可通过自定义onDialogClose事件，可以自定义错误提示形式
+
+**onUploadStart**
+
+desc:上传队列中每一个文件被上传之前的瞬间触发.默认向checkExisting属性指向的php处理程序发送ajax请求,验证上传文件是否重名,会弹出confirm框.
+modified: 添加了errorEvents属性控制错误可用自定义方式显示
+
+Arguments:
+* file -- 正准备上传的文件对象
+
+**onUploadSuccess**
+
+desc:每上传成功一个文件,就触发一次该事件。默认显示' - Complete'
+
+Arguments:
+* file -- 上传成功的文件对象
+* data -- uploader属性指向的处理程序返回的值
+* response -- 服务器端响应状态,true为上传成功,false为上传失败;
+
+**onUploadError**
+
+desc:每上传失败一个文件,就触发一次该事件。
+
+Arguments:
+* file -- 上传失败的文件对象
+* errorCode -- 错误码
+* errorMsg -- 返回的错误信息
+* errorString -- 错误信息的详细描述
 
 |事件|描 述|默认操作|参数|
 |----|-----|--------|----|
-|onUploadStart|上传队列中每一个文件被上传之前的瞬间触发|向checkExisting属性指向的php处理程序发送ajax请求,验证上传文件是否重名,弹出confirm框|file:正准备上传的文件对象|
-|onUploadSuccess|每上传成功一个文件,就触发一次该事件|显示' - Complete'|file:上传成功的文件对象;data:uploader属性指向的php处理程序返回的值;response:服务器端响应状态,true为上传成功,false为上传失败;|
-|onUploadError|每上传失败一个文件,就触发一次该事件||file:上传失败的文件对象;errorCode:错误码;errorMsg:返回的错误信息;errorString:错误的详细信息;|
 |onSelect|每添加一个文件至上传队列时触发该事件||file:添加至上传队列的文件对象|
 |onQueueComplete|队列中的所有文件被处理完成时触发该事件|||
 
@@ -90,7 +114,7 @@ file对象
 * file.uploaded
 * file.status
 
-疑问:18个事件发生的先后顺序?onSelect>onUploadStart
+疑问:18个事件发生的先后顺序?onSelect>onSelectError>onUploadStart>onUploadSuccess>onUploadError
 
 ##方法
 
@@ -155,6 +179,10 @@ if (settings.onDestroy) settings.onDestroy.call(this);
 The file named "test.png" is already in the queue.Do you want to replace the existing item in the queue?
 
 The upload limit has been reached (The upload limit has been reached.).
+
+onDialogClose事件的L605
+Some files were not added to the queue:
+The file "tux-joker_1280.png" exceeds the size limit
 
 ##自定义属性和事件
 **buttonTemplate**

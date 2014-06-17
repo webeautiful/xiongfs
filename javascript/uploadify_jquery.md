@@ -51,6 +51,27 @@ desc:上传文件大小限制.值为0,表示不限制上传文件大小;值为st
 desc:定义上传文件总数累计不超过的数量.用来限制可上传文件的总数,当超过该限定值时，将触发 onUploadError事件  
 默认值:(integer)999
 
+**fileObjName**
+
+desc:定义上传数据处理文件中接收数据使用的文件对象名。默认为Filedata,服务器端使用`$_FILES['FIledata']`来接收数据。
+
+**formData**
+
+desc:定义在文件上传时需要一同提交的其他数据对象。如果希望动态的设置这些值，可以使用onUploadStart时间来定义。可以在服务器端脚本文件中使用$_GET或者$_POST来接收这些数据。
+
+```javascript
+$(function() {
+    $("#file_upload").uploadify({
+        'formData'      : {'someKey' : 'someValue', 'someOtherKey' : 1},
+        'swf'           : '/uploadify/uploadify.swf',
+        'uploader'      : '/uploadify/uploadify.php',
+        'onUploadStart' : function(file) {
+            $("#file_upload").uploadify("settings", "someOtherKey", 2);
+        }
+    });
+});
+```
+
 ##事件
 **onSelectError**
 

@@ -209,6 +209,7 @@ The file "tux-joker_1280.png" exceeds the size limit
 **buttonTemplate**
 
 default:false
+
 desc:uploadify插件默认的按钮的兼容性不好,通过定义该属性可以直接使用实际项目提供的按钮样式
 
 ##数据结构

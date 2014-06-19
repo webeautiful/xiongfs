@@ -31,4 +31,49 @@ private function _createThumb($prefix='',$suffix='_thumb',$width='',$height='',$
     return $this->image_lib->resize();
 }
 ```
-
+###
+```
+/*php
+* 递归删除目录
+*
+* $dir - 目录路径,如:/home/svn/image/img_group/2014/0619-520/,先删除0619-520目录下所有目录或普通文件,然后删除0619-520目录
+*
+*/
+private function _deleteDir($dir)
+{
+    if(!$handle=@opendir($dir))
+    {//检测要打开目录是否存在
+        die("没有该目录");
+    }
+    while(false!==($file=readdir($handle)))
+    {
+        if($file !== "." && $file !== "..")
+        {//排除当前目录与父级目录
+            $file=rtrim($dir,'/').'/'.$file;
+            if(is_dir($file))
+            {
+                deletedir($file);
+            }
+            else
+            {
+                if(@unlink($file))
+                {
+                    echo"文件<b>$file</b>删除成功。<br>";
+                }
+                else
+                {
+                    echo"文件<b>$file</b>删除失败!<br>";
+                }
+            }
+        }
+    }
+    if(@rmdir($dir))
+    {
+      echo"目录<b>$dir</b>删除成功了。<br>\n";
+    }
+    else
+    {
+      echo"目录<b>$dir</b>删除失败！<br>\n";
+    }
+}
+```

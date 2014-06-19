@@ -31,9 +31,9 @@ private function _createThumb($prefix='',$suffix='_thumb',$width='',$height='',$
     return $this->image_lib->resize();
 }
 ```
-###
-```
-/*php
+###递归删除目录
+```php
+/*
 * 递归删除目录
 *
 * $dir - 目录路径,如:/home/svn/image/img_group/2014/0619-520/,先删除0619-520目录下所有目录或普通文件,然后删除0619-520目录

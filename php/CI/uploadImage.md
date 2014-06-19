@@ -2,6 +2,8 @@
 ===
 ###生成缩略图
 
+使用CI自带的[图片处理类](http://codeigniter.org.cn/user_guide/libraries/image_lib.html)
+
 ```php
 /*
 * 生成缩略图

@@ -216,6 +216,8 @@ desc:uploadify插件默认的按钮的兼容性不好,通过定义该属性可�
 
 desc:uploadify插件默认在上传队列中有同名的文件上传时，弹出confirm框提示'是否替换上传队列中的文件';如果将isCheckRename纳入到overrideEvents属性中就会跳过该验证程序的执行。
 
+([在线js压缩工具](http://tool.oschina.net/jscompress))
+
 ##数据结构
 
 *jq_uploadify*

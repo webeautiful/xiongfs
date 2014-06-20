@@ -18,6 +18,8 @@
 * [《图解TCP/IP》](http://book.douban.com/subject/24737674/)
 * [《精通正则表达式》](http://book.douban.com/subject/2154713/)
 
+前端设计:<http://www.lbsvision.com/hao>
+
 ★★★★★
 
 ☆☆  

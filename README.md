@@ -35,6 +35,6 @@
 
 无法传参的字符串:
 
-`SF0870-AEI    H03#·`
+`SF0870-AEI&nbsp;&nbsp;&nbsp;&nbspH03#·`
 
 ★★★★☆☆

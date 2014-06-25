@@ -32,34 +32,38 @@
 
 validate插件的异步验证
 
-    remote:{
-                type:'post',//发送请求方式,若省略默认发送get请求
-                url:'/index.php/diary/tag_category_list/ajaxCheck',//url地址
-                dataType:'json',//发送的请求数据类型,text/json等(有待进一步确认!!!)
-                data:{
-                    cateid:function(){return $('#cateid').val();},
-                    tagname:function(){return $('#tagname').val();}
-                },//若省略此项,默认传参句柄为验证元素的name属性,值为value
-                dataFilter:function(data){//接收返回数据
-                    if(data == 1)
-                    {
-                        return true;//验证通过
-                    }else
-                    {
-                        return false;//显示错误提示信息
-                    }
-            }
+```javascript
+remote:{
+            type:'post',//发送请求方式,若省略默认发送get请求
+            url:'/index.php/diary/tag_category_list/ajaxCheck',//url地址
+            dataType:'json',//发送的请求数据类型,text/json等(有待进一步确认!!!)
+            data:{
+                cateid:function(){return $('#cateid').val();},
+                tagname:function(){return $('#tagname').val();}
+            },//若省略此项,默认传参句柄为验证元素的name属性,值为value
+            dataFilter:function(data){//接收返回数据
+                if(data == 1)
+                {
+                    return true;//验证通过
+                }else
+                {
+                    return false;//显示错误提示信息
+                }
+        }
+```
 
 jquery库的异步验证
 
-    $.ajax({
-        type:"post",//默认发送get请求
-        async:true,//默认为true,异步请求
-        url:"check.php",//请求地址
-        dataType:'text',//预期服务器返回的数据类型,text/json等
-        data:"key1=val1&key2=val2",//发送的请求数据
-        success:function(data){}//data接收ajax响应返回的数据
-    });
+```javascript
+$.ajax({
+    type:"post",//默认发送get请求
+    async:true,//默认为true,异步请求
+    url:"check.php",//请求地址
+    dataType:'text',//预期服务器返回的数据类型(错!!!),text/json等
+    data:"key1=val1&key2=val2",//发送的请求数据
+    success:function(data){}//data接收ajax响应返回的数据
+});
+```
 
 注意:当a标签发生点击事件时,要做ajax验证,则href属性值应设为:
 

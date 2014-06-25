@@ -17,6 +17,7 @@
 * [《数据库系统概念》](http://book.douban.com/subject/1929984/)
 * [《图解TCP/IP》](http://book.douban.com/subject/24737674/)
 * [《精通正则表达式》](http://book.douban.com/subject/2154713/)
+* [七周七语言](http://book.douban.com/subject/10555435/)
 
 前端设计:<http://www.lbsvision.com/hao>
 

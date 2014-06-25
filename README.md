@@ -24,13 +24,20 @@
 ★★★★★
 
 ☆☆  
+###阅读
+####关于面试
+- [] [2012-09至2012-10求职那些事](http://srhang.iteye.com/blog/1705651)
 
-- [ ] 阅读:http://ejohn.org/blog/write-code-every-day/
-- [ ] http://elrumordelaluz.github.io/csshake/#1
+####技术感悟
 - [ ] [陆其明](http://blog.csdn.net/happydeer)
-- [ ] http://www.csdn.net/article/2014-06-13/2820217
+- [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
+- [ ] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)
 - [ ] [草榴社区](http://cl.man.lv/)
 - [ ] [程序员的十个层次](http://jianshu.io/p/xTNAyU)
+
+###大前端
+####css效果
+* [shake](http://elrumordelaluz.github.io/csshake/#1)
 
 感慨: 一直在不停的编程做项目，却并没有去仔细去思考:为什么要做这些项目，为什么不沿用以前的而是要重新开发,这些项目都是用来满足怎样的需求的，自己在项目开发中又学到了什么？
 

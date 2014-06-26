@@ -14,5 +14,6 @@
 - [ ] [《精通正则表达式》](http://book.douban.com/subject/2154713/)
 - [ ] [《七周七语言》](http://book.douban.com/subject/10555435/)
 - [ ] [《Vim实用技巧》](http://book.douban.com/subject/25869486/)
+- [ ] [《黑客与画家》](https://read.douban.com/ebook/387525/)
 
 ★★★★★☆☆  

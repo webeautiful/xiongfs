@@ -104,7 +104,7 @@ Arguments:
 
 **onUploadSuccess**
 
-desc:每上传成功一个文件,就触发一次该事件。默认显示' - Complete'
+desc:每上传成功一个文件,就触发一次该事件。(表示向uploader属性定义的上传处理程序发送请求成功.)默认显示' - Complete'
 
 Arguments:
 * file -- 上传成功的文件对象

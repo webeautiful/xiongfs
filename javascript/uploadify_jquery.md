@@ -205,6 +205,13 @@ onDialogClose事件的L605
 Some files were not added to the queue:
 The file "tux-joker_1280.png" exceeds the size limit
 
+4.uploadify上传大文件时失败（如：10M的图片）
+原因1：上传文件格式验证时，没有考虑后缀名不区分大小写的情况(如：jpg,JPG格式)
+原因2:php.ini配置引起,需修改：
+upload_max_filesize = 10M ,默认为2M
+post_max_size = 10M ,默认为8M
+memory_limit = 128M
+
 ##自定义属性和事件
 **buttonTemplate**
 

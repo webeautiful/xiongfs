@@ -21,6 +21,10 @@
 - [ ] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)
 - [ ] [草榴社区](http://cl.man.lv/)
 - [ ] [程序员的十个层次](http://jianshu.io/p/xTNAyU)
+* [Linus，一生只为寻找欢笑](http://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=200486872&idx=1&sn=36d0b252a62847df9aad9f83ef7b9a62)
+* [Linus，走进硅谷](http://www.aiweibang.com/yuedu/tech/780509.html)
+* [财富到来，巨星碰撞](http://www.wtoutiao.com/a/310222.html)
+* [程序员在国外：硅谷的那些中国程序员](http://blog.jobbole.com/68092/)
 
 ###大前端
 ####css效果

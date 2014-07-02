@@ -25,11 +25,16 @@
 * [Linus，走进硅谷](http://www.aiweibang.com/yuedu/tech/780509.html)
 * [财富到来，巨星碰撞](http://www.wtoutiao.com/a/310222.html)
 * [程序员在国外：硅谷的那些中国程序员](http://blog.jobbole.com/68092/)
+* [学习豆瓣好榜样–网站架构](http://dbanotes.net/arch/douban_arch.html)
+* [Facebook 架构学习](http://dbanotes.net/arch/facebook_arch_note.html)
 
 ###大前端
 ####css效果
 
 * [shake](http://elrumordelaluz.github.io/csshake/#1)
+
+###网络工具
+* [代码搜索引擎](https://searchcode.com/)
 
 感慨: 一直在不停的编程做项目，却并没有去仔细去思考:为什么要做这些项目，为什么不沿用以前的而是要重新开发,这些项目都是用来满足怎样的需求的，自己在项目开发中又学到了什么？
 

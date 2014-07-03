@@ -39,7 +39,11 @@
 * [shake](http://elrumordelaluz.github.io/csshake/#1)
 
 ###网络工具
-* [代码搜索引擎](https://searchcode.com/)
+######代码搜索引擎
+* [searchcode](https://searchcode.com/)
+* [krugle](http://www.krugle.org/)
+* [ohloh](http://code.ohloh.net/)
+* [github-search](https://github.com/search)
 
 感慨: 一直在不停的编程做项目，却并没有去仔细去思考:为什么要做这些项目，为什么不沿用以前的而是要重新开发,这些项目都是用来满足怎样的需求的，自己在项目开发中又学到了什么？
 

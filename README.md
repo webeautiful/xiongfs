@@ -32,6 +32,7 @@
 * [程序员在国外：硅谷的那些中国程序员](http://blog.jobbole.com/68092/)
 * [学习豆瓣好榜样–网站架构](http://dbanotes.net/arch/douban_arch.html)
 * [Facebook 架构学习](http://dbanotes.net/arch/facebook_arch_note.html)
+* [基于NodeJS的前后端分离，共6篇](http://ued.taobao.org/blog/2014/04/full-stack-development-with-nodejs/)
 
 ###大前端
 ####css效果

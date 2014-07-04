@@ -5,6 +5,8 @@
 * [博客-伯乐在线](http://blog.jobbole.com/)
 * [UC技术博客](http://tech.uc.cn/)
 * [oilbeater](http://oilbeater.com/index.html)
+* [互联网安全](http://www.freebuf.com/)
+* [GEEK头条](http://geek.csdn.net/)
 
 前端设计:<http://www.lbsvision.com/hao>
 
@@ -36,6 +38,7 @@
 * [知道创宇研发技能表](blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html)
 
 ###大前端
+* [前端知识体系](http://ecomfe.duapp.com/)
 ####css效果
 
 * [shake](http://elrumordelaluz.github.io/csshake/#1)

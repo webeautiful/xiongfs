@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关联云平台商品</title>
+<link href="/static/css/zt_demo.css" type="text/css" rel="stylesheet" />
+<link href="/static/css/shopBackground.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/static/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="/static/js/common.js"></script>
+</head>
+<body>
+<div class="ztdemo_page xnCommentPage">
+    <div class="ztdemo_title data_imgdel">
+        <span>关联云平台商品</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <?php if($flag == 2):?>
+        <a href="/index.php/data/data_goods_list?<?php echo $uri;?>">返回</a>
+        <?php endif;?>
+    </div>
+    <!--商品列表内容区  start-->
+    <div class="dataGoodst">
+        <div class="dataTitle"> <b>商城店铺：</b>
+        <?php echo $storeName['store_name'];?>
+        </div>
+        <?php if($flag == 2):?>
+        <div class="dataTitle"> <b>商城商品：</b>
+        <?php echo $goods['goods_name'];?>
+        </div>
+        <?php endif;?>
+    </div>
+    <div class="ztdemo_list">
+        <form action="/index.php/data/data_goods_yun_product_select?<?php echo $comUri;?>" method="post">
+            <div class="ztdemo_list_title xnCommentAudit">
+                <span>
+                    商户云编号：
+                    <select class="ztdemo_set_select" name="yunid">
+                        <?php foreach($merchantId as $v):?>
+                        <option value="<?php echo $v['ljyun_id'];?>" <?php if($yunId == $v['ljyun_id']):?>selected="selected"<?php endif;?>><?php echo $v['ljyun_id'];?></option>
+                        <?php endforeach;?>
+                    </select>
+                </span>
+                <span class="ztdemo_list_title2">
+                    <select class="ztdemo_set_select" name="ptype">
+                        <option value="1" <?php if($pType == 1):?>selected="selected"<?php endif;?>>标准商品</option>
+                        <!--
+                        <option value="2" <?php if($pType == 2):?>selected="selected"<?php endif;?>>材料</option>
+                        <option value="3" <?php if($pType == 3):?>selected="selected"<?php endif;?>>配件</option>
+                        -->
+                    </select>
+                </span>
+                <span class="ztdemo_list_title2">
+                    商品名称：
+                    <input type="text" class="input_wid" name="pname" value="<?php echo $pName;?>"/>
+                </span>
+                <span class="ztdemo_list_title2">
+                    商品型号：
+                    <input type="text" class="input_wid" name="pmodel" value="<?php echo $pModel;?>"/>
+                </span>
+                <!--查询 按钮-->
+                <div class="inquire_button inquire_button_newzt">
+                    <span><img src="/static/images/button_08.png" /></span><input type="submit" class="inquire_text" value="查询"/><span><img src="/static/images/button_10.png" /></span>
+                </div>
+                <div class="inquire_button inquire_button_newzt">
+                    <span><img src="/static/images/button_08.png" /></span><input type="button" class="inquire_text" value="查看全部" onclick="jvascript:window.location.href='/index.php/data/data_goods_yun_product_select?<?php echo $comUri;?>'"/><span><img src="/static/images/button_10.png" /></span>
+                </div>
+                <span class="tsr <?php if($total != 0):?>dis<?php endif;?>">未查询到相关信息</span>
+            </div>
+        </form>
+        <!--table列表页 start-->
+        <div class="ztdemo_shop_div">
+            <table width="100%" id="zebra" class="ztdemo_shop_table">
+                <tr>
+                    <th width="15%">商品名称</th>
+                    <th width="10%">分类</th>
+                    <th width="10%">零售价</th>
+                    <!--
+                    <th width="10%">促销价</th>
+                    <th width="10%">促销日期</th>
+                    -->
+                    <th width="10%">型号</th>
+                    <th width="10%">规格</th>
+                    <th width="25%">操作</th>
+                </tr>
+                <!--隔行换色 循环部分 审核状态 start-->
+                <?php foreach($list as $v):?>
+                <tr>
+                    <td><?php echo $v['product_name'];?></td>
+                    <td><?php echo $v['pt_name'];?></td>
+                    <td>￥<?php echo $v['offer_price'];?></td>
+                    <!--
+                    <td>
+                        ￥800.00（特价商品）
+                        <br/>
+                        ￥820.00（整体优惠）
+                    </td>
+                    <td>
+                        2014-05-20 至  05-30
+                        <br/>
+                        2014-05-20 至  05-30
+                    </td>
+                    -->
+                    <td><?php echo $v['product_model'];?></td>
+                    <td><?php echo $v['product_specification'];?></td>
+                    <td class="ztdemo_shop_a">
+                        <a href="javascript:void(0)" onclick="select(<?php echo $v['product_id'];?>, '<?php echo urlencode($v["product_model"]);?>')">选择</a>
+                    </td>
+                </tr>
+                <?php endforeach;?>
+                <!--隔行换色 循环部分 end-->
+                <!--审核状态 end-->
+            </table>
+        </div>
+        <!--table列表页 end-->
+    </div>
+    <!--商品列表内容区  end-->
+    <!--分页 start-->
+    <div class="paging">
+        <div class="paging_right">
+            共 <em><?php echo $total;?></em>个项目
+            <?php echo $pageInfo;?>
+        </div>
+    </div>
+    <!--分页 end-->
+</div>
+<script type="text/javascript">
+//隔行换色
+getColor('even','zebra','shop_table_hs');
+function select(proId,proModel)
+{
+    if(confirm('是否确认挂接关系?'))
+    {
+        window.location.href = '/index.php/data/data_goods_yun_product_select/select?pid='+proId+'&pmdl='+proModel+"&<?php echo $uriSeg.'&offset='.$offset;?>";
+    }
+    else
+    {
+        return false;
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>数据打通管理-添加图片</title>
+<link href="/static/css/zt_demo.css" type="text/css" rel="stylesheet" />
+<link href="/static/css/shopBackground.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/static/js/jquery-1.9.0.min.js"></script>
+<script src="/static/js/uploadify/jquery.uploadify.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/static/js/uploadify/uploadify.css">
+</head>
+<body>
+<div class="ztdemo_page">
+    <div class="ztdemo_title data_imgdel">
+        <span>添加图片</span>
+    </div>
+    <div class="add-data none">
+        <div class="inquire_button inquire_button_newzt add-data-button none">
+            <input id="upload" type="file" name="file_upload" multiple="true" />
+        </div><span class="tsc">仅允许上传jpg、png、gif格式图片，且图片大小不能超过10M</span>
+    </div>
+    <form id="form" action="/index.php/data/data_goods_img_add/save" method="post">
+    <div class="ztdemo_list">
+        <div id="queue" class="img-add-content max-height"></div>
+        <div class="datashop-add-infor noborder small-width">
+            <p>
+                <span>图片组编号：</span><?php echo $groupNum;?><b class="ts last-mar">提示：请记住后三位数字，以便于您在上传图片时方便查找图片组</b>
+                <input type="hidden" name="groupnum" value="<?php echo $groupNum;?>"/>
+                <input type="hidden" name="username" value="<?php echo $username;?>"/>
+            </p>
+            <p>
+                <span>备注：</span><input id="remark" type="text" class="bz-text" name="remark" value=""/><b id='hint' class="ts">提示：字数尽量控制在50个字之内</b><span id="errmsg" class="tsr" style="width:112px;"></span>
+            </p>
+        </div>
+        <div class="ztdemo_an xnUserNo">
+            <!-- 保存按钮 -->
+            <div class="save_button">
+                <span><img src="/static/images/button_03.png"></span><input id="save" type="submit" id="save" class="save_text" value="保存"><span><img src="/static/images/button_05.png"></span>
+            </div>
+            <!-- 返回按钮-->
+            <div class="back_button">
+                <span><img src="/static/images/button_07.png"></span><input id="back" type="button" class="back_text" onclick="javascript:window.location.href='/index.php/data/data_goods_img_group_list'" value="返回" /><span><img src="/static/images/button_09.png"></span>
+            </div>
+        </div>
+    </div>
+    </form>
+</div>
+<script type="text/javascript">
+$(function(){
+    $('#upload').uploadify({
+        'swf':'/static/js/uploadify/uploadify.swf',
+        'uploader':'/index.php/data/data_goods_img_add/uploadImg',//图片上传处理程序
+        'fileObjName' : 'img',//接收图片使用的文件对象名
+        'formData' : {//附带传入的值
+            'group' : '<?php echo $groupNum;?>'
+        },
+        //设置上传队列是否自动移除
+        'removeCompleted':false,
+        'fileSizeLimit' : '10MB',//上传文件大小限制
+        'fileTypeExts' : '*.jpg;*.JPG;*.png;*.PNG;*.gif;*.GIF',//限制上传文件的类型,选择框会自动过滤
+        //设置上传按钮模板
+        'buttonTemplate':'<span><img src="/static/images/button_08.png"></span><input type="button" class="inquire_text" value="上传图片"><span><img src="/static/images/button_10.png"></span>',
+        //文件上传队列容器及上传条模板
+        'queueID':'queue',
+        'itemTemplate':'<div id="${fileID}" class="img-add-div"><p class="img-add-show"><img/></p><p class="img-add-text">${fileName}</p><span class="tsr nomar"></span></div>',
+        'onSelectError' : function(file,errorCode,errorMsg)
+        {//选择文件返回错误时触发,此时文件尚未纳入上传队列,不会显示上传模块
+            switch(errorCode)
+            {
+                case -110://文件尺寸超限
+                    alert('图片"'+file.name+'"的尺寸超过10MB');
+                    break;
+                case -130://文件类型不在设置的范围内
+                    alert('图片"'+file.name+'"不在设置范围('+settings.fileTypeDesc+')内');
+                    break;
+            }
+        },
+        'onUploadStart' : function(file)
+        {//队列中每一个文件被上传之前的瞬间触发
+            $('#' + file.id).find('.tsr').html('上传中 ...');
+        },
+        'onUploadSuccess' : function(file,data,response)
+        {//data为uploader属性指向的php处理程序返回的值
+            var arr = data.split('___');
+            var path = arr[0];
+            var imgName = arr[1];
+            if(path == 0)
+            {
+                alert(imgName);
+                $('#' + file.id).find('.tsr').html('上传失败');
+            }
+            else
+            {
+                $('#' + file.id).find('.tsr').html('上传成功');
+                //将图片原图存放位置放入隐藏域
+                $('#'+file.id).append('<input class="hidden" type="hidden" name="pic[]" value="'+path+imgName+'"/>');
+                //显示缩略图
+                $('#' + file.id).find('img').attr('src','<?php echo rtrim(IMG_URL,'/')."/";?>'+path+'middle_'+imgName);
+            }
+        },
+        'onUploadError' : function(file,errorCode,errorMsg,errorString)
+        {
+            $('#' + file.id).find('.tsr').html('上传失败');
+        },
+        'overrideEvents': ['onDialogClose','onSelectError','onUploadStart','onUploadSuccess','onUploadError','isCheckRename']
+    });
+    //当鼠标进入任意class属性为img-add-div的元素时，该元素出现粗线灰色框
+    $('#queue').delegate('div.img-add-div','mouseover',function(){
+        $(this).addClass('img-add-hover');
+    });
+    $('#queue').delegate('div.img-add-div','mouseout',function(){
+        $(this).removeClass('img-add-hover');
+    });
+    //提交前验证
+    $('#form').submit(function(){
+        var remark = $('#remark').val();
+        if(remark.length > 50)
+        {
+            $('#hint').html('');
+            $('#errmsg').html('备注需小于50个汉字');
+            return false;
+        }
+        else
+        {
+            if(confirm('是否确定保存该信息?'))
+            {
+                $('#save').val('处理中...');
+                $('#back').attr('disabled','disabled');
+                return true;
+            }
+            else
+            {
+                $('#errmsg').html('');
+                $('#hint').html('提示：字数尽量控制在50个字之内');
+                return false;
+            }
+        }
+    })
+});
+</script>
+</body>
+</html>

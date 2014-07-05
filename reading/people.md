@@ -8,6 +8,7 @@ The force of example
 ######Joel Spolsky(周思博)
 ######Jeff Atwood
 * *StackOverflowu*创始人之一
+
 ######John Resig
 * jQuery创始人
 * 可汗学院计算机科学学院院长

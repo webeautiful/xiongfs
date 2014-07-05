@@ -7,7 +7,7 @@ The force of example
 ######Dave Thomas
 ######Joel Spolsky(周思博)
 ######Jeff Atwood
-* *StackOverflowu*创始人之一
+* *StackOverflow*创始人之一
 
 ######John Resig
 * jQuery创始人

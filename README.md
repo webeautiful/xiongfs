@@ -25,7 +25,7 @@
 ####技术感悟
 - [ ] [陆其明](http://blog.csdn.net/happydeer)
 - [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
-- [ ] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)
+- [x] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)
 - [ ] [草榴社区](http://cl.man.lv/)
 - [ ] [程序员的十个层次](http://jianshu.io/p/xTNAyU)
 * [Linus，一生只为寻找欢笑](http://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=200486872&idx=1&sn=36d0b252a62847df9aad9f83ef7b9a62)

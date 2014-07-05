@@ -22,7 +22,7 @@
 * [拉钩](http://www.lagou.com/)
 * [内推网](http://www.neitui.me/)
 
-####技术感悟
+####程序员素养，管理和技术感悟
 - [ ] [陆其明](http://blog.csdn.net/happydeer)
 - [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
 - [x] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)

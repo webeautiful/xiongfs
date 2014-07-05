@@ -7,6 +7,15 @@
 - [ ] [《深入理解计算机系统》](http://book.douban.com/subject/5333562/)
 - [ ] [《算法引论》](http://book.douban.com/subject/4178907/)
 
+网站架构类
+----------
+- [] [淘宝技术这十年](http://read.douban.com/ebook/1281060/?dcs=subject-rec&dcm=douban&dct=4889838)
+
+程序员素养，管理和技术感悟
+--------------------------
+- [] [高效能程序员的修炼](http://book.douban.com/subject/24868904/ "Jeff Atwood")
+- [] [程序员的修炼——从优秀到卓越](http://book.douban.com/subject/25880845/ "Jeff Atwood")
+
 其他杂项
 --------
 - [ ] [《数据库系统概念》](http://book.douban.com/subject/1929984/)

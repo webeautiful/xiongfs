@@ -6,6 +6,9 @@
 
 ##资料
 [TIPI](http://www.php-internals.com/book/)
+[SOLID原则](http://www.cnblogs.com/shanyou/archive/2009/09/21/1570716.html)
+[浅述PHP设计模式系列](http://bardo.iteye.com/blog/891656)
+[PHP网站MVC架构模式中的种种误区](http://bardo.iteye.com/blog/968423)
 
 ######第一次在实际项目中用到递归,很少接触到算法，因此耗了我不少时间和脑细胞
 

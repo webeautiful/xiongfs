@@ -351,6 +351,25 @@ example 4
 
 ~~删除线~~
 
+##表情符号([emoji查询](http://www.emoji-cheat-sheet.com/))
+```
+:smile:
+:tropical_fish:
+:watermelon:
+:cn:
+:100:
+:clock530:
+/play horn
+```
+
+:smile:
+:tropical_fish:
+:watermelon:
+:cn:
+:100:
+:clock530:
+/play horn
+
 ##参考文献
 >
 * [书写博客的神器](http://upwith.me/?p=503)
@@ -358,10 +377,12 @@ example 4
 * [markdown代码及效果](http://www.ituring.com.cn/article/23)
 * [Markdown语法说明（详解版）][1]
 * [GitHub 风格的 Markdown 语法][2]
+* [Github支持的表情符号][3]
 >
 
 [1]:http://www.ituring.com.cn/article/504
 [2]:https://github.com/cssmagic/blog/issues/13
+[3]:http://www.emoji-cheat-sheet.com/
 
 @author:熊福松  
 @date:2014-05-25

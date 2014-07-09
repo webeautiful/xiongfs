@@ -65,6 +65,8 @@
 
 `SF0870-AEI    H03#·`
 
+* [test](http://xfs.cn/test/b.php)
+
 :beer:
 
 ★★★★☆☆

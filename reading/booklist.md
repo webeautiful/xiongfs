@@ -3,6 +3,7 @@
 基础篇
 ------
 - [x] [《鸟哥的Linux私房菜.基础学习篇（第三版）》](http://book.douban.com/subject/4889838/)
+- [ ] [javascript 权威指南]()
 - [x] [《HeadFirst设计模式》](http://book.douban.com/subject/2243615/)
 - [ ] [《深入理解计算机系统》](http://book.douban.com/subject/5333562/)
 - [ ] [《算法引论》](http://book.douban.com/subject/4178907/)

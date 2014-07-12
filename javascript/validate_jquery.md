@@ -207,6 +207,18 @@ IP地址验证
             return this.optional(element) || (chrnum.test(value));
         }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
 
+######原生js
+浏览器不支持string对象的trim方法的处理
+```javascript
+if(typeof String.prototype.trim == 'undefined')
+{
+    String.prototype.trim = function()
+    {
+        return this.replace(/^\s\s*/,'').replace(/\s\s*$/,'');
+    }
+}
+```
+
 #####提示语的样式与定位
 当表单默认显示黄色字体的提示(ts),验证不可为空/标签分类名称已存在时,提示语包含如下
 

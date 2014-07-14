@@ -70,5 +70,7 @@
 
 :beer:
 
+* [免费电子书](http://www.chnxp.com.cn/)
+
 ★★★★☆☆
 ★★★★☆☆

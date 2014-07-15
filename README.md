@@ -30,14 +30,15 @@
 - [x] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)
 - [ ] [草榴社区](http://cl.man.lv/)
 - [ ] [程序员的十个层次](http://jianshu.io/p/xTNAyU)
-* [Linus，一生只为寻找欢笑](http://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=200486872&idx=1&sn=36d0b252a62847df9aad9f83ef7b9a62)
-* [Linus，走进硅谷](http://www.aiweibang.com/yuedu/tech/780509.html)
-* [财富到来，巨星碰撞](http://www.wtoutiao.com/a/310222.html)
+* [x] [Linus，一生只为寻找欢笑](http://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=200486872&idx=1&sn=36d0b252a62847df9aad9f83ef7b9a62)
+* [x] [Linus，走进硅谷](http://www.aiweibang.com/yuedu/tech/780509.html)
+* [x] [财富到来，巨星碰撞](http://www.wtoutiao.com/a/310222.html)
 * [程序员在国外：硅谷的那些中国程序员](http://blog.jobbole.com/68092/)
 * [学习豆瓣好榜样–网站架构](http://dbanotes.net/arch/douban_arch.html)
 * [Facebook 架构学习](http://dbanotes.net/arch/facebook_arch_note.html)
 * [基于NodeJS的前后端分离，共6篇](http://ued.taobao.org/blog/2014/04/full-stack-development-with-nodejs/)
 * [知道创宇研发技能表](blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html)
+* [ ] [(连载)Mac OS X 背后的故事](http://www.programmer.com.cn/6727/)
 
 ###大前端
 * [前端知识体系](http://ecomfe.duapp.com/)

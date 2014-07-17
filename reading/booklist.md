@@ -27,12 +27,12 @@
 - [ ] [《Vim实用技巧》](http://book.douban.com/subject/25869486/)
 - [ ] [《黑客与画家》](https://read.douban.com/ebook/387525/)
 
+书资源
+------
+- [ ] [infoq迷你书](http://www.infoq.com/cn/minibooks?utm_source=infoq&utm_medium=breadcrumbs_feature&utm_campaign=breadcrumbs)
+- [浩扬电子书城]('chnxp.com.cn')
+
 技术牛人
 --------
-Steve Yegge  
-Peter Norvig  
-Dave Thomas  
-Joel Spolsky(周思博)  
-Jeff Atwood  
 
 ★★★★★☆☆

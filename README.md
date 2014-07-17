@@ -42,6 +42,8 @@
 
 ###纯技术
 * [ ] [Linux查看CPU和内存使用情况](http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html)
+* [ ] [C语言基础教程](http://computer.howstuffworks.com/c23.htm/printable)
+* [ ] [最佳实践：更好的设计你的 REST API](http://www.ibm.com/developerworks/cn/web/1103_chenyan_restapi/)
 
 ###大前端
 * [前端知识体系](http://ecomfe.duapp.com/)

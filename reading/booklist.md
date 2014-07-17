@@ -29,8 +29,8 @@
 
 书资源
 ------
-- [ ] [infoq迷你书](http://www.infoq.com/cn/minibooks?utm_source=infoq&utm_medium=breadcrumbs_feature&utm_campaign=breadcrumbs)
-- [浩扬电子书城]('chnxp.com.cn')
+- [infoq迷你书](http://www.infoq.com/cn/minibooks?utm_source=infoq&utm_medium=breadcrumbs_feature&utm_campaign=breadcrumbs)
+- [浩扬电子书城](/booklist.md 'chnxp.com.cn')
 
 技术牛人
 --------

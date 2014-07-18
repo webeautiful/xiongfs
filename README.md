@@ -15,15 +15,15 @@
 ★★★★★
 
 ☆☆  
-###阅读
-####关于面试
-* [2012-09至2012-10求职那些事](http://srhang.iteye.com/blog/1705651)
 
-####互联网招聘网站
+###互联网招聘网站
 * [拉钩](http://www.lagou.com/)
 * [内推网](http://www.neitui.me/)
 * [自助招聘求职](https://jobsdigg.com/)
 
+###阅读
+####关于面试
+* [2012-09至2012-10求职那些事](http://srhang.iteye.com/blog/1705651)
 ####程序员素养，管理和技术感悟
 - [ ] [陆其明](http://blog.csdn.net/happydeer)
 - [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)

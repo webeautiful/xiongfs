@@ -1,6 +1,9 @@
 #学习git的原理和使用
 
 
+###Git远程命令
+* [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
+
 ###Git命令
 
 - git checkout -b newbranch 新建分支(增)

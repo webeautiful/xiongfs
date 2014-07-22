@@ -3,6 +3,13 @@
 * [PHP中该怎样防止SQL注入？](http://www.admin10000.com/document/4451.html)
 * [每个PHP开发者都应该看的书](http://www.admin10000.com/document/4566.html)
 
+###RESTful架构
+* [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+* [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+* [李锟谈Fielding博士REST论文中文版发布](http://www.infoq.com/cn/news/2007/07/dlee-fielding-rest)
+* [深入浅出REST](http://www.infoq.com/cn/articles/rest-introduction)
+* [解答有关REST的十点疑惑](http://www.infoq.com/cn/articles/tilkov-rest-doubts)
+
 ##资料
 [TIPI](http://www.php-internals.com/book/)
 [SOLID原则](http://www.cnblogs.com/shanyou/archive/2009/09/21/1570716.html)

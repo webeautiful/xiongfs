@@ -5,10 +5,11 @@
 * [博客-伯乐在线](http://blog.jobbole.com/)
 * [UC技术博客](http://tech.uc.cn/)
 * [oilbeater](http://oilbeater.com/index.html)
-* [互联网安全](http://www.freebuf.com/)
 * [GEEK头条](http://geek.csdn.net/)
+* [互联网安全](http://www.freebuf.com/)
 * [justjavac](http://justjavac.com/)
 * [月光博客](http://www.williamlong.info/)
+* [web开发者](http://www.admin10000.com/)
 
 前端设计:<http://www.lbsvision.com/hao>
 

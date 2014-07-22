@@ -4,6 +4,10 @@
 
 * 使用php QRcode类库生成二维码 [`项目地址`](http://phpqrcode.sourceforge.net/)  [`源码下载`](http://sourceforge.net/projects/phpqrcode/)
 
+####php安全
+* [PHP中该怎样防止SQL注入？](http://www.admin10000.com/document/4451.html)
+* [每个PHP开发者都应该看的书](http://www.admin10000.com/document/4566.html)
+
 ##资料
 [TIPI](http://www.php-internals.com/book/)
 [SOLID原则](http://www.cnblogs.com/shanyou/archive/2009/09/21/1570716.html)

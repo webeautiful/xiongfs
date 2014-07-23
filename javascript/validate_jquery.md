@@ -215,6 +215,7 @@ if(typeof String.prototype.trim == 'undefined')
     String.prototype.trim = function()
     {
         return this.replace(/^\s\s*/,'').replace(/\s\s*$/,'');
+        //return this.replace(/^\s+|\s+$/g, '');
     }
 }
 ```

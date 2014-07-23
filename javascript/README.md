@@ -10,5 +10,6 @@ js中实现php函数echo(),print_r(),var_dump(),调试起来很方便(位于ci_d
 
 ##资源
 * [阮一峰的js教程](https://github.com/ruanyf)
+* [ECMAScript 6入门](http://es6.ruanyifeng.com/)
 * [JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
 

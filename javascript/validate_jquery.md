@@ -208,7 +208,7 @@ IP地址验证
         }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
 
 ######原生js
-浏览器不支持string对象的trim方法的处理
+浏览器不支持string对象的trim方法时,给内置String函数的prototype扩展一个trim方法:
 ```javascript
 if(typeof String.prototype.trim == 'undefined')
 {

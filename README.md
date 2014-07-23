@@ -10,8 +10,7 @@
 * [justjavac](http://justjavac.com/)
 * [月光博客](http://www.williamlong.info/)
 * [web开发者](http://www.admin10000.com/)
-
-前端设计:<http://www.lbsvision.com/hao>
+* [UX站导航](http://www.lbsvision.com/hao)
 
 ★★★★★
 
@@ -25,6 +24,7 @@
 ###阅读
 ####关于面试
 * [2012-09至2012-10求职那些事](http://srhang.iteye.com/blog/1705651)
+
 ####程序员素养，管理和技术感悟
 - [ ] [陆其明](http://blog.csdn.net/happydeer)
 - [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
@@ -44,7 +44,6 @@
 ###纯技术
 * [ ] [Linux查看CPU和内存使用情况](http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html)
 * [ ] [C语言基础教程](http://computer.howstuffworks.com/c23.htm/printable)
-* [ ] [最佳实践：更好的设计你的 REST API](http://www.ibm.com/developerworks/cn/web/1103_chenyan_restapi/)
 
 ###大前端
 * [前端知识体系](http://ecomfe.duapp.com/)

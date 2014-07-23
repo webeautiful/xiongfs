@@ -9,6 +9,7 @@
 * [李锟谈Fielding博士REST论文中文版发布](http://www.infoq.com/cn/news/2007/07/dlee-fielding-rest)
 * [深入浅出REST](http://www.infoq.com/cn/articles/rest-introduction)
 * [解答有关REST的十点疑惑](http://www.infoq.com/cn/articles/tilkov-rest-doubts)
+* [最佳实践：更好的设计你的 REST API](http://www.ibm.com/developerworks/cn/web/1103_chenyan_restapi/)
 
 ##资料
 [TIPI](http://www.php-internals.com/book/)

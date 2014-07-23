@@ -40,6 +40,7 @@
 * [基于NodeJS的前后端分离，共6篇](http://ued.taobao.org/blog/2014/04/full-stack-development-with-nodejs/)
 * [知道创宇研发技能表](blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html)
 * [ ] [(连载)Mac OS X 背后的故事](http://www.programmer.com.cn/6727/)
+* [ ][悟透JavaScript - 李战](http://www.cnblogs.com/leadzen/archive/2008/02/25/1073404.html)
 
 ###纯技术
 * [ ] [Linux查看CPU和内存使用情况](http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html)

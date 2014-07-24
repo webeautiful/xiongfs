@@ -1,6 +1,6 @@
 @Created by "Mr.熊" in 2014-01-25.  
 ★★★★★  
-[快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)
+[快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)  
 ★★★★★  
 ###资讯类
 * [Startup News](http://news.dbanotes.net/)

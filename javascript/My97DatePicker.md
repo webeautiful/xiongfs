@@ -11,3 +11,6 @@
 ```javascript
 <input type="text" class="Wdate" id="d4322" onFocus="WdatePicker({minDate:'#F{$dp.$D(\'d4321\',{d:3});}'})"/>
 ```
+###自定义的时间中有效的函数
+
+$dp.cal.getP('w','w'):返回0-6的数字,表示周日~周六

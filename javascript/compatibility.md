@@ -2,6 +2,8 @@
 ======
 setAttribute
 
+option元素在IE6~8没有click事件，给select加onchange事件
+
 ```javascript
 //for IE
 if(!Array.indexOf)

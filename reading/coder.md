@@ -9,4 +9,5 @@
 * [github](https://github.com/jayli)
 * [blog](http://jayli.github.io/blog/index.html)
 * [《犀牛书第六版》](http://book.douban.com/subject/10549733/)
+* [taobaoUED](http://ued.taobao.com/blog/author/bachi/)
 

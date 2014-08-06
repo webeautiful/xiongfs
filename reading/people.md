@@ -3,6 +3,7 @@ The force of example
 技术牛人
 -------
 ######Steve Yegge
+* Amazon前员工，现任Google员工
 * [SteveY对Amazon和Google平台的吐槽](http://coolshell.cn/articles/5701.html)
 * [《程序员的呐喊》](http://book.douban.com/subject/25884108/)
 

@@ -24,6 +24,7 @@
 * [内推网](http://www.neitui.me/)
 * [自助招聘求职](https://jobsdigg.com/)
 * [蓝色理想](http://job.blueidea.com/)
+* [周伯通](http://www.jobtong.com/)
 
 ###阅读
 ####关于面试

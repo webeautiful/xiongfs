@@ -10,7 +10,7 @@ IE9以下的版本不支持数组的indexOf()方法
 
 ```javascript
 //for IE
-if(!Array.indexOf)
+if(!Array.prototype.indexOf)
 {
     Array.prototype.indexOf = function(obj)
     {

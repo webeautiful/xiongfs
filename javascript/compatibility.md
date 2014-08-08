@@ -2,11 +2,11 @@
 ======
 setAttribute
 
-option元素在IE6~8没有click事件，给select加onchange事件
+一. option元素在IE6~8没有click事件，给select加onchange事件
 
-IE9以下的版本不支持数组的indexOf()方法
+二. IE9以下的版本不支持数组的indexOf()方法
 
-方法一:
+方法1:
 
 ```javascript
 //for IE
@@ -26,7 +26,7 @@ if(!Array.prototype.indexOf)
 }
 ```
 
-方法二:
+方法2:
 
 ```javascript
 if (!Array.prototype.indexOf)
@@ -44,5 +44,17 @@ if (!Array.prototype.indexOf)
         }
         return -1;
     };
+}
+```
+
+三. 浏览器不支持string对象的trim方法时,给内置String函数的prototype扩展一个trim方法:
+```javascript
+if(typeof String.prototype.trim == 'undefined')
+{
+    String.prototype.trim = function()
+    {
+        return this.replace(/^\s\s*/,'').replace(/\s\s*$/,'');
+        //return this.replace(/^\s+|\s+$/g, '');
+    }
 }
 ```

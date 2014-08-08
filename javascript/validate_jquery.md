@@ -201,11 +201,12 @@ IP地址验证
         }, "Ip地址格式错误");
 
 字母和数字的验证
-
-    jQuery.validator.addMethod("chrnum", function(value, element) {
-            var chrnum = /^([a-zA-Z0-9]+)$/;
-            return this.optional(element) || (chrnum.test(value));
-        }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
+```javascript
+jQuery.validator.addMethod("chrnum", function(value, element) {
+        var chrnum = /^([a-zA-Z0-9]+)$/;
+        return this.optional(element) || (chrnum.test(value));
+    }, "只能输入数字和字母(字符A-Z, a-z, 0-9)");
+```
 
 #####提示语的样式与定位
 当表单默认显示黄色字体的提示(ts),验证不可为空/标签分类名称已存在时,提示语包含如下

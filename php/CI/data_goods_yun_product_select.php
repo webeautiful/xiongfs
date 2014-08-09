@@ -20,6 +20,7 @@ class Data_goods_yun_product_select extends MY_Controller
         $this->load->model('ecmall/mall_goods_yun_product_relation_mdl','gpRelation');
         $this->load->helper('self');
     }
+    // ------------------------------------------------------------------------
     function index()
     {
         $data = $this->_getInput();
@@ -74,6 +75,7 @@ class Data_goods_yun_product_select extends MY_Controller
 
         $this->load->view('data/data_goods_yun_product_select.html',$data);
     }
+    // ------------------------------------------------------------------------
     protected function _getInput()
     {
         //标志符:1.添加时  2.关联时
@@ -105,6 +107,7 @@ class Data_goods_yun_product_select extends MY_Controller
         $data['offset'] = ($this->input->get('offset') !== false) ? intval($this->input->get('offset')) : 0;
         return $data;
     }
+    // ------------------------------------------------------------------------
     /*
     * 标准商品 - 列表输出前预处理
     *
@@ -120,6 +123,7 @@ class Data_goods_yun_product_select extends MY_Controller
         }
         return $list;
     }
+    // ------------------------------------------------------------------------
     /*
     * 递归分类名
     *
@@ -155,6 +159,7 @@ class Data_goods_yun_product_select extends MY_Controller
             return $this->_recursive($cate['pt_fid'],$return,$flag);
         }
     }
+    // ------------------------------------------------------------------------
     /*
     * 操作栏 - 选择
     *

@@ -13,6 +13,7 @@ The force of example
 
 ######Peter Norvig
 * Google 的研究部主管,著名Lisper
+* 计算机科学家和人工智能专家
 * [自学编程，十年磨一剑](http://blog.jobbole.com/22905/)
 
 ######Dave Thomas

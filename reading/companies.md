@@ -1,0 +1,5 @@
+* [聚美优品](http://bj.jumei.com/)
+* [美丽说](http://www.meilishuo.com/)
+* [百度招聘](http://talent.baidu.com/baidu/web/index/CompbaiduPageindex)
+* [腾讯招聘](http://hr.tencent.com/)
+* [搜狐](http://hr.sohu.com/)

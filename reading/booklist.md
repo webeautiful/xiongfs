@@ -27,7 +27,7 @@
 - [x] [《七周七语言》](http://book.douban.com/subject/10555435/)
 - [ ] [《Vim实用技巧》](http://book.douban.com/subject/25869486/)
 - [ ] [《黑客与画家》](https://read.douban.com/ebook/387525/)
-- [远程办公中文版](http://jianshu.io/notebooks/41672/latest)
+- [x][远程办公中文版](http://jianshu.io/notebooks/41672/latest)
 
 书资源
 ------

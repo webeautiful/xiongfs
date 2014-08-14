@@ -24,5 +24,6 @@ The force of example
 ######John Resig
 * jQuery创始人
 * 可汗学院计算机科学学院院长
+* [《精通JavaScript》](http://book.douban.com/subject/3007076/)
 
 ★★★★★☆☆

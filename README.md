@@ -88,5 +88,9 @@
 
 * [电子书](http://www.chnxp.com.cn/)
 
+下载队列:
+
+JavaScript语言精髓与编程实践
+
 ★★★★☆☆
 ★★★★☆☆

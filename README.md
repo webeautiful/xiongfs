@@ -27,6 +27,7 @@
 * [蓝色理想](http://job.blueidea.com/)
 * [周伯通](http://www.jobtong.com/)
 * [腾讯社招](http://imgcache.qq.com/isd/index.html)
+* [码农IO](http://job.manong.io/)
 
 ###阅读
 ####关于面试

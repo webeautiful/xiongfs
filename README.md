@@ -1,6 +1,7 @@
 @Created by "Mr.熊" in 2014-01-25.  
 ★★★★★  
 [快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)  
+[PHP工程师面临的成长瓶颈](http://blog.csdn.net/a923544197/article/details/7497432)
 ★★★★★  
 ###资讯类
 * [Startup News](http://news.dbanotes.net/)

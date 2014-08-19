@@ -54,6 +54,7 @@
 * [ ] [Linux查看CPU和内存使用情况](http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html)
 * [ ] [C语言基础教程](http://computer.howstuffworks.com/c23.htm/printable)
 * [ ] [.NET技术+25台服务器怎样支撑世界第54大网站](http://news.html5tricks.com/donet-25-server-stackoverflow.html)
+* [ ] [简明现代魔法](http://www.nowamagic.net/)
 
 ###大前端
 * [前端知识体系](http://ecomfe.duapp.com/)

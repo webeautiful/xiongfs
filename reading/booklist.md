@@ -28,7 +28,8 @@
 - [ ] [《Vim实用技巧》](http://book.douban.com/subject/25869486/)
 - [ ] [《黑客与画家》](https://read.douban.com/ebook/387525/)
 - [x] [远程办公中文版](http://jianshu.io/notebooks/41672/latest)
-- [ ] [《码农》电子刊](http://www.ituring.com.cn/article/34008)
+- [x] [《码农》电子刊](http://www.ituring.com.cn/article/34008)
+- [x] [《编程狂人》周刊](http://www.tuicool.com/mags)
 
 书资源
 ------

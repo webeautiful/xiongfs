@@ -3,6 +3,7 @@
 
 ###原生js
 * [太极客的理解javascript系列](http://blog.segmentfault.com/nightire/1190000000347914)
+* [JSON不等于JavaScript对象](http://segmentfault.com/a/1190000000440886)
 * [悟透JavaScript - 李战](http://www.cnblogs.com/leadzen/archive/2008/02/25/1073404.html)
 
 ###jquery插件开发

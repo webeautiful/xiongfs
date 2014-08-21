@@ -16,3 +16,8 @@
 * 百姓网CEO
 * [个人博客](http://home.wangjianshuo.com/cn/)
 * [新浪博客](http://blog.sina.com.cn/wangjianshuo)
+
+######玉伯
+* 淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人
+* [sina微博](http://weibo.com/lifesinger)
+* [blog](https://github.com/lifesinger/lifesinger.github.com/issues?q=label%3Ablog)

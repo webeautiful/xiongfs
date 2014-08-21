@@ -56,25 +56,6 @@
 * [ ] [C语言基础教程](http://computer.howstuffworks.com/c23.htm/printable)
 * [ ] [.NET技术+25台服务器怎样支撑世界第54大网站](http://news.html5tricks.com/donet-25-server-stackoverflow.html)
 * [ ] [简明现代魔法](http://www.nowamagic.net/)
-* [悟透JavaScript - 李战](http://www.cnblogs.com/leadzen/archive/2008/02/25/1073404.html)
-
-###大前端
-* [前端知识体系](http://ecomfe.duapp.com/)
-* [司徒正美](http://www.cnblogs.com/rubylouvre/tag/javascript/)
-* [winter-cn](http://www.cnblogs.com/winter-cn/)
-* [W3Cfuns](http://www.w3cfuns.com/portal.php '面试题')
-
-###原生js
-* [太极客的理解javascript系列](http://blog.segmentfault.com/nightire/1190000000347914)
-
-###jquery插件开发
-* [jQuery插件开发全解析](http://www.iteye.com/topic/545971)
-* [jQuery.extend 函数详解](http://www.cnblogs.com/RascallySnake/archive/2010/05/07/1729563.html)
-* [jQuery源码分析-extend函数](http://www.iteye.com/topic/714705)
-* [读jq之二（两种扩展）](http://www.iteye.com/topic/566490)
-* [Think in Jquery](http://www.blogjava.net/OneEyeWolf/archive/2008/07/15/215042.html)
-* [How To Write Plugin in jQuery](http://www.codeproject.com/Articles/291290/How-To-Write-Plugin-in-jQuery)
-* [跟我一起学JQuery插件开发](http://www.cnblogs.com/xiaopohou/articles/2435581.html)
 
 ####css效果
 

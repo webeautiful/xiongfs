@@ -49,6 +49,7 @@
 * [基于NodeJS的前后端分离，共6篇](http://ued.taobao.org/blog/2014/04/full-stack-development-with-nodejs/)
 * [知道创宇研发技能表](blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html)
 * [(连载)Mac OS X 背后的故事](http://www.programmer.com.cn/6727/)
+* [好事要做到底，我们需要full stack的API设计](http://www.blogjava.net/OneEyeWolf/archive/2008/01/01/171990.html)
 
 ###纯技术
 * [ ] [Linux查看CPU和内存使用情况](http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html)
@@ -62,6 +63,18 @@
 * [司徒正美](http://www.cnblogs.com/rubylouvre/tag/javascript/)
 * [winter-cn](http://www.cnblogs.com/winter-cn/)
 * [W3Cfuns](http://www.w3cfuns.com/portal.php '面试题')
+
+###原生js
+* [太极客的理解javascript系列](http://blog.segmentfault.com/nightire/1190000000347914)
+###jquery插件开发
+* [jQuery插件开发全解析](http://www.iteye.com/topic/545971)
+* [jQuery.extend 函数详解](http://www.cnblogs.com/RascallySnake/archive/2010/05/07/1729563.html)
+* [jQuery源码分析-extend函数](http://www.iteye.com/topic/714705)
+* [读jq之二（两种扩展）](http://www.iteye.com/topic/566490)
+* [Think in Jquery](http://www.blogjava.net/OneEyeWolf/archive/2008/07/15/215042.html)
+* [How To Write Plugin in jQuery](http://www.codeproject.com/Articles/291290/How-To-Write-Plugin-in-jQuery)
+* [跟我一起学JQuery插件开发](http://www.cnblogs.com/xiaopohou/articles/2435581.html)
+
 ####css效果
 
 * [shake](http://elrumordelaluz.github.io/csshake/#1)

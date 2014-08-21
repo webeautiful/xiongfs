@@ -1,6 +1,9 @@
-##用js实现php函数功能
+**用js实现php函数功能**
 * [phpjs项目](https://github.com/kvz/phpjs "用js实现php函数功能")
 * [phpjs 站点](http://phpjs.org/)
+
+**用JSCharts实现web页面统计图的绘制**
+* [下载地址](http://www.jscharts.com/)
 
 js中实现php函数echo(),print_r(),var_dump(),调试起来很方便(位于ci_demo项目下)
 

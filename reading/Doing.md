@@ -20,4 +20,5 @@
 * [司徒正美](http://www.cnblogs.com/rubylouvre/tag/javascript/)
 * [winter-cn](http://www.cnblogs.com/winter-cn/)
 * [W3Cfuns](http://www.w3cfuns.com/portal.php '面试题')
+* [万神劫](http://chaoskeh.com/)
 

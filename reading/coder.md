@@ -1,6 +1,7 @@
 阿里系
 -----
 ######张洋
+* 淘宝前端,算法及系统开发
 * [微博-敲代码的张洋](http://weibo.com/ericzhangbuaa)
 * [博客](http://blog.codinglabs.org/)
 * [github](https://github.com/ericzhang-cn)
@@ -17,7 +18,7 @@
 * [个人博客](http://home.wangjianshuo.com/cn/)
 * [新浪博客](http://blog.sina.com.cn/wangjianshuo)
 
-######玉伯
+######玉伯(王保平)
 * 淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人
 * [sina微博](http://weibo.com/lifesinger)
 * [blog](https://github.com/lifesinger/lifesinger.github.com/issues?q=label%3Ablog)

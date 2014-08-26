@@ -1,3 +1,8 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <script type="text/javascript" src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<span class="glyphicon glyphicon-bookmark"></span>
 @Created by "Mr.熊" in 2014-01-25.  
 ★★★★★  
 [快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)  

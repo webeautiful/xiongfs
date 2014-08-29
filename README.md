@@ -30,8 +30,8 @@
 * [自助招聘求职](https://jobsdigg.com/)
 * [蓝色理想](http://job.blueidea.com/)
 * [周伯通](http://www.jobtong.com/)
-* [腾讯社招](http://imgcache.qq.com/isd/index.html)
 * [码农IO](http://job.manong.io/)
+* [腾讯社招](http://imgcache.qq.com/isd/index.html)
 
 ###阅读
 ####关于面试
@@ -63,6 +63,8 @@
 ####css效果
 
 * [shake](http://elrumordelaluz.github.io/csshake/#1)
+* [css参考手册](http://css.doyoe.com/)
+* [bootstrap组件](http://getbootstrap.com/components/)
 
 ###网络工具
 ######代码搜索引擎

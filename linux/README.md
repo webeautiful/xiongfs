@@ -33,6 +33,7 @@ history | awk '{CMD[$2]++;count++;} END { for(a in CMD) {print CMD[a] " " CMD[a]
 ###linux命令
 * [log分析命令](http://www.vaikan.com/8-linux-commands-every-developer-should-know/)
 * [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
+* [使用 shell 脚本对 Linux 系统和进程资源进行监控](http://www.ibm.com/developerworks/cn/linux/l-cn-shell-monitoring/)
 
 ##中文资料
 [GNU make中文手册][1]

@@ -4,5 +4,8 @@
 注:每天阅读别人的博客文章,是我长久以来养成的习惯.现在公司技术的头要求每周发一份读过的好文章链接,而且指出有些人看文章没有节制,什么都看,没有方向,没有重点(好像再说我).作为一项工作任务,这对我来说是小case,遂有了以下的文章列表:
 >
 
-[x] [我是如何学习计算机编程的](http://blog.csdn.net/dinglang_2009/article/details/7032324)
-[ ] [Web 研发模式演变](https://github.com/lifesinger/lifesinger.github.com/issues/184)
+- [x] [我是如何学习计算机编程的](http://blog.csdn.net/dinglang_2009/article/details/7032324)
+
+**2014-09-03**
+
+- [ ] [Web 研发模式演变](https://github.com/lifesinger/lifesinger.github.com/issues/184)

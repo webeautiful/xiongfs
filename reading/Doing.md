@@ -21,4 +21,5 @@
 * [winter-cn](http://www.cnblogs.com/winter-cn/)
 * [W3Cfuns](http://www.w3cfuns.com/portal.php '面试题')
 * [万神劫](http://chaoskeh.com/)
+* [徐飞博客](https://github.com/xufei/blog/tree/master/posts)
 

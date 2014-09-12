@@ -30,8 +30,8 @@
 * [自助招聘求职](https://jobsdigg.com/)
 * [蓝色理想](http://job.blueidea.com/)
 * [周伯通](http://www.jobtong.com/)
-* [码农IO](http://job.manong.io/)
 * [腾讯社招](http://imgcache.qq.com/isd/index.html)
+* [码农IO](http://job.manong.io/)
 
 ###<a name='TOC'>阅读</a>
 ####关于面试

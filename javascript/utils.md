@@ -1,5 +1,9 @@
 前端工具
 ========
+
+>**Stop Trying to Reinvent the Wheel**
+>**Eat Your Own Dog Food**
+
 ###jQuery
 * [中文文档1](http://www.css88.com/jqapi-1.9/)
 * [中文文档2](http://jquery.bootcss.com/)

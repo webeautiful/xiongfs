@@ -13,3 +13,5 @@
 **2014-09-14**
 
 - [ ] [论“重复造轮子”](http://taosay.net/index.php/2013/07/07/%E8%AE%BA%E9%87%8D%E5%A4%8D%E9%80%A0%E8%BD%AE%E5%AD%90/)
+- [ ] [论要不要重复造轮子](http://sd6733531.iteye.com/blog/1253700)
+- [ ] [关于不要重复造轮子的二三事](http://avnpc.com/pages/howto-find-best-wheel-for-programming)

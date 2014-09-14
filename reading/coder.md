@@ -22,3 +22,11 @@
 * 淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人
 * [sina微博](http://weibo.com/lifesinger)
 * [blog](https://github.com/lifesinger/lifesinger.github.com/issues?q=label%3Ablog)
+
+其他
+----
+######AlloVince
+* [Blog](http://avnpc.com/)
+* [Github](https://github.com/AlloVince)
+* [Weibo](http://weibo.com/avnpc)
+* [技术文摘](https://www.evernote.com/pub/allovince/Tech)

@@ -11,7 +11,7 @@
     - [分隔条(splitter)](https://github.com/jcubic/jquery.splitter)
     - [自动生成表单(dform)](http://daffl.github.io/jquery.dform/#types/add-your-own)
     - [树形菜单(treeview)](http://bassistance.de/jquery-plugins/jquery-plugin-treeview/)
-    + 树型表格(treegrid)
+    + [树型表格(treegrid)](https://github.com/maxazan/jquery-treegrid)
         - [官方文档](http://maxazan.github.io/jquery-treegrid/)
         - [中文文档](http://www.php100.com/html/program/jquery/2014/0328/6730.html)
 

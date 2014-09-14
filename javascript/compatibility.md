@@ -58,3 +58,11 @@ if(typeof String.prototype.trim == 'undefined')
     }
 }
 ```
+
+四.html5shiv.js(让IE支持html5)
+
+```html
+<!--[if lt IE 9]>
+    <script src="static/js/lib/html5shiv.js"></script>
+<![endif]-->
+```

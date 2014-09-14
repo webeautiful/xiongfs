@@ -9,3 +9,7 @@
 **2014-09-03**
 
 - [ ] [Web 研发模式演变](https://github.com/lifesinger/lifesinger.github.com/issues/184)
+
+**2014-09-14**
+
+- [ ] [论“重复造轮子”](http://taosay.net/index.php/2013/07/07/%E8%AE%BA%E9%87%8D%E5%A4%8D%E9%80%A0%E8%BD%AE%E5%AD%90/)

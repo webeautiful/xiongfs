@@ -23,6 +23,14 @@
 * [sina微博](http://weibo.com/lifesinger)
 * [blog](https://github.com/lifesinger/lifesinger.github.com/issues?q=label%3Ablog)
 
+腾讯
+----
+######余果
+* [腾讯ISUX](http://isux.tencent.com/)前端开发设计师
+* [个人博客](http://yuguo.us/weblog/)
+* [个人简历](http://yuguo.us/profile/)
+* [Github](https://github.com/yuguo?tab=repositories)
+
 其他
 ----
 ######AlloVince

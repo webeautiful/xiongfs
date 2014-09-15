@@ -29,7 +29,9 @@
 * [腾讯ISUX](http://isux.tencent.com/)前端开发设计师
 * [个人博客](http://yuguo.us/weblog/)
 * [个人简历](http://yuguo.us/profile/)
+* [豆瓣](http://www.douban.com/people/yuguo/)
 * [Github](https://github.com/yuguo?tab=repositories)
+* [新浪微博](http://weibo.com/yuguous)
 
 其他
 ----

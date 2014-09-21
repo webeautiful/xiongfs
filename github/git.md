@@ -21,3 +21,4 @@
 * [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=stash)
 * [Pro Git](http://git-scm.com/book/zh)
 * [git常用命令](http://www.cnblogs.com/1-2-3/archive/2010/07/18/git-commands.html)
+* [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)

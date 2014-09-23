@@ -31,6 +31,13 @@
     - [Bootstrap Slider](http://www.eyecon.ro/bootstrap-slider/)
     - [Bootstrap Table](http://wenzhixin.net.cn/p/bootstrap-table/docs/documentation.html)
 
+###html5shiv.js(让IE支持HTML5)
+```
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+```
+
 ###Backbone.js
 * [中文文档](http://www.csser.com/tools/backbone/backbone.js.html#manual/Utility)
 * [官方文档](http://documentcloud.github.io/backbone/)

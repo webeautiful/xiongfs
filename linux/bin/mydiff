@@ -1,5 +1,6 @@
 #!/bin/sh
-#将vimdiff作为svn diff的查看代码工具
+# Program:
+#    将vimdiff作为svn diff的查看代码工具
 
 # 指定vimdiff的路径.
 DIFF="/usr/bin/vimdiff"

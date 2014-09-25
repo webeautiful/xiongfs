@@ -1,0 +1,60 @@
+"我的vim配置
+"===========
+
+"自动折行
+set wrap
+"vim的高亮的配色方案(desert,delek,torte)
+colorscheme desert
+"set cursorline "突出显示当前行
+syntax enable
+syntax on
+"set ts=2
+"set sw=2
+set autoindent
+"Tab键时,使用空格替代,宽度为4个空格
+set expandtab
+"定义tab所等同的空格长度
+set tabstop=4
+"缩进的空格数为4
+set shiftwidth=4
+set softtabstop=4
+set nu
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+let Tlist_Use_Right_Window=1
+let Tlist_Auto_Open=0
+
+let Tlist_Ctags_Cmd = '/usr/local/ctags/bin/ctags'
+
+let g:winManagerWindowLayout='FileExplorer|TagList'
+let g:winManagerWidth=30
+nmap wm :WMToggle<cr>
+
+set fileformats=unix
+"Vim 打开文件时尝试使用的编码
+set fileencodings=utf-8,gb2312,gbk,gb18030
+"Vim 的内部编码
+set encoding=utf-8
+
+set foldmethod=indent
+map <F3> :NERDTreeMirror<CR>
+map <F3> :NERDTreeToggle<CR>
+
+""命令收集
+"set smartindent "智能对齐
+"使php识别EOT字符串
+hi link phpheredoc string
+
+"markdown语法高亮
+au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=mkd
+let g:vim_markdown_folding_disabled=1
+
+"高亮显示行尾的空格 ctermbg=red时,空格反白显示
+"{
+"highlight WhitespaceEOL ctermbg=red guibg=red
+highlight WhitespaceEOL ctermbg=red
+match WhitespaceEOL /\s\+$/
+"}
+"高亮显示搜索结果
+set hlsearch

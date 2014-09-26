@@ -35,6 +35,7 @@
 * [码农IO](http://job.manong.io/)
 * [竞鹿人才竞拍](http://www.jobdeer.com/)
 * [100offer](https://www.100offer.com/)
+* [用markdown快速创建在线简历](http://cvbox.sinaapp.com/)
 
 ###<a name='TOC'>阅读</a>
 ####关于面试

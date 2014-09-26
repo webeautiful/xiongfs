@@ -19,6 +19,7 @@
 * [月光博客](http://www.williamlong.info/)
 * [UX站导航](http://www.lbsvision.com/hao)
 * [译言](http://www.yeeyan.org/)
+* [新知社区](http://get.jobdeer.com)
 
 ★★★★★
 
@@ -32,6 +33,8 @@
 * [周伯通](http://www.jobtong.com/)
 * [腾讯社招](http://imgcache.qq.com/isd/index.html)
 * [码农IO](http://job.manong.io/)
+* [竞鹿人才竞拍](http://www.jobdeer.com/)
+* [100offer](https://www.100offer.com/)
 
 ###<a name='TOC'>阅读</a>
 ####关于面试

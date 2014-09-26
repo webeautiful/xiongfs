@@ -16,3 +16,5 @@
 - [x] [论要不要重复造轮子](http://sd6733531.iteye.com/blog/1253700)
 - [x] [关于不要重复造轮子的二三事](http://avnpc.com/pages/howto-find-best-wheel-for-programming)
 - [ ] [适合码农工作时玩的游戏：Scrum](http://blog.devtang.com/blog/2014/09/13/scrum-introduction/)
+**2014-09-26**
+- [x] [升级bash的最新漏洞](http://get.jobdeer.com/1389.get)

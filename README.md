@@ -104,3 +104,31 @@
 
 ★★★★☆☆
 ★★★★☆☆
+
+临时
+------------------------------
+###chrome
+######书签栏
+* [jsfiddle](http://jsfiddle.net/)
+* [underscore](http://underscorejs.org/)
+* [Components](http://getbootstrap.com/components/)
+* [B.css](http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css)
+* [B.js](http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js)
+* [B.v3](http://v3.bootcss.com/css/)
+* [B表单构造器](http://www.bootcss.com/p/bootstrap-form-builder/)
+* [CSS手册](http://css.doyoe.com/)
+* [backbone](http://backbonejs.org/)
+* [JS手册](http://www.javascripture.com/)
+* [jQuery中文API](http://jquery.bootcss.com/)
+* [jQuery sheet](http://www.css88.com/jqapi-1.9/)
+* [B示例-CSS篇](http://helongfei.com/bootstrap/)
+######plugin
+* vimium
+###firefox
+######书签栏
+* [css规范](http://alloyteam.github.io/code-guide/#css)
+* [布局](http://zh.learnlayout.com/box-sizing.html)
+* [查兼容](http://caniuse.com/)
+* [MDN-css](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+######plugin
+* vimFx

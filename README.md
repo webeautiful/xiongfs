@@ -120,8 +120,8 @@
 * [backbone](http://backbonejs.org/)
 * [JS手册](http://www.javascripture.com/)
 * [jQuery中文API](http://jquery.bootcss.com/)
-* [jQuery sheet](http://www.css88.com/jqapi-1.9/)
 * [B示例-CSS篇](http://helongfei.com/bootstrap/)
+* [jQuery sheet](http://www.css88.com/jqapi-1.9/)
 
 ######plugin
 * vimium

@@ -18,8 +18,8 @@
 * [web开发者](http://www.admin10000.com/)
 * [月光博客](http://www.williamlong.info/)
 * [UX站导航](http://www.lbsvision.com/hao)
-* [译言](http://www.yeeyan.org/)
 * [新知社区](http://get.jobdeer.com)
+* [译言](http://www.yeeyan.org/)
 
 ★★★★★
 

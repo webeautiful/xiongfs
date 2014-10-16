@@ -1,6 +1,3 @@
-不懂得用的小白看过来，别又问我怎么用.
-不知道hosts是什么？怎么用？看这里→http://baike.baidu.com/view/597330.htm
-用记事本打开文件之后把下面的内容粘贴进去即可，如果以前有修改过需要把以前修改的部分删掉。我们只提供Google服务的hosts，如有其它需求（如FB、YTB、TT）自行找工具跳墙
 #Google Services START
 #GoogleAccounts↓
 64.233.168.84	accounts.google.com
@@ -992,8 +989,3 @@
 #64.233.185.102	r20---sn-npo7enes.c.android.clients.google.com
 #Google Play↑
 #Google Services END
-
-#+END Power by imouto.host
-#  数据来源于互联网上的无名英雄们
-#  捐助来自于互联网自由的支持者们
-#  感谢他们！

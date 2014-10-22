@@ -20,6 +20,7 @@
 * [UX站导航](http://www.lbsvision.com/hao)
 * [新知社区](http://get.jobdeer.com)
 * [译言](http://www.yeeyan.org/)
+* [著名开源系统介绍](http://www.webappers.com/)
 
 ★★★★★
 

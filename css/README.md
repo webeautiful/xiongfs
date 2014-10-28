@@ -1,19 +1,20 @@
 ```css
     /*提示文字*/
     .ts{
-        color:#FF6600;margin-left:8px;
+        color:#FF6600;margin-left:8px;//提醒：黄色
+        font-size: 12px;
     }
     .tsr{
-        color:#E5004F;margin-left:8px;
+        color:#E5004F;margin-left:8px;//警告:红色
     }
     .trc{
-        color:#FF6600;font-weight:lighter;margin-left:3px;
+        color:#FF6600;font-weight:lighter;margin-left:3px;//粗黑体
     }
     .dis{
-        display:none;
+        display:none;//隐藏
     }
     .tsc{
-        color:#8FD900;
+        color:#8FD900;//友情提示:亮绿色
     }
 ```
 

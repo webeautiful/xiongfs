@@ -38,6 +38,11 @@
 * [100offer](https://www.100offer.com/)
 * [用markdown快速创建在线简历](http://cvbox.sinaapp.com/)
 
+###CDN资源
+[360网站卫士常用前端公共库加速服务](http://libs.useso.com/js.php)
+[百度CDN公共库](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
+[Bootstrap中文网开放CDN服务](http://www.bootcdn.cn/)
+
 ###<a name='TOC'>阅读</a>
 ####关于面试
 * [2012-09至2012-10求职那些事](http://srhang.iteye.com/blog/1705651)

@@ -5,6 +5,7 @@
 >
 
 - [x] [我是如何学习计算机编程的](http://blog.csdn.net/dinglang_2009/article/details/7032324)
+- [ ][前端编码风格规范之 HTML 规范](http://roshanca.com/2014/web-develop-styleguide-html/)
 
 **2014-09-03**
 

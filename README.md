@@ -37,6 +37,7 @@
 * [竞鹿人才竞拍](http://www.jobdeer.com/)
 * [100offer](https://www.100offer.com/)
 * [用markdown快速创建在线简历](http://cvbox.sinaapp.com/)
+* [快简历](http://rd.kuaijianli.com/#hot)
 
 ###CDN资源
 [360网站卫士常用前端公共库加速服务](http://libs.useso.com/js.php)

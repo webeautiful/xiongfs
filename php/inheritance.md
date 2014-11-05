@@ -7,7 +7,7 @@
 * 代码复用性高
 
 基类 -- MY_Model.php
-
+```php
     /**
      * 数据层基类，提供基本的CRUD操作
      *
@@ -163,9 +163,11 @@
             return ($this->db->delete($this->_table, array($this->_pkey => (int)$id))) ? true : false;
         }
     }
+```
 
 一个子类model -- example_mdl.php
 
+```php
     <?php
     /**
     * description:子类model示例
@@ -181,5 +183,54 @@
             $this->_table = 'example';
             $this->_pkey = 'id';
         }
+        /**
+        * 批量插入数据
+        *
+        *@array - $data 要插入的字段值对,如:array(array('img_url'=>'2014/0618-228/201406181403055184474.jpg'),array('img_url'=>'2014/0618-228/201406181403055204461.png'));
+        *@return - boolean true/false
+        */
+        function insertBatch($data)
+        {
+            if( empty($data) || !is_array($data) )
+            {
+                return false;
+            }
+            return ($this->db->insert_batch($this->_table, $data));
+        }
+        /*
+        * 根据where_in条件,批量修改字段状态
+        *
+        * @array - $where_in 限制条件,如：array('field'=>'goods_id','values'=>array(1,2,3));
+        * @array - $data 要修改的字段/值,如：array('is_relation'=>0);
+        *
+        * @return - boolean true/false
+        */
+        function editBatch($where_in=array(),$data=array())
+        {
+            if( !empty($where_in) )
+            {
+                $this->db->where_in($where_in['field'],$where_in['values']);
+                return ($this->db->update($this->_table, $data)) ? true : false;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        /**
+         * 根据where条件，删除记录
+         *
+         * @param array - $where 字段/值,如:array('field'=>'ljyun_id','value'=>120);
+         * @return boolean - 成功/失败
+         */
+        public function delBatch($where=array())
+        {
+            if( empty($where['field']) || empty($where['value']) || !is_int($where['value']) )
+            {
+                return false;
+            }
+            return ($this->db->delete($this->_table, array($where['field'] => $where['value']))) ? true : false;
+        }
     }
     ?>
+```

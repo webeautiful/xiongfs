@@ -54,7 +54,7 @@ private function _deleteDir($dir)
             $file=rtrim($dir,'/').'/'.$file;
             if(is_dir($file))
             {
-                deletedir($file);
+                $this->_deletedir($file);
             }
             else
             {

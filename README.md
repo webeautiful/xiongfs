@@ -142,3 +142,7 @@
 
 ######plugin
 * vimFx
+
+####hosts资源
+[jiange1236](http://git.oschina.net/jiange1236/googlehosts)
+[txthinking](https://github.com/txthinking/google-hosts)

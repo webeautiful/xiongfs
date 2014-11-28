@@ -1,1 +1,3 @@
 - `rabbit_pigai214_2014-11-28.json` -- 搭建rabbitmq服务后,导入的broker definitions
+- `send.php` -- 消息生产者(producer)
+- `receive.php` -- 消息消费者(consumer)

@@ -1,6 +1,6 @@
 ###文件说明
 
-- `rabbit_pigai214_2014-11-28.json` -- 搭建rabbitmq服务后,导入的broker definitions
+- `rabbit_pigai214_2014-11-28.json` -- 搭建rabbitmq服务后,登入`http://127.0.0.1:15672/`管理界面，将此数据导入Overview>broker definitions
 - `send.php` -- 消息生产者(producer)
 - `receive.php` -- 消息消费者(consumer)
 

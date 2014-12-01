@@ -4,7 +4,12 @@
 - `send.php` -- 消息生产者(producer)
 - `receive.php` -- 消息消费者(consumer)
 
-###资源
+###参考资料
+
 - [x] [RabbitMQ基础概念详细介绍](http://www.ostest.cn/archives/497)
 - [x] [消息队列RabbitMQ入门介绍](http://www.ostest.cn/archives/483)
+- [x] [RabbitMQ Performance Test](http://www.ostest.cn/archives/513 'rabbitmq性能测试')
+- [X] [最近研究RabbitMQ的一些心得](http://rainbird.blog.51cto.com/211214/525523/)
 - [ ] [施昌权](http://blog.chinaunix.net/uid/22312037/sid-163962-list-1.html)
+- [x] [用PHP尝试RabbitMQ（amqp扩展）实现消息的发送和接收](http://www.icultivator.com/p/9722.html)
+- [x] [RabbitMQ与PHP（二）—— 相关服务安装及如何用PHP作为守护模式处理消息](http://www.icultivator.com/p/8838.html)

@@ -1,3 +1,9 @@
+###测试环境
+
+* Ubuntu 14.04.1 LTS
+* PHP 5.3.14
+* RabbitMQ 3.2.4
+
 ###文件说明
 
 - `rabbit_pigai214_2014-11-28.json` -- 搭建rabbitmq服务后,登入`http://127.0.0.1:15672/`管理界面，将此数据导入Overview>broker definitions

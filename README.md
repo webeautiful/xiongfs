@@ -40,9 +40,9 @@
 * [快简历](http://rd.kuaijianli.com/#hot)
 
 ###CDN资源
-[360网站卫士常用前端公共库加速服务](http://libs.useso.com/js.php)
-[百度CDN公共库](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
-[Bootstrap中文网开放CDN服务](http://www.bootcdn.cn/)
+* [360网站卫士常用前端公共库加速服务](http://libs.useso.com/js.php)
+* [百度CDN公共库](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
+* [Bootstrap中文网开放CDN服务](http://www.bootcdn.cn/)
 
 ###<a name='TOC'>阅读</a>
 ####关于面试
@@ -144,5 +144,5 @@
 * vimFx
 
 ####hosts资源
-[jiange1236](http://git.oschina.net/jiange1236/googlehosts)
-[txthinking](https://github.com/txthinking/google-hosts)
+* [jiange1236](http://git.oschina.net/jiange1236/googlehosts)
+* [txthinking](https://github.com/txthinking/google-hosts)

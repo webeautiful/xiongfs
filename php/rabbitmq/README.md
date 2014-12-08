@@ -2,7 +2,11 @@
 
 * Ubuntu 14.04.1 LTS/CentOS 6.2
 * PHP 5.3.14/PHP 5.3.10
-* RabbitMQ 3.2.4
++ 服务器端:
+  - RabbitMQ 3.2.4
++ php客户端(均编译安装):
+  - [rabbitmq-c](https://github.com/alanxz/rabbitmq-c/releases/tag/v0.5.2)
+  - [php-amqp模块](http://pecl.php.net/package/amqp)
 
 ###文件说明
 

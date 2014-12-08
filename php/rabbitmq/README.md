@@ -1,7 +1,7 @@
 ###测试环境
 
-* Ubuntu 14.04.1 LTS
-* PHP 5.3.14
+* Ubuntu 14.04.1 LTS/CentOS 6.2
+* PHP 5.3.14/PHP 5.3.10
 * RabbitMQ 3.2.4
 
 ###文件说明

@@ -56,7 +56,7 @@ function processMessage($envelope, $queue){
     //global $write;
 
     $msg = $envelope->getBody();//获取消息
-    $queue->ack($envelope->getDeliveryTag());//手动发送ACK应答
+    $queue->ack($envelope->getDeliveryTag());//手动发送ACK应答(当该消费者挂掉了，自动使消息体返回原队列)
 
     //处理消息
     $arr=json_decode( $msg, true);

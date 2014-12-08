@@ -15,7 +15,7 @@ mq_rec($queueName,$processMsg);
 function mq_rec($queueName,$callback){
     //配置信息
     $params = array(
-        'host' =>'127.0.0.1',//mq_server.pigai.org
+        'host' =>'127.0.0.1',
         'port' => 5672,
         'login' => 'root',
         'password' => 'cikuutest!',

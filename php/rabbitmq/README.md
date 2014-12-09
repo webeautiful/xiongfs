@@ -23,3 +23,4 @@
 - [ ] [施昌权](http://blog.chinaunix.net/uid/22312037/sid-163962-list-1.html)
 - [x] [用PHP尝试RabbitMQ（amqp扩展）实现消息的发送和接收](http://www.icultivator.com/p/9722.html)
 - [x] [RabbitMQ与PHP（二）—— 相关服务安装及如何用PHP作为守护模式处理消息](http://www.icultivator.com/p/8838.html)
+- [x] [rabbitmq——prefetch count](http://my.oschina.net/hncscwc/blog/195560)

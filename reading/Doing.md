@@ -23,4 +23,5 @@
 * [万神劫](http://chaoskeh.com/)
 * [徐飞博客](https://github.com/xufei/blog/tree/master/posts)
 * [Dx.Yang](http://xbingoz.com/ '阿里前端')
+* [腾讯alloyteam](http://www.alloyteam.com/)
 

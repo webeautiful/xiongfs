@@ -11,6 +11,9 @@ js中实现php函数echo(),print_r(),var_dump(),调试起来很方便(位于ci_d
 **用JSCharts实现web页面统计图的绘制**
 * [下载地址](http://www.jscharts.com/)
 
+###文章
+- [ ][IE和Firefox的Javascript兼容性总结](http://www.w3cfuns.com/blog-5458045-5402779.html)
+
 ##资源
 * [阮一峰的js教程](https://github.com/ruanyf)
 * [ECMAScript 6入门](http://es6.ruanyifeng.com/)

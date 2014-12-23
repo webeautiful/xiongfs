@@ -2,6 +2,7 @@
 ###php安全
 * [PHP中该怎样防止SQL注入？](http://www.admin10000.com/document/4451.html)
 * [每个PHP开发者都应该看的书](http://www.admin10000.com/document/4566.html)
+* [XSS速查表](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
 
 ###RESTful架构
 * [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)

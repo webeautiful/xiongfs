@@ -13,6 +13,23 @@ function createLog($shareId,$showId)
 }
 ```
 
+php随机产生5个字母(用于上传文件重命名)
+```php
+function getRandStr()
+{
+    $chars = array_merge(range('a','z'),range('A','Z'));//合并数组
+    shuffle($chars);//将数组打乱
+    $randKeys = array_rand($chars,5);//从数组中随机取5个字母，返回他们的键值组成的数组
+    shuffle($chars);//再次打乱数组
+    $str = '';
+    foreach($randKeys as $key)
+    {
+        $str .= $chars[$key];
+    }
+    return $str;
+}
+```
+
 mis下根据k代码,获取品牌名称
 ```php
 /*

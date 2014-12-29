@@ -147,6 +147,9 @@
 ######plugin
 * vimFx
 
-####hosts资源
+####翻墙
+**方法一:配hosts**  
 * [jiange1236](http://git.oschina.net/jiange1236/googlehosts)
 * [txthinking](https://github.com/txthinking/google-hosts)
+**方法一:使用免费配代理**  
+* [google代理](http://www.souji8.com)

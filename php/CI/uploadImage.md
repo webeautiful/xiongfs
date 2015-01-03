@@ -79,3 +79,8 @@ private function _deleteDir($dir)
     }
 }
 ```
+
+###一句话删除目录下所有文件
+```php
+array_map('unlink',glob('*'));
+```

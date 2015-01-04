@@ -17,5 +17,6 @@
 [浅述PHP设计模式系列](http://bardo.iteye.com/blog/891656)
 [PHP网站MVC架构模式中的种种误区](http://bardo.iteye.com/blog/968423)
 [TIPI](http://www.php-internals.com/book/)
+[PHP 高级编程之多线程](http://netkiller.github.io/journal/thread.php.html)
 
 ***

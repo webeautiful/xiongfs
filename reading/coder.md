@@ -33,6 +33,18 @@
 * [Github](https://github.com/yuguo?tab=repositories)
 * [新浪微博](http://weibo.com/yuguous)
 
+新浪
+---
+######TimYang
+* 新浪微博技术总监
+* [微博](http://weibo.com/timyang)
+* [博客](http://timyang.net/)
+
+######Laruence(惠新宸)
+* 新浪微博平台及大数据部总架构师,PHP官方开发组核心成员
+* [微博](http://weibo.com/laruence)
+* [博客](http://www.laruence.com/)
+
 其他
 ----
 ######AlloVince

@@ -42,6 +42,10 @@ javascript
 - [x] [《码农》电子刊](http://www.ituring.com.cn/article/34008)
 - [x] [《编程狂人》周刊](http://www.tuicool.com/mags)
 
+程序员手册
+---------
+[程序员手册大全](http://manual.51yip.com/)
+
 书资源
 ------
 - [infoq迷你书](http://www.infoq.com/cn/minibooks?utm_source=infoq&utm_medium=breadcrumbs_feature&utm_campaign=breadcrumbs)

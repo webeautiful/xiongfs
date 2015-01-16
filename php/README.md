@@ -12,11 +12,15 @@
 * [解答有关REST的十点疑惑](http://www.infoq.com/cn/articles/tilkov-rest-doubts)
 * [最佳实践：更好的设计你的 REST API](http://www.ibm.com/developerworks/cn/web/1103_chenyan_restapi/)
 
+###高并发
+[PHP 高级编程之多线程](http://netkiller.github.io/journal/thread.php.html)
+[Rolling cURL: PHP并发最佳实践](http://www.searchtb.com/2012/06/rolling-curl-best-practices.html)
+[前端开发中的性能那点事（二）巧用curl 并发减少后端访问时间](http://www.searchtb.com/2010/12/using-multicurl-to-improve-performance.html)
+
 ##资料
 [SOLID原则](http://www.cnblogs.com/shanyou/archive/2009/09/21/1570716.html)
 [浅述PHP设计模式系列](http://bardo.iteye.com/blog/891656)
 [PHP网站MVC架构模式中的种种误区](http://bardo.iteye.com/blog/968423)
 [TIPI](http://www.php-internals.com/book/)
-[PHP 高级编程之多线程](http://netkiller.github.io/journal/thread.php.html)
 
 ***

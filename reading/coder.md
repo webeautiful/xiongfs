@@ -23,6 +23,12 @@
 * [sina微博](http://weibo.com/lifesinger)
 * [blog](https://github.com/lifesinger/lifesinger.github.com/issues?q=label%3Ablog)
 
+#####毕玄(林昊)
+* 《分布式Java应用》《OSGi原理与最佳实践》
+* 核心系统资深技术专家,07年加入淘宝，07—10年负责淘宝的服务框架，是淘宝3.0架构的重要组成部分，目前负责HBase的研发以及在淘宝的推广使用。
+* [博客](http://bluedavy.me/)
+* [BlueDavy之技术Blog](http://www.blogjava.net/BlueDavy/archive/2005/07/05/7144.html)
+
 腾讯
 ----
 ######余果

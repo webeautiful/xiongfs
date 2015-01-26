@@ -30,6 +30,47 @@ function getRandStr()
 }
 ```
 
+#####抽奖程序概率计算
+
+######方法二
+```php
+方法一
+$proArr = array(1=>30,2=>6,3=>30,4=>1,5=>30,6=>3);//奖项=>概率
+
+$czId = '';//抽到的奖项id
+//概率数组的总概率精度
+$proSum = array_sum($proArr);
+//概率数组循环
+foreach ($proArr as $key=>$proCur) {
+    $randNum = mt_rand(1, $proSum);
+    if ($randNum <= $proCur) {
+        $czId = $key;
+        break;
+    } else {
+        $proSum -= $proCur;
+    }
+}
+unset ($proArr);
+```
+
+######方法二
+```php
+//摸奖
+$proArr = array(1=>30,2=>6,3=>30,4=>1,5=>30,6=>3);//奖项=>概率
+
+$cjbox = array();
+foreach($proArr as $in=>$jl){
+    for($i=0;$i<$jl;$i++){
+        $cjbox[] = $in;
+    }
+}
+$proSum = count($cjbox);
+shuffle($cjbox);
+$randNum = mt_rand(0,$proSum-1);
+$czId = $cjbox[$randNum];
+unset($proArr,$cjbox);
+```
+
 mis下根据k代码,获取品牌名称
 ```php
 /*

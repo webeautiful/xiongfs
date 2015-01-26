@@ -16,6 +16,16 @@
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+       -o-transition: opacity .15s linear;
+          transition: opacity .15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+
 .modal-backdrop {
   position: fixed;
   top: 0;

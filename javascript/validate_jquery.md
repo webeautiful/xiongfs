@@ -179,6 +179,8 @@ $.ajax({
             return this.optional(element) || (tel.test(value));
         }, "请正确填写您的电话号码");
 
+邮箱验证: `/^([a-zA-Z0-9]+[-_\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[-_\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,4}$/`
+
 邮政编码验证
 
     jQuery.validator.addMethod("isZipCode", function(value, element) {

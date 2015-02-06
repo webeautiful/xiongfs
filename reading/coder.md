@@ -51,6 +51,12 @@
 * [微博](http://weibo.com/laruence)
 * [博客](http://www.laruence.com/)
 
+百度
+---
+######吴帅
+* [博客](http://www.imsiren.com/)
+* [微博](http://weibo.com/imsiren)
+
 其他
 ----
 ######AlloVince

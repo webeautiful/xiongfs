@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/w1942sy/svn/mall/html/application/views/admin/goods'
+let g:netrw_dirhist_2='/home/w1942sy/svn/fxphp/apps/pigai.com/template/2015_en'
+let g:netrw_dirhist_3='/home/w1942sy/svn/fxphp/apps/pigai.com/conf'

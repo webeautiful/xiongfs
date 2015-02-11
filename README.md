@@ -118,7 +118,7 @@
 
 临时
 ------------------------------
-###chrome
+###chrome配置
 ######书签栏
 * [jsfiddle](http://jsfiddle.net/)
 * [underscore](http://underscorejs.org/)
@@ -136,6 +136,8 @@
 
 ######plugin
 * vimium
+* Json-handle
+* ABP
 
 ###firefox
 ######书签栏

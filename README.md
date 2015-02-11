@@ -149,6 +149,12 @@
 ######plugin
 * vimFx
 
+###hosts配置
+* 192.168.1.64 w.pigai.org
+* 192.168.1.64 mal.pigai.org
+* 192.168.1.64 db.email.pigai.org
+* 117.79.131.99 mq_server.pigai.org
+
 ####翻墙
 **方法一:配hosts**  
 * [jiange1236](http://git.oschina.net/jiange1236/googlehosts)

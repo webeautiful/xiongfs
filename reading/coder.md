@@ -64,3 +64,4 @@
 * [Github](https://github.com/AlloVince)
 * [Weibo](http://weibo.com/avnpc)
 * [技术文摘](https://www.evernote.com/pub/allovince/Tech)
+* [庄表伟](http://www.zhuangbiaowei.com/blog/)

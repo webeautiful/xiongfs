@@ -1,0 +1,29 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+
+#自定义别名
+alias isvn='source isvn'
+alias igit='source igit'
+#ls aliases
+alias ll='ls -alF' #更多文件更多信息
+alias la='ls -A' #显示所有文件(包括隐藏文件)
+alias l='ls -CF' #显示文件(不包括隐藏文件)
+
+# User specific aliases and functions

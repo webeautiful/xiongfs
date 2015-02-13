@@ -1,18 +1,18 @@
 #!/bin/bash
 #
 # Program:
-#   快速进入/data/app/fxphp/apps/pigai.com目录
+#   快速进入/data/app/fxphp/apps/example.com目录
 #
 # History:
 #   2014-04-29 11:43:30  xiongfusong  First release
 #PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 #export PATH
 
-SVN=/home/cikuu/xiongfs
+SVN=/home/dirname/xiongfs
 
 case $1 in
     "-p")
-        cd $SVN/fxphp/apps/pigai.com
+        cd $SVN/fxphp/apps/example.com
         ;;
     "-m")
         cd $SVN/mall/html

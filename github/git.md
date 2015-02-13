@@ -15,6 +15,7 @@
 - git rm 删除本地库的某个文件
 - git commit -m "comment" 将更新提交到本地仓库
 - git push origin master 将本地仓库的修改提交到远程仓库
+- git pull origin master 拉去远程仓库
 
 ###参考资料
 * [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)

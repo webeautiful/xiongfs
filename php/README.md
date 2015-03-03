@@ -23,4 +23,7 @@
 [PHP网站MVC架构模式中的种种误区](http://bardo.iteye.com/blog/968423)
 [TIPI](http://www.php-internals.com/book/)
 
+##工具
+[php在线编辑器](http://phpedia.net/)
+
 ***

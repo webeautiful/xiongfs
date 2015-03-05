@@ -213,6 +213,26 @@ upload_max_filesize = 10M ,默认为2M
 post_max_size = 10M ,默认为8M  
 memory_limit = 128M  
 
+5.uploadify在chrome上崩溃的解决办法:
+
+用setTimeout,让uplodify的初始化和浏览器缓存模块的功能不要在同时进行
+```javascript
+//实例
+$(function(){
+
+    setTimeout(function(){
+        $('#file_upload').uploadify({
+            'swf'      : './uploadify/uploadify.swf',
+            'uploader' : 'upload.php',
+            'onUploadSuccess' : function(file, data, response) {
+            }
+        });
+    },10);
+
+});
+```
+这样即可解决启动时/后退时崩溃问题
+
 ##自定义属性和事件
 **buttonTemplate**
 

@@ -29,6 +29,11 @@
 * [博客](http://bluedavy.me/)
 * [BlueDavy之技术Blog](http://www.blogjava.net/BlueDavy/archive/2005/07/05/7144.html)
 
+#####张瑞(hellodba)
+* 阿里巴巴数据库架构师
+* [sina微博](http://weibo.com/hellodba)
+* [blog](http://www.hellodb.net/)
+
 腾讯
 ----
 ######余果

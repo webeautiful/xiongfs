@@ -138,6 +138,8 @@
 * vimium
 * Json-handle
 * ABP
+* FEhelper
+* Proxy SwitchySharp(翻墙)
 
 ###firefox
 ######书签栏

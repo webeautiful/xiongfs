@@ -362,6 +362,16 @@ example 4
 
 /play horn
 
+###  序列图
+
+#### 示例 1
+
+```seq
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
 ##参考文献
 >
 * [书写博客的神器](http://upwith.me/?p=503)

@@ -99,3 +99,90 @@ function brandName($kid)
 }
 ```
 
+人性化显示时间
+
+example1:
+
+```php
+function humanizedTime($time) {
+    $rtime = date("m-d H:i",$time);
+    //$htime = date("H:i",$time);
+    $time = time() - $time;
+    if ($time < 60) {
+        $str = '刚刚';
+    }
+    elseif ($time < 60 * 60) {
+        $min = floor($time/60);
+        $str = $min.'分钟前';
+    }
+    elseif ($time < 60 * 60 * 24) {
+        $h = floor($time/(60*60));
+        $str = $h.'小时前';
+    }
+    elseif ($time < 60 * 60 * 24 * 3) {
+        $d = floor($time/(60*60*24));
+        if($d==1) $str = '昨天 '.$rtime;
+        else $str = '前天 '.$rtime;
+    }
+    else {
+        $str = $rtime;
+    }
+    return $str;
+}
+```
+
+example2:
+
+```php
+function ay_time($pptime){
+    $ggtime = time() - $pptime;
+    if ($ggtime >= 0 and $ggtime < 10) { return "刚刚"; }
+    if ($ggtime >= 10 and $ggtime < 60) { return "10秒前"; }
+    if ($ggtime >= 60 and $ggtime < 300) { return "1分钟前"; }
+    if ($ggtime >= 300 and $ggtime < 1800) { return "5分钟前"; }
+    if ($ggtime >= 1800 and $ggtime < 3600*24) { return "半小时前"; }
+    if ($ggtime >= 3600*24 and $ggtime < 3600*24*2) { return "1天前"; }
+    if ($ggtime >= 3600*24*2 and $ggtime < 3600*24*3) { return "2天前"; }
+    if ($ggtime >= 3600*24*3 and $ggtime < 3600*24*4) { return "3天前"; }
+    if ($ggtime >= 3600*24*4 and $ggtime < 3600*24*5) { return "4天前"; }
+    if ($ggtime >= 3600*24*5 and $ggtime < 3600*24*6) { return "5天前"; }
+    if ($ggtime >= 3600*24*6 and $ggtime < 3600*24*7) { return "6天前"; }
+    if ($ggtime >= 3600*24*7 and $ggtime < 3600*24*8) { return "1个星期前"; }
+    if ($ggtime > 3600*24*8) { return date("Y-m-d H:i:s",$pptime); }
+}
+```
+example3:
+
+```php
+function humanized_time($date)
+{
+    if (strlen($date)==10 || strlen($date)==19){
+        if (substr($date,0,4)==date('Y')) {
+            switch (substr($date,0,10)){
+                case date('Y-m-d'):
+                    $d='今天';
+                    break;
+                case date('Y-m-d', strtotime('-1 day')):
+                    $d='昨天';
+                    break;
+                case date('Y-m-d', strtotime('-2 day')):
+                    $d='前天';
+                    break;
+                case date('Y-m-d', strtotime('+1 day')):
+                    $d='明天';
+                    break;
+                case date('Y-m-d', strtotime('+2 day')):
+                    $d='后天';
+                    break;
+                default:
+                    $d=substr($date,5,6);
+            }
+            return $d.substr($date,11);
+        }else {
+            return $date;
+        }
+    }else {
+        return $date;
+    }
+}
+```

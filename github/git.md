@@ -16,6 +16,7 @@
 - git commit -m "comment" 将更新提交到本地仓库
 - git push origin master 将本地仓库的修改提交到远程仓库
 - git pull origin master 拉去远程仓库
+- git checkout -- filename 恢复对某个文件的修改
 
 ###参考资料
 * [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)

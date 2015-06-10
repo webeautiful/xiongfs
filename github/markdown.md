@@ -16,13 +16,13 @@ _ _ _
 
 ###代码区域语法
 
-1) 行内代码  
+1. 行内代码  
 ```
 `行内代码`
 ```
 效果:   `行内代码`
 
-2) 普通代码块  
+2. 普通代码块  
 表示方法:1.每行文字前加4个空格(`空格式`)或1个文本缩进(`缩进式`);2.用3个反单引号\`\`\`包含(`围栏式`)
 
 ```
@@ -55,7 +55,7 @@ function getKV($arr)
 getKV($array('a','b','c'));//函数调用
 ```
 
-语法着色([语言标识符查询](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
+3. 高亮代码块([语言标识符查询](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
 
     ```php
     /*

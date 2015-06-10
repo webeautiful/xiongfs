@@ -2,10 +2,14 @@
 该文档收集了日常工作中用到的一些git命令，以及GitHub和git相关的网络资料。
 
 ##Git命令
+概念: 存档库(Stash), 工作区(Workspace,Index), 暂存区(索引,Index), 本地版本库(Local Repository), 上游版本库(Upstream Repository)
+
+![](http://image.beekka.com/blog/2014/bg2014061202.jpg "git远程工作原理")
 
 ###Git远程命令
+
 * [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
-* git push origin master 将本地仓库的修改提交到远程仓库
+* git push origin master 将`本地仓库(Local Repository)`的修改提交到`远程仓库(Upstream Repository)`
 * git pull origin master 拉取远程仓库
 
 ###Git本地命令
@@ -14,11 +18,10 @@
 * git branch 查看分支(加 * 表示当前所在分支,查)
 * git branch -d tmpbranch  删除临时分支(删)
 * git merge tmpbranch  将tmpbranch分支合并到当前所在的分支
-* git add 将某个文件纳入版本控制
+* git add 添加新文件或修改的文件到`暂存区(索引,index)`
 * git rm 删除本地库的某个文件
-* git commit -m "comment" 将更新提交到本地仓库
+* git commit -m "comment" 将更新文件提交到`本地仓库(Local Repository)`
 * git checkout -- filename 恢复对某个文件的修改
-
 
 ##参考资料
 * [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)

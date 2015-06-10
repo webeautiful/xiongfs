@@ -11,9 +11,9 @@ _ _ _
     - [列表](#列表)
     - [分隔符](#分隔符)
     - [强调](#强调)
-    - [引用(blockquote)](#引用(blockquote))
+    - [引用(blockquote)](#blockquote)
     - [图片与链接](#图片与链接)
-    - [任务清单](#Task List)
+    - [任务清单(Task List)](#任务清单)
     - [删除线](#删除线)
     - [表情符号](#表情符号)
 + [参考文献](#参考文献)
@@ -191,7 +191,7 @@ _这是斜体_
 __这是加粗__  
 **这也是加粗**
 
-###引用(blockquote)
+###Blockquote
 
 example 1
 
@@ -307,7 +307,7 @@ example 4
 <121023254@qq.com>  
 <http://xfsweb.com>
 
-###Task List
+###任务清单
 
 语法
 

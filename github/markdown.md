@@ -1,7 +1,11 @@
 _ _ _
 #markdown 语法
 
-##代码区域语法
+这是一篇讲解如何正确使用 GitHub 的 **Markdown** 的排版示例，学会这个很有必要，能让你的文章有更佳清晰的排版。
+
+## 语法指导
+
+###代码区域语法
 
 1) 行内代码  
 ```
@@ -94,7 +98,7 @@ col1 |col2 | col3
  g   |  h  |  i
  g   |  h  |  i
 
-##标题
+###标题
 
 1) AtX式
 
@@ -158,7 +162,7 @@ col1 |col2 | col3
 2. 这是有序列表  
 3. 这是有序列表  
 
-##分隔符
+###分隔符
 
 格式:
 
@@ -179,7 +183,7 @@ col1 |col2 | col3
 
 ___
 
-##强调
+###强调
 
 1)斜体(em)
 
@@ -201,7 +205,7 @@ _这是斜体_
 __这是加粗__  
 **这也是加粗**
 
-##引用(blockquote)
+###引用(blockquote)
 
 example 1
 
@@ -269,7 +273,7 @@ example 4
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-##图片/链接
+###图片/链接
 
 1)inline风格
 
@@ -317,7 +321,7 @@ example 4
 <121023254@qq.com>  
 <http://xfsweb.com>
 
-##任务清单(Task List)
+###任务清单(Task List)
 
 语法
 
@@ -333,7 +337,7 @@ example 4
 - [x] 这是一个已完成项目
 - [ ] 这是一个未完成项目
 
-##删除线
+###删除线
 
     ~~删除线~~
 
@@ -341,7 +345,7 @@ example 4
 
 ~~删除线~~
 
-##表情符号([emoji查询](http://www.emoji-cheat-sheet.com/))
+###表情符号([emoji查询](http://www.emoji-cheat-sheet.com/))
 ```
 :smile:
 :tropical_fish:

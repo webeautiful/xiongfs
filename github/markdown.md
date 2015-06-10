@@ -380,11 +380,8 @@ example 4
 [2]:https://github.com/cssmagic/blog/issues/13
 [3]:http://www.emoji-cheat-sheet.com/
 
-@webeautiful
-
-@author:熊福松  
+@author: [熊福松](http://weibo.com/270044128 "围脖熊")
 @date:2014-05-25
-
 
 _ _ _
 

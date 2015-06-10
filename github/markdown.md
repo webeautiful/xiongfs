@@ -5,24 +5,30 @@ _ _ _
 
 ## 目录
 + [语法指导](#语法指导)
-    - [代码区域语法](#代码区域语法)
-    - [表格语法](#表格语法)
-    - [图片/链接](#图片\/链接)
-    - [任务清单](#任务清单)
+    - [代码区域](#代码区域)
+    - [表格](#表格)
+    - [标题](#标题)
+    - [列表](#列表)
+    - [分隔符](#分隔符)
+    - [强调](#强调)
+    - [引用(blockquote)](#引用(blockquote))
+    - [图片与链接](#图片与链接)
+    - [任务清单](#Task List)
+    - [删除线](#删除线)
     - [表情符号](#表情符号)
 + [参考文献](#参考文献)
 
 ## 语法指导
 
-###代码区域语法
+###代码区域
 
-1. 行内代码  
+1) 行内代码  
 ```
 `行内代码`
 ```
 效果:   `行内代码`
 
-2. 普通代码块  
+2) 普通代码块  
 表示方法:1.每行文字前加4个空格(`空格式`)或1个文本缩进(`缩进式`);2.用3个反单引号\`\`\`包含(`围栏式`)
 
 ```
@@ -39,39 +45,7 @@ function getKV($arr)
 getKV($array('a','b','c'));//函数调用
 ```
 
-着色前效果:
-
-```
-/*
-* 输出数组的键值对
-*/
-function getKV($arr)
-{
-    foreach($arr as $k=>$v)
-    {
-        echo $k.'--'.$v.'<br/>';
-    }
-}
-getKV($array('a','b','c'));//函数调用
-```
-
-3. 高亮代码块([语言标识符查询](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
-
-    ```php
-    /*
-    * 输出数组的键值对
-    */
-    function getKV($arr)
-    {
-        foreach($arr as $k=>$v)
-        {
-            echo $k.'--'.$v.'<br/>';
-        }
-    }
-    getKV($array('a','b','c'));//函数调用
-    ```
-
-着色后的效果:
+3) 高亮代码块([语言标识符查询](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
 
 ```php
 /*
@@ -87,7 +61,7 @@ function getKV($arr)
 getKV($array('a','b','c'));//函数调用
 ```
 
-##表格语法
+##表格
 
 表格代码:
 
@@ -285,7 +259,7 @@ example 4
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-###图片/链接
+###图片与链接
 
 1)inline风格
 
@@ -333,7 +307,7 @@ example 4
 <121023254@qq.com>  
 <http://xfsweb.com>
 
-###任务清单(Task List)
+###Task List
 
 语法
 
@@ -357,7 +331,12 @@ example 4
 
 ~~删除线~~
 
-###表情符号([emoji查询](http://www.emoji-cheat-sheet.com/))
+###表情符号
+
+:star:[emoji查询](http://www.emoji-cheat-sheet.com/)
+
+:link:
+
 ```
 :smile:
 :tropical_fish:

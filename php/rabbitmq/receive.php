@@ -18,7 +18,7 @@ function mq_rec($queueName,$callback){
         'host' =>'127.0.0.1',//mq_server.pigai.org
         'port' => 5672,
         'login' => 'root',
-        'password' => 'cikuutest!',
+        'password' => 'xxxxxx',
         'vhost' => '/');
     try{
         //1.连接rabbitmq服务器
@@ -30,6 +30,7 @@ function mq_rec($queueName,$callback){
 
     //2.创建信息通道
     $ch = new AMQPChannel($cnn);
+    $ch->setPrefetchCount(54);//设置unacked消息上限
 
     //3.创建队列对象
     $queue = new AMQPQueue($ch);

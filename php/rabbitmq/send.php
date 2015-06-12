@@ -29,7 +29,7 @@ function mq_set( $exchanges, $arr , $routingKey=''){
         'host' =>'127.0.0.1',
         'port' => 5672,
         'login' => 'root',
-        'password' => 'cikuutest!',
+        'password' => 'xxxxxx',
         'vhost' => '/');
     try{
         //1.连接rabbitmq服务器

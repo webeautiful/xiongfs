@@ -23,6 +23,17 @@
 * git commit -m "comment" 将更新文件提交到`本地仓库(Local Repository)`
 * git checkout -- filename 恢复对某个文件的修改
 
+### 应用场景
+###### create a new repository on the command line
+```
+echo # gde >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:webeautiful/gde.git
+git push -u origin master
+```
+
 ##参考资料
 * [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=stash)

@@ -9,19 +9,29 @@
 ###资讯类
 * [Startup News](http://news.dbanotes.net/)
 * [CoolShell](http://coolshell.cn/)
-* [博客-伯乐在线](http://blog.jobbole.com/)
-* [UC技术博客](http://tech.uc.cn/)
 * [oilbeater](http://oilbeater.com/index.html)
 * [GEEK头条](http://geek.csdn.net/)
 * [互联网安全](http://www.freebuf.com/)
 * [justjavac](http://justjavac.com/)
 * [web开发者](http://www.admin10000.com/)
 * [月光博客](http://www.williamlong.info/)
-* [UX站导航](http://www.lbsvision.com/hao)
 * [新知社区](http://get.jobdeer.com)
 * [译言](http://www.yeeyan.org/)
 * [著名开源系统介绍](http://www.webappers.com/)
 * [极思维](http://www.topthink.com/)
+
+### Technology
+* [博客-伯乐在线](http://blog.jobbole.com/)
+* [UC技术博客](http://tech.uc.cn/)
+* [美团技术团队](http://tech.meituan.com/)
+* [奇舞周刊](http://www.75team.com/weekly/)
+### Design
+* [UED团队](http://uedfans.cn/?cat=26)
+* [奇舞团](http://www.75team.com/)
+* [微博UDC](http://udc.weibo.com/)
+### Product
+[人人都是产品经理](http://www.woshipm.com/)
+### Operation
 
 ★★★★★
 

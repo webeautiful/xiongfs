@@ -28,3 +28,11 @@
 * QQ/微信: 121023254/webeautify
 * [@围脖熊](http://weibo.com/270044128): <http://weibo.com/270044128>
 * GitHub: <https://github.com/webeautiful>
+
+## 面试渠道
+
+## 面经
+* [怎么进入BAT的研发部门？](http://www.zhihu.com/question/25680951)
+
+## 面试题
+

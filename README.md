@@ -25,6 +25,7 @@
 * [UC技术博客](http://tech.uc.cn/)
 * [美团技术团队](http://tech.meituan.com/)
 * [奇舞周刊](http://www.75team.com/weekly/)
+* [博览网](http://boolan.com/)
 ### Design
 * [UED团队](http://uedfans.cn/?cat=26)
 * [奇舞团](http://www.75team.com/)

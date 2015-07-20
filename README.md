@@ -103,6 +103,9 @@
 ####高墙之内，必有勇夫
 
 * [Google 全球 IP 地址库](https://github.com/justjavac/Google-IPs)
++ google镜像站
+    - <http://uc.my/>
+    - <https://g.linzhen.net/>
 
 ####开源镜像
 

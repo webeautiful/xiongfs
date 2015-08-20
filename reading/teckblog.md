@@ -2,4 +2,11 @@
 - [色拉油的技术博客](http://selayou9527.github.io/categories/javascript/)
 - [色拉油的技术博客](http://www.cnblogs.com/dolphinX/p/4081828.html 'cnblog')
 - [詹兴斌](http://blog.zhanxb.com/ '有一些质量很高的外链')
+- [阮一峰](http://www.ruanyifeng.com/home.html)
+- [王垠](http://www.yinwang.org/)
+- [刘未鹏](http://mindhacks.cn/)
+- [池建强](http://macshuo.com/)
+- [余峰](http://evilcos.me/)
+- [江南白衣](http://calvin1978.blogcn.com/)
+- [鸟哥的linux私房菜](http://linux.vbird.org/)
 

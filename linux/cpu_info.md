@@ -57,8 +57,10 @@ Codename:   Final
 ```
 
 ##/proc/cpuinfo
+* 总核数 = 物理CPU个数 * 每颗物理CPU的核数
+* 总逻辑CPU数 = 物理CPU个数 * 每颗物理CPU的核数 * 超线程数
 
-######查看有几个逻辑cpu,以及cpu型号
+###### 查看CPU信息（型号）
 
 ```
 $ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
@@ -66,22 +68,33 @@ $ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
      16  Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
 ```
 
-从上面可以看到,有16个cpu,型号是`Intel(R) Xeon(R) CPU`的`E5620`,主频是`2.40GHz`
+从上面可以看到,有16个逻辑cpu,型号是`Intel(R) Xeon(R) CPU`的`E5620`,主频是`2.40GHz`
 
-######查看实际(物理)的cpu
+######查看物理CPU个数
+即：实际Server中插槽上的CPU个数
+
 ```
-$ cat /proc/cpuinfo | grep physical | uniq -c
-
-      1 physical id : 1
-      1 address sizes   : 40 bits physical, 48 bits virtual
-      1 physical id : 0
-      1 address sizes   : 40 bits physical, 48 bits virtual
-      1 physical id : 1
-      1 address sizes   : 40 bits physical, 48 bits virtual
-      ... 此处省略13项 ...
+$ cat /proc/cpuinfo | grep "physical id" | sort | uniq | wc -l
+2
 ```
 
-说明是16颗1核的CPU
+######查看每个物理CPU中core的个数(即核数)
+```
+$ cat /proc/cpuinfo| grep "cpu cores"| uniq
+cpu cores   : 4
+```
+
+######查看逻辑CPU的个数(总线程数)
+```
+$ cat /proc/cpuinfo| grep "processor"| wc -l
+16
+```
+
+######查看CPU的主频
+```
+cat /proc/cpuinfo | grep "cpu MHz"| uniq
+cpu MHz     : 2394.057
+```
 
 ##getconf
 

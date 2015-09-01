@@ -4,6 +4,7 @@
 * 环境：LNMP
 * 思想：oop, mvc, 三层架构
 * 人物: [惠新宸](http://www.laruence.com/)
+* 调试: echo/print_r/var_dump
 
 ### 常用的库
 + php数据处理类

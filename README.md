@@ -84,6 +84,10 @@
 * [ ] [.NET技术+25台服务器怎样支撑世界第54大网站](http://news.html5tricks.com/donet-25-server-stackoverflow.html)
 * [ ] [简明现代魔法](http://www.nowamagic.net/)
 
+###协议相关
+* [Socket 与 WebSocket](http://zengrong.net/post/2199.htm)
+* [Socket与http、tcp客户端与服务器连接的区别](http://blog.csdn.net/aeolus1019/article/details/8056706)
+
 ####css效果
 
 * [shake](http://elrumordelaluz.github.io/csshake/#1)

@@ -36,8 +36,8 @@ history | awk '{CMD[$2]++;count++;} END { for(a in CMD) {print CMD[a] " " CMD[a]
 * [使用 shell 脚本对 Linux 系统和进程资源进行监控](http://www.ibm.com/developerworks/cn/linux/l-cn-shell-monitoring/)
 
 ##中文资料
-[GNU make中文手册][1]
-[鸟哥的Linux私房菜(简体中文版)][2]
+[GNU make中文手册][1]  
+[鸟哥的Linux私房菜(简体中文版)][2]  
 
 [1]:http://www.yayu.org/book/gnu_make/index.html
 [2]:http://www.ha97.com/book/vbird_linux/

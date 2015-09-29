@@ -7,3 +7,4 @@
 - [MDN-Web技术文档](https://developer.mozilla.org/zh-CN/docs/Web)
 - [免费电子书](http://my.oschina.net/wxfvm/blog/383048)
 - [英文书list](http://m.oschina.net/blog/358178)
+- [qq空间电子书资源](http://user.qzone.qq.com/468730630)

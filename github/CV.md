@@ -14,7 +14,7 @@
 * 熟练掌握PHP+MYSQL编程,OOP编程思想,理解三层结构开发方式
 * 熟悉CI框架的使用，熟练smarty模板引擎,有相关项目开发经验
 * 熟悉sql语句
-* 有一年以上的基于Linux平台开发经验，熟悉linux常用命令
+* 有一年+基于Linux平台开发经验，熟悉linux常用命令,vim,shell
 * 熟悉linux服务器环境，各种软件的编译安装，网络配置
 * 具备html/css/javaScript/jquery等Web开发相关技术
 * 初步具备前端模块化, 响应式布局开发能力

@@ -25,5 +25,6 @@ alias igit='source igit'
 alias ll='ls -alF' #更多文件更多信息
 alias la='ls -A' #显示所有文件(包括隐藏文件)
 alias l='ls -CF' #显示文件(不包括隐藏文件)
+alias tobi='cd ~/bi/html'
 
 # User specific aliases and functions

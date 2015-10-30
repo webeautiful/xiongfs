@@ -31,6 +31,7 @@ set shiftwidth=4 "缩进的空格数为4
 set tabstop=4 "定义tab所等同的空格长度
 set softtabstop=4
 set autoindent "自动缩进
+"set autoread   "文件在Vim之外修改过，自动重新读入
 "set smartindent "开启新行时使用智能自动缩进
 "
 "filetype plugin indent on "自动检测文件类型，用文件类型plugin脚本，使用缩进定义文件
@@ -64,7 +65,7 @@ set hlsearch "高亮显示搜索结果
 set ignorecase "忽略大小写(查找字符串时)
 
 set showcmd "显示未敲完的命令
-set cmdheight=2 "设定命令行（在状态行下）的高度，默认为1，这里是2
+"set cmdheight=2 "设定命令行（在状态行下）的高度，默认为1，这里是2
 
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%Y-%m-%d\ -\ %H:%M\")}   "状态行显示的内容
 set laststatus=1 "启动显示状态行(1),总是显示状态行(2)
@@ -109,3 +110,9 @@ func SetTitle()
 	"新建文件后，自动定位到文件末尾
 	autocmd BufNewFile * normal G
 endfunc
+
+"conf for tabs, 为标签页进行的配置，通过ctrl h/l切换标签等
+let mapleader = ','
+nnoremap <C-l> gt
+nnoremap <C-h> gT
+nnoremap <leader>t : tabe<CR>

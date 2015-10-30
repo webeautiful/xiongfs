@@ -1,0 +1,12 @@
+[user]
+	name = xiongfusong
+	email = xiongfusong@gmail.com
+[color]
+    ui = true
+[alias]
+    st = status -s
+[url "https://"]
+	insteadOf = git://
+[github]
+	user = webeautiful
+	token = a07f2fb5831d56f18f194bb2d7ec074efa3c2c99

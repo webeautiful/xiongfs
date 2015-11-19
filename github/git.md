@@ -4,7 +4,7 @@
 ##Git命令
 概念: 存档库(Stash), 工作区(Workspace,Index), 暂存区(索引,Index), 本地版本库(Local Repository), 上游版本库(Upstream Repository)
 
-![](https://camo.githubusercontent.com/6f44a1120cff41aef0940ce15c875f967e7a8624/687474703a2f2f696d6167652e6265656b6b612e636f6d2f626c6f672f323031342f6267323031343036313230322e6a7067 "git远程工作原理")
+![](http://image.beekka.com/blog/2014/bg2014061202.jpg "git远程工作原理")
 
 ###Local Repository
 
@@ -28,6 +28,8 @@
 ###Git本地命令
 
 ![](http://images.cnitblog.com/blog/221923/201501/061510341401056.png)
+
+根据上面的图片，对部分命令的用法简要说明：
 
 * git checkout -b newbranch 新建分支(增)
 * git checkout abranch  切换到某个分支

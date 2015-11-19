@@ -32,11 +32,12 @@
 * git branch -d tmpbranch  删除临时分支(删)
 * git merge tmpbranch  将tmpbranch分支合并到当前所在的分支
 * git add 添加新文件或修改的文件到`暂存区(索引,index)`
-* git reset --hard HEAD 重置本地仓库(如:用于误删文件的恢复)
 * git reset 用于误添加文件后的恢复
 * git rm 删除本地库的某个文件
+* git reset --hard HEAD 重置本地仓库(如:用于误删文件的恢复)
 * git commit -m "comment" 将更新文件提交到`本地仓库(Local Repository)`
-* git checkout -- filename 恢复对某个文件的修改
+* git checkout -- filename 撤销Workspace中的更新(撤销对文件的改动)
+* git reset HEAD filename 撤销Stage中的更新(撤销`git add filename`操作)
 
 ### 应用场景
 ###### create a new repository on the command line

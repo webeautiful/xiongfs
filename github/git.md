@@ -4,7 +4,7 @@
 ##Git命令
 概念: 存档库(Stash), 工作区(Workspace,Index), 暂存区(索引,Index), 本地版本库(Local Repository), 上游版本库(Upstream Repository)
 
-![](http://image.beekka.com/blog/2014/bg2014061202.jpg "git远程工作原理")
+![](https://camo.githubusercontent.com/6f44a1120cff41aef0940ce15c875f967e7a8624/687474703a2f2f696d6167652e6265656b6b612e636f6d2f626c6f672f323031342f6267323031343036313230322e6a7067 "git远程工作原理")
 
 ###Local Repository
 
@@ -26,6 +26,9 @@
 * git pull origin master 拉取远程仓库
 
 ###Git本地命令
+
+![](http://images.cnitblog.com/blog/221923/201501/061510341401056.png)
+
 * git checkout -b newbranch 新建分支(增)
 * git checkout abranch  切换到某个分支
 * git branch 查看分支(加 * 表示当前所在分支,查)
@@ -34,10 +37,11 @@
 * git add 添加新文件或修改的文件到`暂存区(索引,index)`
 * git reset 用于误添加文件后的恢复
 * git rm 删除本地库的某个文件
-* git reset --hard HEAD 重置本地仓库(如:用于误删文件的恢复)
 * git commit -m "comment" 将更新文件提交到`本地仓库(Local Repository)`
 * git checkout -- filename 撤销Workspace中的更新(撤销对文件的改动)
 * git reset HEAD filename 撤销Stage中的更新(撤销`git add filename`操作)
+* git reset --hard HEAD^ 撤销Local Repo中的更新(撤销commit有两种方式:1.使用HEAD指针;2.使用commit id)
+* git reset --hard HEAD@{n} 恢复对Local Repo的撤销操作(1.HEAD@{n};2.使用short commit id)
 * git reflog -n 记录Local Repo中所有分支的所有更新记录，包括已经撤销的更新
 * git log -n 查看最新的n条提交日志,只包括当前分支中的commit记录
 

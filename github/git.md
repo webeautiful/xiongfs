@@ -38,6 +38,7 @@
 * git commit -m "comment" 将更新文件提交到`本地仓库(Local Repository)`
 * git checkout -- filename 撤销Workspace中的更新(撤销对文件的改动)
 * git reset HEAD filename 撤销Stage中的更新(撤销`git add filename`操作)
+* git log -n 查看最新的n条提交日志
 
 ### 应用场景
 ###### create a new repository on the command line

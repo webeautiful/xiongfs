@@ -22,29 +22,26 @@ colorscheme desert
 "colorscheme murphy
 
 set nu "显示行号
-
 set wrap "自动折行
-"set ts=2
-"set sw=2
-set expandtab "在缩进和遇到Tab键时,使用空格替代,宽度为4个空格
-set shiftwidth=4 "缩进的空格数为4
-set tabstop=4 "定义tab所等同的空格长度
-set softtabstop=4
-set autoindent "自动缩进
 "set autoread   "文件在Vim之外修改过，自动重新读入
-"set smartindent "开启新行时使用智能自动缩进
-"
+
+set expandtab "在缩进和遇到Tab键时,使用空格替代,宽度为4个空格
+set shiftwidth=4 "缩进的空格数为4, set sw=2
+set tabstop=4 "定义tab所等同的空格长度, set ts=2
+set softtabstop=4
+set autoindent "自动对齐，使用上一行的对齐方式
+set smartindent "智能缩进
 "filetype plugin indent on "自动检测文件类型，用文件类型plugin脚本，使用缩进定义文件
 "根据文件类型设置缩进格式
-"au FileType html,python,vim,javascript setl shiftwidth=2
-"au FileType html,python,vim,javascript setl tabstop=2
+"au FileType html,python,vim,less setl shiftwidth=2
+"au FileType html,python,vim,less setl tabstop=2
 "au FileType java,php setl shiftwidth=4
 "au FileType java,php setl tabstop=4
 
 set ruler "在右下角显示光标位置
 "set cursorline "突出显示当前行
 
-set foldmethod=indent
+set foldmethod=indent "折叠
 
 ""命令收集
 "使php识别EOT字符串
@@ -56,12 +53,13 @@ let g:vim_markdown_folding_disabled=1
 
 "高亮显示行尾的空格 ctermbg=red时,空格反白显示
 "{
-"highlight WhitespaceEOL ctermbg=red guibg=red
-highlight WhitespaceEOL ctermbg=red
-match WhitespaceEOL /\s\+$/
+  "highlight WhitespaceEOL ctermbg=red guibg=red
+  highlight WhitespaceEOL ctermbg=red
+  match WhitespaceEOL /\s\+$/
 "}
 
-set hlsearch "高亮显示搜索结果
+set hlsearch "高亮显示搜索结果,关闭:set nohls
+set incsearch "搜索自动定位
 set ignorecase "忽略大小写(查找字符串时)
 
 set showcmd "显示未敲完的命令
@@ -116,3 +114,5 @@ let mapleader = ','
 nnoremap <C-l> gt
 nnoremap <C-h> gT
 nnoremap <leader>t : tabe<CR>
+
+set showmatch  "设置匹配模式，类似当输入一个左括号时匹配上相应的那个右括号

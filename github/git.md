@@ -46,6 +46,7 @@
 * git reset --hard HEAD@{n} 恢复对Local Repo的撤销操作(1.HEAD@{n};2.使用short commit id)
 * git reflog -n 记录Local Repo中所有分支的所有更新记录，包括已经撤销的更新
 * git log -n 查看最新的n条提交日志,只包括当前分支中的commit记录
+* git clone -b <branch> <remote_repo> 指定克隆某个分支
 
 ### 应用场景
 ###### create a new repository on the command line

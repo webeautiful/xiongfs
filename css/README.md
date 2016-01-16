@@ -25,6 +25,13 @@
     font-family: Helvetica;
 }
 ```
+强制单词内断句
+```
+.break-word {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+```
 
 * [DIV+CSS规范命名大全集合](http://www.divcss5.com/jiqiao/j4.shtml)
 * [css3手册](http://www.divcss5.com/css3/)

@@ -19,6 +19,13 @@
     }
 ```
 
+英文使用`Helvetica`字体
+```css
+.en-font {
+    font-family: Helvetica;
+}
+```
+
 * [DIV+CSS规范命名大全集合](http://www.divcss5.com/jiqiao/j4.shtml)
 * [css3手册](http://www.divcss5.com/css3/)
 * [css参考手册](http://css.doyoe.com/)

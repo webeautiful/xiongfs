@@ -26,6 +26,8 @@
 * [美团技术团队](http://tech.meituan.com/)
 * [奇舞周刊](http://www.75team.com/weekly/)
 * [博览网](http://boolan.com/)
+* [携程设计委员会](http://ued.ctrip.com/blog/)
+* [qq前端](http://qqfe.org/)
 
 ### Design
 * [UED团队](http://uedfans.cn/?cat=26)

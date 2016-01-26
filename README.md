@@ -26,12 +26,16 @@
 * [美团技术团队](http://tech.meituan.com/)
 * [奇舞周刊](http://www.75team.com/weekly/)
 * [博览网](http://boolan.com/)
+
 ### Design
 * [UED团队](http://uedfans.cn/?cat=26)
 * [奇舞团](http://www.75team.com/)
 * [微博UDC](http://udc.weibo.com/)
+* [设计导航](http://idesign.qq.com/#!index/site)
+
 ### Product
 [人人都是产品经理](http://www.woshipm.com/)
+
 ### Operation
 
 ★★★★★

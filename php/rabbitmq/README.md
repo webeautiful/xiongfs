@@ -16,6 +16,8 @@
 
 ###参考资料
 
+- [x] [php官网amqp文档](http://php.net/manual/pl/book.amqp.php)
+- [x] [接口说明](https://github.com/pdezwart/php-amqp/tree/master/stubs)
 - [x] [RabbitMQ基础概念详细介绍](http://www.ostest.cn/archives/497)
 - [x] [消息队列RabbitMQ入门介绍](http://www.ostest.cn/archives/483)
 - [x] [RabbitMQ Performance Test](http://www.ostest.cn/archives/513 'rabbitmq性能测试')

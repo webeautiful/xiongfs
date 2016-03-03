@@ -70,3 +70,9 @@
 * [Weibo](http://weibo.com/avnpc)
 * [技术文摘](https://www.evernote.com/pub/allovince/Tech)
 * [庄表伟](http://www.zhuangbiaowei.com/blog/)
+
+#####陈天
+* [Blog](http://tchen.me/)
+* [Github](https://github.com/tyrchen)
+* [Weibo](http://weibo.com/tchen82?is_all=1)
+* 公众号 -- 程序人生(programmer_life)

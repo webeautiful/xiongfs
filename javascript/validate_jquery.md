@@ -168,11 +168,13 @@ $.ajax({
 
     jQuery.validator.addMethod("isMobile", function(value, element) {
                 var length = value.length;
-                var mobile =  /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/;
+                var mobile =  /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
                 return this.optional(element) || (length == 11 && mobile.test(value));
         }, "请正确填写您的手机号码");
 
 电话号码验证
+
+>优先使用正则: `/^([0-9]{2,4}\-)?([0-9]{1,8})+(\-[0-9]{1,4})?$/`
 
     jQuery.validator.addMethod("isPhone", function(value, element) {
             var tel = /^(0[0-9]{2,3}\-)?([2-9][0-9]{6,7})+(\-[0-9]{1,4})?$/;

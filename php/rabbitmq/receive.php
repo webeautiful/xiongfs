@@ -30,7 +30,7 @@ function mq_rec($queueName,$callback){
 
     //2.创建信息通道
     $ch = new AMQPChannel($cnn);
-    $ch->setPrefetchCount(54);//设置unacked消息上限
+    $ch->setPrefetchCount(54);//消息预取限制,设置unacked消息上限
 
     //3.创建队列对象
     $queue = new AMQPQueue($ch);

@@ -76,3 +76,6 @@
 * [Github](https://github.com/tyrchen)
 * [Weibo](http://weibo.com/tchen82?is_all=1)
 * 公众号 -- 程序人生(programmer_life)
+
+##### 王垠
+* [当然我在扯淡](http://www.yinwang.org/)

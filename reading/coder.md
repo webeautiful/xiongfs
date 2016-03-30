@@ -79,3 +79,6 @@
 
 ##### 王垠
 * [当然我在扯淡](http://www.yinwang.org/)
+
+##### 小黑
+* [小黑](http://www.zahei.com/)

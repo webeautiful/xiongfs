@@ -40,6 +40,10 @@
 
 ### Operation
 
+### 创业
+[梦想学校](http://mrjamie.cc/)
+[创业家的深度 — 看到世界的第五个层次](http://www.huxiu.com/article/4646/1.html '找了好久的文章')
+
 ★★★★★
 
 ☆☆  

@@ -7,10 +7,8 @@
 [PHP工程师面临的成长瓶颈](http://blog.csdn.net/a923544197/article/details/7497432)
 ★★★★★  
 ###资讯类
-* [Startup News](http://news.dbanotes.net/)
 * [CoolShell](http://coolshell.cn/)
 * [oilbeater](http://oilbeater.com/index.html)
-* [GEEK头条](http://geek.csdn.net/)
 * [互联网安全](http://www.freebuf.com/)
 * [justjavac](http://justjavac.com/)
 * [web开发者](http://www.admin10000.com/)
@@ -19,6 +17,12 @@
 * [译言](http://www.yeeyan.org/)
 * [著名开源系统介绍](http://www.webappers.com/)
 * [极思维](http://www.topthink.com/)
+
+### 类Hacker News网站
+* [Startup News](http://news.dbanotes.net/)
+* [GEEK头条](http://geek.csdn.net/)
+* [imagine](http://imagine.yyqian.com/post)
+* [酷粒](http://coollist.cn/)
 
 ### Technology
 * [博客-伯乐在线](http://blog.jobbole.com/)

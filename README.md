@@ -18,11 +18,13 @@
 * [著名开源系统介绍](http://www.webappers.com/)
 * [极思维](http://www.topthink.com/)
 
-### 类Hacker News网站
+### 聚合类网站
+* [Hacker News](https://news.ycombinator.com/)
 * [Startup News](http://news.dbanotes.net/)
 * [GEEK头条](http://geek.csdn.net/)
 * [imagine](http://imagine.yyqian.com/post)
 * [酷粒](http://coollist.cn/)
+* [聚合个人博客](http://www.blogbar.cc/)
 
 ### Technology
 * [博客-伯乐在线](http://blog.jobbole.com/)

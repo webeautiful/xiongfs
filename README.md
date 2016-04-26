@@ -40,6 +40,7 @@
 * [奇舞团](http://www.75team.com/)
 * [微博UDC](http://udc.weibo.com/)
 * [设计导航](http://idesign.qq.com/#!index/site)
+* [设计师网址导航](http://hao.uisdc.com/)
 
 ### Product
 [人人都是产品经理](http://www.woshipm.com/)

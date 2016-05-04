@@ -86,3 +86,7 @@
 ##### Phodal
 * ThoughtWorks
 * [phodal](https://www.phodal.com/)
+
+#### 火丁笔记
+* [weibo](http://weibo.com/huoding)
+* [火丁笔记](http://huoding.com/)

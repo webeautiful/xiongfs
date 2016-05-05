@@ -23,6 +23,7 @@
 [PHP网站MVC架构模式中的种种误区](http://bardo.iteye.com/blog/968423)
 [TIPI](http://www.php-internals.com/book/)
 [国外程序员收集整理的PHP资源大全](http://blog.chedushi.com/archives/9908)
+[PHP 标准规范](https://psr.phphub.org/)
 
 ##工具
 [php在线编辑器](http://phpedia.net/)

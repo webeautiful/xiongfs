@@ -90,3 +90,8 @@
 #### 火丁笔记
 * [weibo](http://weibo.com/huoding)
 * [火丁笔记](http://huoding.com/)
+
+#### 刘末鹏
+* 《暗时间》作者
+* [blog](http://mindhacks.cn/)
+* [价值博客们](http://mindhacks.cn/friend-links/)

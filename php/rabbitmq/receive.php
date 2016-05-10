@@ -36,7 +36,12 @@ function mq_rec($queueName,$callback){
     $queue = new AMQPQueue($ch);
     $queue->setName($queueName);#队列名称
 
-    //4.循环(消息阻塞模式)接收消息(无消息阻塞，有消息处理)
+    /*
+    * 4.循环(消息阻塞模式)接收消息(无消息阻塞，有消息处理)
+    *
+    * callback支持数组, 这样可以调用自己写的处理类.如: array($obj, 'method_name')
+    *
+    */
     $res = $queue->consume($callback);//服务器主动发送，客户端只负责接收
 
     $cnn->disconnect();

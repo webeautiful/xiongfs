@@ -59,7 +59,7 @@ let g:vim_markdown_folding_disabled=1
 "}
 
 set hlsearch "高亮显示搜索结果,关闭:set nohls
-set incsearch "搜索自动定位
+set incsearch "搜索时一边输入一边显示效果
 set ignorecase "忽略大小写(查找字符串时)
 
 set showcmd "显示未敲完的命令

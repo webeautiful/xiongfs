@@ -95,3 +95,7 @@
 * 《暗时间》作者
 * [blog](http://mindhacks.cn/)
 * [价值博客们](http://mindhacks.cn/friend-links/)
+
+#### 赵伟
+* 北邮本科，北大研究生
+* [博客](http://www.vicviz.com/me/)

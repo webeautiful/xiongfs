@@ -1,5 +1,7 @@
 ##top命令 -- linux的任务管理器
 
+$ top -c 打印部分命令参数
+
 ```
 xfs@linux:/home/svn$top
 

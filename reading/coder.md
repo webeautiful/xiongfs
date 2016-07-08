@@ -99,3 +99,8 @@
 #### 赵伟
 * 北邮本科，北大研究生
 * [博客](http://www.vicviz.com/me/)
+
+#### 邱德清
+* 北邮本硕
+* 阿里
+* [blog](http://qiudeqing.com/demo.html)

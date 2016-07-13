@@ -24,6 +24,11 @@
 
 ## 工作经历
 
+## 项目经验
+积分商城(mall.pigai.org)
+前端:jquery + bootstrap
+后端: rabbitmq+memcache+ci框架
+
 ## 联系方式
 * 手机: 153********
 * Email: 121023254@qq.com

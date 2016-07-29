@@ -108,3 +108,8 @@
 #### 徐宥
 * google
 * [blog](http://blog.youxu.info/)
+
+#### 陈臻
+* 小米科技
+* [weibo](http://weibo.com/54chen)
+* [blog](http://www.54chen.com/)

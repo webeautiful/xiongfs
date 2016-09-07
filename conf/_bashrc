@@ -18,13 +18,14 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 
-#自定义别名
-alias isvn='source isvn'
-alias igit='source igit'
-#ls aliases
+#ls命令习惯配置
 alias ll='ls -alF' #更多文件更多信息
 alias la='ls -A' #显示所有文件(包括隐藏文件)
 alias l='ls -CF' #显示文件(不包括隐藏文件)
+
+#自定义别名
+alias isvn='source isvn'
+alias igit='source igit'
 alias tobi='cd ~/bi/html'
 alias tooauth='cd ~/oauth2.0/html'
 alias toapi='cd ~/api.pigai.org/html'

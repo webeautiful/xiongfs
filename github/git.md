@@ -68,3 +68,4 @@ git push -u origin master
 * [GitHub 丝带](https://github.com/blog/273-github-ribbons)
 * [Git配置和常用命令](http://lawrence-zxc.github.io/2011/02/12/git-pro/)
 * [Git版本控制软件结合GitHub从入门到精通常用命令学习手册](http://www.ihref.com/read-16369.html)
+* [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)

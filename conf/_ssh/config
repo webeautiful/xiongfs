@@ -1,0 +1,17 @@
+Host 99
+  HostName 115.168.67.99
+  Port 2205
+  User xfs
+Host 103
+  HostName 115.168.67.103
+  User xfs
+Host 114
+  HostName 115.168.67.114
+  User xfs
+Host 186
+  HostName 115.168.67.186
+  User webeautiful
+Host *
+  IdentityFile ~/.ssh/id_rsa
+  TCPKeepAlive yes
+  ServerAliveInterval 120

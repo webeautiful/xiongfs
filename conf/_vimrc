@@ -51,16 +51,16 @@ hi link phpheredoc string
 au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=mkd
 let g:vim_markdown_folding_disabled=1
 
-"高亮显示行尾的空格 ctermbg=red时,空格反白显示
-"{
-  "highlight WhitespaceEOL ctermbg=red guibg=red
-  highlight WhitespaceEOL ctermbg=red
-  match WhitespaceEOL /\s\+$/
-"}
-
 set hlsearch "高亮显示搜索结果,关闭:set nohls
 set incsearch "搜索时一边输入一边显示效果
 set ignorecase "忽略大小写(查找字符串时)
+
+"高亮显示行尾的空格 ctermbg=red时,空格反白显示
+"{
+"highlight WhitespaceEOL ctermbg=red guibg=red
+highlight WhitespaceEOL ctermbg=red
+match WhitespaceEOL /\s\+$/
+"}
 
 set showcmd "显示未敲完的命令
 "set cmdheight=2 "设定命令行（在状态行下）的高度，默认为1，这里是2

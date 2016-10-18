@@ -10,8 +10,9 @@ set fileformats=unix
 set fileencodings=utf-8,gb2312,gbk,gb18030
 set encoding=utf-8
 
+set hlsearch
 set incsearch
+set ignorecase
 
 nnoremap <C-l> gt
 nnoremap <C-h> gT
-nnoremap <leader>t : tabe<CR>

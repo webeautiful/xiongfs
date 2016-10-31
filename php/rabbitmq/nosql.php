@@ -11,7 +11,7 @@ class Nosql
         $params = array('host' =>'mq_server.pigai.org',
             'port' => 5672,
             'login' => 'root',
-            'password' => 'cikuutest!',
+            'password' => 'xxxxxx',
             'vhost' => '/');
         //print_r($params );
         try{
@@ -35,7 +35,7 @@ class Nosql
         $params = array('host' =>'mq_server.pigai.org',
             'port' => 5672,
             'login' => 'root',
-            'password' => 'cikuutest!',
+            'password' => 'xxxxxx',
             'vhost' => '/');
 
         try{
@@ -58,7 +58,7 @@ class Nosql
         $params = array('host' =>'mq_server.pigai.org',
             'port' => 5672,
             'login' => 'root',
-            'password' => 'cikuutest!',
+            'password' => 'xxxxxx',
             'vhost' => '/');
         try{
             //连接rabbitmq服务器

@@ -25,9 +25,19 @@
 ## 工作经历
 
 ## 项目经验
+
 积分商城(mall.pigai.org)
+
 前端:jquery + bootstrap
+
 后端: rabbitmq+memcache+ci框架
+
+## oauth2.0 开放平台
+
+性能方面: 接口压测(ab)+curl测试
+
+日志: nginx访问日志分析+tcpdump抓包分析访客行为+访问频率限制
+
 
 ## 联系方式
 * 手机: 153********

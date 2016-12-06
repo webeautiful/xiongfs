@@ -7,7 +7,7 @@
 
 ## 求职意向
 - 求职意向: PHP高级程序员
-- 期望薪水: 税后16k+
+- 期望薪水: 税后28k+
 - 工作地点: 北京
 
 ## 专业技能
@@ -21,6 +21,61 @@
 * 有良好的编程习惯和简洁清晰的代码风格；
 * 具备良好的学习能力和分析解决问题能力,热爱技术,好钻研；
 * 有良好的团队合作能力，善于沟通，工作上能自主驱动
+
+## 技术领域
+
+### 基础
+项目管理: git/svn
+
+编辑器: vim/webstorm
+
+### PHP技术栈
+
+Linux+nginx/lua+CI/Laravel+mysql+redis/memcached+rabbitmq/icomet
+
+### Python技术栈
+
+virtualenv+pip+flasky+mysql/alembic+celery
+
+### Node技术栈
+
+pm2+npm+express/socketio
+
+### 前端技术栈
+
+#### 响应式布局 bootstrap
+
+#### 前端工程化
+
+* npm/bower+webpack+babel+es6+scss  
+* angular1.5/angular2  
+* react+redux+GraphQL  
+
+#### 数据可视化
+hightchart/echart
+
+### IM
+
+icomet-server/ejabberd/socketio
+
+### 性能分析
+* nginx日志  
+* tcpdump抓包  
+* curl/ab测试
+
+### 架构
+nginx/haproxy代理
+
+异步队列 rabbitmq
+
+负载均衡 nginx
+
+缓存服务 redis/memcached/couchbase
+
+搜索服务 es
+
+存储方案 Mysql/Maria/Vertica/Hbase/Mongodb/SQLite
+
 
 ## 工作经历
 

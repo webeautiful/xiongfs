@@ -39,7 +39,7 @@ virtualenv+pip+flasky+mysql/alembic+celery
 
 ### Node技术栈
 
-pm2+npm+express/socketio
+pm2+npm/cnpm+express/socketio
 
 ### 前端技术栈
 

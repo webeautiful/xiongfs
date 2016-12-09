@@ -89,6 +89,13 @@
 |22|RLENGTH|由match函数所匹配的字符串长度|
 |23|SUBSEP|数组下标分割符(默认是`\034`)|
 
+SUBSEP用例:
+
+```bash
+$ awk 'BEGIN{SUBSEP="-:-";arr["a","b"]=1;for(i in arr) print i, arr[i]}'
+a-:-b 1
+```
+
 ###运算符表
 
 |类型|运算符|

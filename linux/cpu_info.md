@@ -76,6 +76,9 @@ $ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 ```
 $ cat /proc/cpuinfo | grep "physical id" | sort | uniq | wc -l
 2
+$ cat /proc/cpuinfo | grep 'physical id' | sort | uniq -c
+    8 physical id   : 0
+    8 physical id   : 1
 ```
 
 ######查看每个物理CPU中core的个数(即核数)

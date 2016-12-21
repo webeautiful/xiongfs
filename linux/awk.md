@@ -113,9 +113,9 @@ a-:-b 1
 |函数格式|功能描述|实例|
 |--------|--------|----|
 |sub(regular_expression,substitution_str[,target_str])|匹配目标字符串中第一个符合正则规则的字符串,然后用替换字符串代替|sub(/test/,"mytest")|
-|gsub(r,s)|在整个$0中用s替代r|gsub(/test/,"mytest")|
-|gsub(r,s,t)|在整个t中用s替代r|gsub(/test/,"mytest",'thisisonlyatest!')|
-|split(s,a,fs)|用分隔符fs,将字符串s分成序列a|如:|
+|gsub(r,s)|整行全局匹配，在整行$0中用s替代r|gsub(/test/,"mytest")|
+|gsub(reg, s, t)|全局匹配, 将t与reg进行正则匹配，并替换成s, 更新目标字符串t|
+|split(s,a,fs)|用分隔符fs,将字符串s分成序列a|
 
 ##awk数组和遍历
 注:用awk执行循环的效率比shell高很多

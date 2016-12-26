@@ -75,5 +75,4 @@ set laststatus=1 "启动显示状态行(1),总是显示状态行(2)
 nnoremap <C-h> gT
 nnoremap <C-l> gt
 
-"set showmatch "设置匹配模式，类似当输入一个左括号时匹配上相应的那个右括号
-"
+"set showmatch "设置匹配模式，类似当输入一个左括号时匹配上相应的那个右括号"

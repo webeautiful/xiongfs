@@ -76,3 +76,14 @@ nnoremap <C-h> gT
 nnoremap <C-l> gt
 
 "set showmatch "设置匹配模式，类似当输入一个左括号时匹配上相应的那个右括号"
+
+"防止特殊符号无法正常显示
+set ambiwidth=double
+
+"解决粘贴到终端Vim缩进错乱的问题 set paste, set nopaste
+nnoremap <F2> :set invpaste paste?<CR>
+imap <F2> <C-O>:set invpaste paste?<CR>
+set pastetoggle=<F2>
+
+" 在命令模式下使用 Tab 自动补全的时候，将补全内容使用一个漂亮的单行菜单形式显示出来
+set wildmenu

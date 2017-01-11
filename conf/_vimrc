@@ -56,9 +56,11 @@ au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=mkd
 let g:vim_markdown_folding_disabled=1
 
 "高亮显示行尾的空格 ctermbg=red时,空格反白显示
-highlight WhitespaceEOL ctermbg=red guibg=red
+"highlight WhitespaceEOL ctermbg=red guibg=red
 highlight WhitespaceEOL ctermbg=red
 match WhitespaceEOL /\s\+$/
+"\+w 删除行尾的空格
+nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
 
 set hlsearch "高亮显示搜索结果,关闭:set nohls
 set incsearch "搜索自动定位

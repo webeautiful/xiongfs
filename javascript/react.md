@@ -2,7 +2,7 @@ Understanding the React Component Lifecycle
 ===
 
 ##### Initialization
-![](http://busypeoples.github.io/img/lifecycle_init.png "Initialization')
+![](http://busypeoples.github.io/img/lifecycle_init.png "Initialization")
 
 ##### State Changes
 ![](http://busypeoples.github.io/img/lifecycle_state.png "State Changes")

@@ -97,3 +97,6 @@ set cursorline
 hi CursorLine cterm=NONE ctermbg=black ctermfg=NONE
 
 "set showmatch "设置匹配模式，类似当输入一个左括号时匹配上相应的那个右括号"
+
+" AWESOME VIM PLUGINS
+" http://vimawesome.com/

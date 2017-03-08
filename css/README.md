@@ -33,6 +33,7 @@
 }
 ```
 
+* [50个CSS代码片段](http://www.oschina.net/translate/css-snippets-for-designers)
 * [DIV+CSS规范命名大全集合](http://www.divcss5.com/jiqiao/j4.shtml)
 * [css3手册](http://www.divcss5.com/css3/)
 * [css参考手册](http://css.doyoe.com/)

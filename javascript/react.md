@@ -38,3 +38,10 @@ The React Component Lifecycle
 ### References
 * [React.Component](https://facebook.github.io/react/docs/react-component.html)
 * [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
+
+### Links
+* [react-book](https://github.com/shimohq/react-cookbook)
+* [react.rocks](https://react.rocks/)
+* [awesome-react](https://github.com/enaqx/awesome-react)
+* [javascriptweekly](http://javascriptweekly.com/)
+* [react-weekly](https://react.statuscode.com/)

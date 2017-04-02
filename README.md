@@ -1,11 +1,12 @@
-<script type="text/javascript" src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css" />
-<span class="glyphicon glyphicon-bookmark"></span>
-@Created by "Mr.熊" in 2014-01-25.  
-★★★★★  
+@Created by "Mr.Xiongfs" in 2014-01-25.  
+
+★★★★
+
 [快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)  
 [PHP工程师面临的成长瓶颈](http://blog.csdn.net/a923544197/article/details/7497432)
+
 ★★★★★  
+
 ###资讯类
 * [CoolShell](http://coolshell.cn/)
 * [oilbeater](http://oilbeater.com/index.html)

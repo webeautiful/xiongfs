@@ -1,14 +1,22 @@
 syntax on
-set autoindent
+
+set encoding=utf-8
+set fileformats=unix
+set fileencodings=utf-8,gb2312,gbk,gb18030
+
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
+
+filetype plugin indent on
+au FileType html,javascript,less,css setl et ts=2 sw=2 sts=2
+
 set nu
+set autoindent
+set ambiwidth=double
 set foldmethod=indent
 
-set fileformats=unix
-set fileencodings=utf-8,gb2312,gbk,gb18030
-set encoding=utf-8
 
 set hlsearch
 set incsearch

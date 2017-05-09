@@ -1,13 +1,13 @@
 ---
-#AWK入门
+# AWK入门
 
-##简介
+## 简介
 
 1. AWK是由贝尔实验室1977年弄出来的文本处理神器,蛇年是AWK的本命年;  
 2. AWK取自其三位发明者Family name的首字母,分别是:Alfred Aho，Peter Weinberger, 和 Brian Kernighan;  
 3. 功能:流控制,数学运算,进程控制,内置的变量和函数,循环和判断
 
-##awk脚本
+## awk脚本
 成绩单:
 
     $ cat score.txt
@@ -60,8 +60,8 @@
     -------------------------------------------------
        TOTLAL:       319      393      350 
        AVERAGE:     63.80    78.60    70.00
-##基础
-###awk内置变量表
+## 基础
+### awk内置变量表
 
 |序号|属性|说明|
 |----|----|----|
@@ -96,7 +96,7 @@ $ awk 'BEGIN{SUBSEP="-:-";arr["a","b"]=1;for(i in arr) print i, arr[i]}'
 a-:-b 1
 ```
 
-###运算符表
+### 运算符表
 
 |类型|运算符|
 |----|------|
@@ -108,8 +108,8 @@ a-:-b 1
 |增/减量运算符|++, --|
 |其他|+(正号), -(负号)|
 
-##awk的内建函数
-###字符串函数
+## awk的内建函数
+### 字符串函数
 |函数格式|功能描述|实例|
 |--------|--------|----|
 |sub(regular_expression,substitution_str[,target_str])|匹配目标字符串中第一个符合正则规则的字符串,然后用替换字符串代替|sub(/test/,"mytest")|
@@ -117,10 +117,10 @@ a-:-b 1
 |gsub(reg, s, t)|全局匹配, 将t与reg进行正则匹配，并替换成s, 更新目标字符串t|
 |split(s,a,fs)|用分隔符fs,将字符串s分成序列a|
 
-##awk数组和遍历
+## awk数组和遍历
 注:用awk执行循环的效率比shell高很多
 
-###参考资料
+### j参考资料
 - [AWK简明教程](http://coolshell.cn/articles/9070.html)
 - [AWK命令学习系列](http://www.cnblogs.com/chengmo/archive/2013/01/17/2865479.html)
 

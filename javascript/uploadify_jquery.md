@@ -1,14 +1,14 @@
 ---
-#JQuery插件之uploadify
+# JQuery插件之uploadify
 [官方下载](http://www.uploadify.com/download/)  
 [中文文档](http://www.yauld.cn/uploadifydoc/)
 
-##部署
+## 部署
 - [x] jquery框架
 - [x] Flash Player 9.0以上
 - [x] uploadify插件v3.2.1(自带[SWFObject](http://code.google.com/p/swfobject/))
 
-##属性
+## 属性
 
 **swf**
 
@@ -72,7 +72,7 @@ $(function() {
 });
 ```
 
-##事件
+## 事件
 **onSelectError**
 
 desc:选择文件的类型/尺寸/数量不符合限定条件时触发,默认操作会弹出alert框
@@ -137,14 +137,14 @@ file对象
 
 疑问:18个事件发生的先后顺序?onSelect>onSelectError>onUploadStart>onUploadSuccess>onUploadError
 
-##方法
+## 方法
 
 |方法|功能描述|
 |----|--------|
 |cancel|取消当前上传|
 |upload|上传指定文件或队列中的所有文件|
 
-##研究
+## 研究
 * 上传按钮的样式可以自定义
 * 自动上传
 * 上传后进度条不隐藏
@@ -233,7 +233,7 @@ $(function(){
 ```
 这样即可解决启动时/后退时崩溃问题
 
-##自定义属性和事件
+## 自定义属性和事件
 **buttonTemplate**
 
 default:false
@@ -251,7 +251,7 @@ if ($.inArray('isCheckRename', settings.overrideEvents) < 0)
 ```
 ([在线js压缩工具](http://tool.oschina.net/jscompress))
 
-##数据结构
+## 数据结构
 
 *jq_uploadify*
 

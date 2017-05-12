@@ -13,15 +13,15 @@ js中实现php函数echo(),print_r(),var_dump(),调试起来很方便(位于ci_d
 
 ### 前端demo
 
-###文章
+### 文章
 - [ ] [IE和Firefox的Javascript兼容性总结](http://www.w3cfuns.com/blog-5458045-5402779.html)
 
-##资源
+## 资源
 * [阮一峰的js教程](https://github.com/ruanyf)
 * [ECMAScript 6入门](http://es6.ruanyifeng.com/)
 * [JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
 
-##工具
+## 工具
 * [javascript API查询](http://www.javascripture.com/)
 * [前端网址导航](http://sentsin.com/daohang/)
 * [Layer](http://layer.layui.com/)

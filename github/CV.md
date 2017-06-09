@@ -1,4 +1,4 @@
-#我的个人简历
+# 我的个人简历
 
 ## 个人信息
 - 男/1988
@@ -47,7 +47,7 @@ pm2+npm/cnpm+express/socketio
 
 #### 前端工程化
 
-* npm/bower+webpack+babel+es6+scss  
+* npm/yarn/bower+webpack+babel+es6+scss  
 * angular1.5/angular2  
 * react+redux+GraphQL  
 

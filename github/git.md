@@ -1,12 +1,12 @@
-#学习git的原理和使用
+# 学习git的原理和使用
 该文档收集了日常工作中用到的一些git命令，以及GitHub和git相关的网络资料。
 
-##Git命令
+## Git命令
 概念: 存档库(Stash), 工作区(Workspace,Index), 暂存区(索引,Index), 本地版本库(Local Repository), 上游版本库(Upstream Repository)
 
 ![](http://image.beekka.com/blog/2014/bg2014061202.jpg "git远程工作原理")
 
-###Local Repository
+### Local Repository
 
 ![](http://images.cnitblog.com/blog/221923/201501/061003450151847.png "Local Repository")
 
@@ -19,13 +19,13 @@
 * Local Repo：本地仓库，一个存放在本地的版本库；HEAD会只是当前的开发分支（branch）。
 * Stash：是一个工作状态保存栈，用于保存/恢复WorkSpace中的临时状态。
 
-###Git远程命令
+### Git远程命令
 
 * [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 * git push origin master 将`本地仓库(Local Repository)`的修改提交到`远程仓库(Upstream Repository)`
 * git pull origin master 拉取远程仓库
 
-###Git本地命令
+### Git本地命令
 
 ![](http://images.cnitblog.com/blog/221923/201501/061510341401056.png)
 
@@ -59,7 +59,7 @@ git remote add origin git@github.com:webeautiful/gde.git
 git push -u origin master
 ```
 
-##参考资料
+## 参考资料
 * [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=stash)
 * [Pro Git](http://git-scm.com/book/zh)

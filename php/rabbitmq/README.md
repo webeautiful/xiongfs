@@ -1,4 +1,4 @@
-###测试环境
+### 测试环境
 
 * Ubuntu 14.04.1 LTS/CentOS 6.2
 * PHP 5.3.14/PHP 5.3.10
@@ -8,13 +8,13 @@
   - [rabbitmq-c](https://github.com/alanxz/rabbitmq-c/releases/tag/v0.5.2)
   - [php-amqp模块](http://pecl.php.net/package/amqp)
 
-###文件说明
+### 文件说明
 
 - `rabbit_pigai214_2014-11-28.json` -- 搭建rabbitmq服务后,登入`http://127.0.0.1:15672/`管理界面，将此数据导入Overview>broker definitions
 - `send.php` -- 消息生产者(producer)
 - `receive.php` -- 消息消费者(consumer)
 
-###参考资料
+### 参考资料
 
 - [x] [php官网amqp文档](http://php.net/manual/pl/book.amqp.php)
 - [x] [接口说明](https://github.com/pdezwart/php-amqp/tree/master/stubs)

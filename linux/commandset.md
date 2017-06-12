@@ -1,6 +1,6 @@
 linux命令集
 ===========
-##time
+## time
 测量一个命令的运行时间
 
     real    0m0.911s ==>实际使用时间(real time)

@@ -7,7 +7,7 @@
 
 ★★★★★  
 
-###资讯类
+### 资讯类
 * [CoolShell](http://coolshell.cn/)
 * [oilbeater](http://oilbeater.com/index.html)
 * [互联网安全](http://www.freebuf.com/)
@@ -56,7 +56,7 @@
 
 ☆☆  
 
-###互联网招聘网站
+### 互联网招聘网站
 * [内推网](http://www.neitui.me/)
 * [拉钩](http://www.lagou.com/)
 * [自助招聘求职](https://jobsdigg.com/)
@@ -69,16 +69,16 @@
 * [快简历](http://rd.kuaijianli.com/#hot)
 * [用markdown快速创建在线简历](http://cvbox.sinaapp.com/)
 
-###CDN资源
+### CDN资源
 * [360网站卫士常用前端公共库加速服务](http://libs.useso.com/js.php)
 * [百度CDN公共库](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
 * [Bootstrap中文网开放CDN服务](http://www.bootcdn.cn/)
 
-###<a name='TOC'>阅读</a>
-####关于面试
+### <a name='TOC'>阅读</a>
+#### 关于面试
 * [2012-09至2012-10求职那些事](http://srhang.iteye.com/blog/1705651)
 
-####程序员素养，管理和技术感悟
+#### 程序员素养，管理和技术感悟
 - [ ] [陆其明](http://blog.csdn.net/happydeer)
 - [ ] [道哥的黑板报](http://taosay.net/)
 - [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
@@ -96,24 +96,24 @@
 * [(连载)Mac OS X 背后的故事](http://www.programmer.com.cn/6727/)
 * [好事要做到底，我们需要full stack的API设计](http://www.blogjava.net/OneEyeWolf/archive/2008/01/01/171990.html)
 
-###纯技术
+### 纯技术
 * [ ] [Linux查看CPU和内存使用情况](http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html)
 * [ ] [C语言基础教程](http://computer.howstuffworks.com/c23.htm/printable)
 * [ ] [.NET技术+25台服务器怎样支撑世界第54大网站](http://news.html5tricks.com/donet-25-server-stackoverflow.html)
 * [ ] [简明现代魔法](http://www.nowamagic.net/)
 
-###协议相关
+### 协议相关
 * [Socket 与 WebSocket](http://zengrong.net/post/2199.htm)
 * [Socket与http、tcp客户端与服务器连接的区别](http://blog.csdn.net/aeolus1019/article/details/8056706)
 
-####css效果
+#### css效果
 
 * [shake](http://elrumordelaluz.github.io/csshake/#1)
 * [css参考手册](http://css.doyoe.com/)
 * [bootstrap组件](http://getbootstrap.com/components/)
 
-###网络工具
-######代码搜索引擎
+### 网络工具
+###### 代码搜索引擎
 * [searchcode](https://searchcode.com/)
 * [krugle](http://www.krugle.org/)
 * [ohloh](http://code.ohloh.net/)
@@ -129,7 +129,7 @@
     - <http://uc.my/>
     - <https://g.linzhen.net/>
 
-####开源镜像
+#### 开源镜像
 
 * [东软信息学院开源镜像](http://mirrors.neusoft.edu.cn/)
 

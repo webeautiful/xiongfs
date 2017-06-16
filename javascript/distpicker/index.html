@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>地址选择器</title>
+
+    <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="area.js"></script>
+    <script type="text/javascript" src="location.js"></script>
+</head>
+
+<body>
+  <label class="ident">地址：</label>
+  <select id="loc_province" name="lp" class="js-lp" style="width:80px;"></select>
+  <select id="loc_city" name="lc" class="js-lc" style="width:100px;"></select>
+  <select id="loc_town" name="lt" class="js-lt" style="width:120px;"></select>
+
+  <script type="text/javascript">
+  $(function() {
+    showLocation();
+  });
+  </script>
+</body>
+</html>

@@ -297,7 +297,7 @@ example 4
 
 [![](http://xfsweb.com/emlog/content/uploadfile/201306/27331370760818.jpg)](http://xfsweb.com "myblog")
 
-[![](http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=q5qZmpuZmJmen_va2oXIxM    Y)
+[![](http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=q5qZmpuZmJmen_va2oXIxMY)
 
 4)自动链接
 

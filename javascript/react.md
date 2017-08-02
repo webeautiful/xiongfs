@@ -33,7 +33,7 @@ The React Component Lifecycle
 * componentWillUnmount
 
 ##### Lifecycle
-![](http://mmbiz.qpic.cn/mmbiz_jpg/jMJWqMeYRQWerHW7z0ZgIMpsqickXJBfNt16DjpRv6cwSzJkBdMJibQbUibPIuqkSc8gWCLfAMZpd2ic8fvjyNITgA/640)
+![](http://upload-images.jianshu.io/upload_images/2428275-f08403a3ea1b80f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### References
 * [React.Component](https://facebook.github.io/react/docs/react-component.html)

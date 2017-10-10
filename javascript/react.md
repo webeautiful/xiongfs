@@ -45,3 +45,5 @@ The React Component Lifecycle
 * [awesome-react](https://github.com/enaqx/awesome-react)
 * [javascriptweekly](http://javascriptweekly.com/)
 * [react-weekly](https://react.statuscode.com/)
+* [awesome-react-native](http://www.awesome-react-native.com/)
+* [reactscript](http://reactscript.com/)

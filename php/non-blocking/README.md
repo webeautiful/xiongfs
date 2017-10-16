@@ -2,3 +2,5 @@
 
 * `fsockopen.php` - 触发网络程序
 * `popen.php` - 触发本地程序
+
+[PHP实现异步调用方法研究](http://www.laruence.com/2008/04/14/318.html)

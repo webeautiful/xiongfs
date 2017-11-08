@@ -26,3 +26,5 @@ function setSelectChecked(selectId, checkValue){
   }
 };
 ```
+### References
+* [工作中—常用函数记录总结](http://www.jianshu.com/p/2e3697ca43b3)

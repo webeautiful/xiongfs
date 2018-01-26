@@ -44,8 +44,8 @@ The React Component Lifecycle
 | componentDidMount | 1 | 是
 | componentWillReceiveProps | >=0 | 是
 | shouldComponentUpdate | >=0 | 否
-| componentWillUpdate | >=0 | 否
-| componentDidUpdate | >=0 | 否
+| componentWillUpdate(nextProps, nextState) | >=0 | 否
+| componentDidUpdate(prevProps, prevState) | >=0 | 否
 | componentWillUnmount | 1 | 否
 
 ### References

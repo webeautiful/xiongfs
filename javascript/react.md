@@ -42,11 +42,17 @@ The React Component Lifecycle
 | componentWillMount | 1 | 是
 | render |  >=1 | 否
 | componentDidMount | 1 | 是
-| componentWillReceiveProps | >=0 | 是
+| componentWillReceiveProps(nextProps) | >=0 | 是
 | shouldComponentUpdate | >=0 | 否
 | componentWillUpdate(nextProps, nextState) | >=0 | 否
 | componentDidUpdate(prevProps, prevState) | >=0 | 否
 | componentWillUnmount | 1 | 否
+
+##### 静态属性
+* childContextTypes
+* contextTypes
+* propTypes
+* defaultProps
 
 ### References
 * [React.Component](https://facebook.github.io/react/docs/react-component.html)

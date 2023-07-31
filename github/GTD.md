@@ -6,7 +6,7 @@ Getting Things Done
 
 
 ## 引子
-![](http://gb.cri.cn/mmsource/images/2007/04/30/nz070430022.jpg)
+![](https://news.cri.cn/gb/mmsource/images/2007/04/30/nz070430022.jpg)
 
 艾森豪威尔, 美国历史上晋升最快的五星上将，也是美国第34任总统, 二战时期那场著名的诺曼底登陆战(1944.6.6)就是他指挥
 
@@ -25,7 +25,7 @@ Getting Things Done
 ## 艾森豪威尔法则
 就是根据艾森豪威尔的十字时间计划演变而来的
 
-![](https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=f3569340ebc4b7452099bf44ae957572/267f9e2f07082838e633c97db899a9014c08f199.jpg)
+![](https://img.36krcdn.com/20220601/v2_b7941bf1780346929db2015768616bb5_img_jpeg)
 
 * 做事要分轻重缓急
 * 给事情排优先级的方法
@@ -52,7 +52,7 @@ Getting Things Done
 * 费曼技巧是一种提高学习效率的方法
 * 验证式学习和填鸭式学习的区别
 
-![](http://www.onesmart.org/images/xuep1.jpg)
+![](https://picx.zhimg.com/80/v2-1be3424b9e685c6d17ea4830ab683632_720w.webp?source=1940ef5c)
 
 由学习金字塔可以看出：
 

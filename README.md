@@ -1,45 +1,30 @@
-@Created by "Mr.Xiongfs" in 2014-01-25.  
+@Created by "Mr.Xiongfs" in 2014-01-25.
 
 ★★★★
 
-[快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)  
+[快来读书吧](https://github.com/webeautiful/xiongfs/blob/master/reading/reading.md)
+
 [PHP工程师面临的成长瓶颈](http://blog.csdn.net/a923544197/article/details/7497432)
 
-★★★★★  
+★★★★★
 
 ### 资讯类
 * [CoolShell](http://coolshell.cn/)
-* [oilbeater](http://oilbeater.com/index.html)
 * [互联网安全](http://www.freebuf.com/)
 * [justjavac](http://justjavac.com/)
-* [web开发者](http://www.admin10000.com/)
+* [oilbeater](http://oilbeater.com/index.html)
 * [月光博客](http://www.williamlong.info/)
-* [新知社区](http://get.jobdeer.com)
-* [译言](http://www.yeeyan.org/)
 * [著名开源系统介绍](http://www.webappers.com/)
 * [极思维](http://www.topthink.com/)
 
 ### 聚合类网站
 * [Hacker News](https://news.ycombinator.com/)
-* [Startup News](http://news.dbanotes.net/)
-* [GEEK头条](http://geek.csdn.net/)
-* [imagine](http://imagine.yyqian.com/post)
-* [酷粒](http://coollist.cn/)
-* [聚合个人博客](http://www.blogbar.cc/)
 
 ### Technology
-* [博客-伯乐在线](http://blog.jobbole.com/)
-* [UC技术博客](http://tech.uc.cn/)
 * [美团技术团队](http://tech.meituan.com/)
-* [奇舞周刊](http://www.75team.com/weekly/)
-* [博览网](http://boolan.com/)
-* [携程设计委员会](http://ued.ctrip.com/blog/)
-* [qq前端](http://qqfe.org/)
+* [奇舞周刊](https://weekly.75.team/)
 
 ### Design
-* [UED团队](http://uedfans.cn/?cat=26)
-* [奇舞团](http://www.75team.com/)
-* [微博UDC](http://udc.weibo.com/)
 * [设计导航](http://idesign.qq.com/#!index/site)
 * [设计师网址导航](http://hao.uisdc.com/)
 
@@ -50,17 +35,17 @@
 
 ### 创业
 [梦想学校](http://mrjamie.cc/)
+
 [创业家的深度 — 看到世界的第五个层次](http://www.huxiu.com/article/4646/1.html '找了好久的文章')
+
+[Tools for better thinking](https://untools.co/)
 
 ★★★★★
 
-☆☆  
+☆☆
 
 ### 互联网招聘网站
-* [内推网](http://www.neitui.me/)
 * [拉钩](http://www.lagou.com/)
-* [自助招聘求职](https://jobsdigg.com/)
-* [蓝色理想](http://job.blueidea.com/)
 * [周伯通](http://www.jobtong.com/)
 * [腾讯社招](http://imgcache.qq.com/isd/index.html)
 * [码农IO](http://job.manong.io/)
@@ -133,10 +118,10 @@
 
 * [东软信息学院开源镜像](http://mirrors.neusoft.edu.cn/)
 
-感慨:1. 一直在不停的编程做项目，却并没有去仔细去思考:为什么要做这些项目，为什么不沿用以前的而是要重新开发,这些项目都是用来满足怎样的需求的，自己在项目开发中又学到了什么？  
-2.2014-09-22 感到惭愧,差距  
+感慨:1. 一直在不停的编程做项目，却并没有去仔细去思考:为什么要做这些项目，为什么不沿用以前的而是要重新开发,这些项目都是用来满足怎样的需求的，自己在项目开发中又学到了什么？
+2.2014-09-22 感到惭愧,差距
 
-☆★☆  
+☆★☆
 
 **[[⬆]](#TOC)**
 

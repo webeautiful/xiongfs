@@ -46,17 +46,11 @@
 
 ### 互联网招聘网站
 * [拉钩](http://www.lagou.com/)
-* [周伯通](http://www.jobtong.com/)
 * [腾讯社招](http://imgcache.qq.com/isd/index.html)
 * [码农IO](http://job.manong.io/)
-* [竞鹿人才竞拍](http://www.jobdeer.com/)
-* [100offer](https://www.100offer.com/)
-* [快简历](http://rd.kuaijianli.com/#hot)
 * [用markdown快速创建在线简历](http://cvbox.sinaapp.com/)
 
 ### CDN资源
-* [360网站卫士常用前端公共库加速服务](http://libs.useso.com/js.php)
-* [百度CDN公共库](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
 * [Bootstrap中文网开放CDN服务](http://www.bootcdn.cn/)
 
 ### <a name='TOC'>阅读</a>
@@ -68,7 +62,6 @@
 - [ ] [道哥的黑板报](http://taosay.net/)
 - [ ] [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
 - [x] [并不是所有的程序员都适合做技术管理](http://www.csdn.net/article/2014-06-13/2820217)
-- [ ] [草榴社区](http://cl.man.lv/)
 - [ ] [程序员的十个层次](http://jianshu.io/p/xTNAyU)
 * [x] [Linus，一生只为寻找欢笑](http://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=200486872&idx=1&sn=36d0b252a62847df9aad9f83ef7b9a62)
 * [x] [Linus，走进硅谷](http://www.aiweibang.com/yuedu/tech/780509.html)

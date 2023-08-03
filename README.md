@@ -49,6 +49,7 @@
 * [腾讯社招](http://imgcache.qq.com/isd/index.html)
 * [码农IO](http://job.manong.io/)
 * [用markdown快速创建在线简历](http://cvbox.sinaapp.com/)
+* [电鸭](https://eleduck.com/)
 
 ### CDN资源
 * [Bootstrap中文网开放CDN服务](http://www.bootcdn.cn/)

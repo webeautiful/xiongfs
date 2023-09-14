@@ -1,0 +1,46 @@
+" Vim 配置文件
+
+" 设置文件类型检测
+filetype plugin indent on
+
+" 启用语法高亮
+syntax enable
+
+" 设置缩进
+set tabstop=4         " Tab 键宽度为 4 个空格
+set shiftwidth=4      " 自动缩进的空格数
+set expandtab         " 将 Tab 转换为空格
+
+" 显示行号和状态栏
+set number            " 显示行号
+set relativenumber    " 相对行号
+set laststatus=2      " 总是显示状态栏
+
+" 搜索设置
+set hlsearch          " 高亮显示搜索结果
+set incsearch         " 实时匹配搜索
+
+" 显示设置
+set showmatch         " 高亮显示匹配的括号
+set ruler             " 在状态栏显示光标位置
+set cursorline        " 高亮显示当前行
+
+" 快捷键映射
+nnoremap <F5> :w<CR>             " 使用 F5 键保存文件
+nnoremap <F8> :nohlsearch<CR>    " 使用 F8 键取消搜索高亮
+
+" 自定义映射
+" 在这里添加你的自定义映射
+" 示例：将 <Leader>h 映射为水平拆分窗口
+nnoremap <Leader>h :split<CR>
+
+" 插件管理器
+" 在这里添加你喜欢的插件管理器，例如 Vundle、Pathogen 或 Vim-Plug
+
+" 自定义插件设置
+" 在这里添加你的插件配置，例如主题、代码补全、文件浏览等
+
+" 其他个性化设置
+" 在这里添加其他你喜欢的个性化设置，例如颜色方案、缩进规则等
+
+" 结束配置文件

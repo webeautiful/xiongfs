@@ -18,7 +18,7 @@ function byte2hexStr(byte) {
 }
 
 // 文本转字节数组
-export function text2ByteArray(text) {
+export function text2byteArray(text) {
     // 文本转字节流
     const encoder = new TextEncoder()
     const view = encoder.encode(text)
@@ -27,10 +27,10 @@ export function text2ByteArray(text) {
 }
 
 // alias - 文本转码位列表
-export const text2CodePointList = text2ByteArray
+export const text2codePointList = text2byteArray
 
 // 字节数组转文本
-export function byteArray2Text(byteList, encoding = 'utf-8') {
+export function byteArray2text(byteList, encoding = 'utf-8') {
     // 以字节为单位分配指定长度的内存区
     const buffer = new ArrayBuffer(byteList.length)
     // 将数据依次写入字节位
@@ -44,4 +44,4 @@ export function byteArray2Text(byteList, encoding = 'utf-8') {
 }
 
 // alias - 码位列表转文本
-export const codePointList2Text = byteArray2Text
+export const codePointList2text = byteArray2text

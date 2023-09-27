@@ -1,5 +1,22 @@
 // THX: https://mp.weixin.qq.com/s/2M_8K47I_fON9ba8nZODNw
 
+// 字节数转16进制字符串
+function byte2hexStr(byte) {
+    if (typeof byte !== 'number')
+        throw new Error('Input must be a number');
+
+    if (byte < 0 || byte > 255)
+        throw new Error('Input must be a byte');
+
+    const hexByteMap = '0123456789ABCDEF';
+
+    let str = '';
+    str += hexByteMap.charAt(byte >> 4);
+    str += hexByteMap.charAt(byte & 0x0f);
+
+    return str;
+}
+
 // 文本转字节数组
 export function text2ByteArray(text) {
     // 文本转字节流
@@ -18,7 +35,7 @@ export function byteArray2Text(byteList, encoding = 'utf-8') {
     const buffer = new ArrayBuffer(byteList.length)
     // 将数据依次写入字节位
     const view = new Uint8Array(buffer);
-    for (var i = 0; i < byteList.length; ++i) {
+    for (let i = 0; i < byteList.length; ++i) {
         view[i] = byteList[i]
     }
     // 字节流转文本

@@ -16,7 +16,7 @@ server {
             proxy_pass http://ssr_backend;
         }
         # 普通用户访问，返回 SPA 版本
-        try_files $uri $uri/ /index.html;
+        try_files $uri $uri/ /index.html =404;
     }
     # 其他服务器配置...
 }

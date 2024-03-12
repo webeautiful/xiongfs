@@ -21,3 +21,9 @@ server {
     # 其他服务器配置...
 }
 ```
+
+#### 测试
+```
+# 蜘蛛访问
+curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" https://www.xxx.com/
+```

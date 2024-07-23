@@ -34,3 +34,16 @@ function formatNumber(number, decimalPlaces) {
 
     return formattedNumber;
 }
+
+// maskStr('0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5') // 0x95...Afe5
+function maskStr(str, len=4, padLen=3) {
+  if (str.length <= len * 2) {
+    return str
+  }
+
+  const prefix = str.slice(0, len)
+  const suffix = str.slice(-(len+1))
+  const maskedPart = ''.padStart(padLen, '.')
+
+  return prefix + maskedPart + suffix
+}
